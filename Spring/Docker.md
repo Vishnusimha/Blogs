@@ -24,6 +24,15 @@ containers or running container.
 ##### A container is the actual instance of a running image on a container runtime. Just like an object is an instantiation of a Java class, a container is an instantiation of an image.
 
 ## Quiz
+
+<div align="center">
+  <img alt="Demo" src="./dockerimages/4.png" />
+</div>
+
+
+  <img alt="Demo" src="./dockerimages/5.png" />
+
+
 ![1](/Spring/dockerimages/4.png)
 ![1](/Spring/dockerimages/5.png)
 ![1](/Spring/dockerimages/6.png)
