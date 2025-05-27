@@ -1,15 +1,17 @@
-![1](/Spring/springimages/1.png)
-![1](/Spring/springimages/2.png)
-![1](/Spring/springimages/img_1.png)
-![1](/Spring/springimages/img.png)
+<img alt="springimages" src="springimages/1.png" />
+<img alt="springimages" src="/Spring/springimages/1.png" />
+<img alt="springimages" src="/Spring/springimages/2.png" />
+<img alt="springimages" src="/Spring/springimages/img_1.png" />
+<img alt="springimages" src="/Spring/springimages/img.png" />
 
 Best practice instead of using @AutoWired, because for in such case its difficult to test. now since we have constructor
 its easy to test.
-![1](/Spring/springimages/3.png)
-![1](/Spring/springimages/4.png)
-![1](/Spring/springimages/5.png)
-![1](/Spring/springimages/6.png)
-![1](/Spring/springimages/7.png)
+
+<img alt="1" src="/Spring/springimages/3.png" />
+<img alt="1" src="/Spring/springimages/4.png" />
+<img alt="1" src="/Spring/springimages/5.png" />
+<img alt="1" src="/Spring/springimages/6.png" />
+<img alt="1" src="/Spring/springimages/7.png" />
 
 # Spring Boot Interview Questions
 
