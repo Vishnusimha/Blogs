@@ -38,19 +38,19 @@ containers or running container.
 <img alt="dockerimages" src="./dockerimages/29.png" />
 
 ## Intro to docker
-![1](/Spring/dockerimages/30.png)
-![1](/Spring/dockerimages/22.png)
-![1](/Spring/dockerimages/13.png)
-![1](/Spring/dockerimages/1.png)
-![1](/Spring/dockerimages/2.png)
-![1](/Spring/dockerimages/3.png)
-![best pract](/Spring/dockerimages/17.png)
-![1](/Spring/dockerimages/32.png)
-![1](/Spring/dockerimages/33.png)
-![1](/Spring/dockerimages/34.png)
-![1](/Spring/dockerimages/35.png)
 
+<img alt="Intro" src="./dockerimages/30.png" />
+<img alt="Intro" src="./dockerimages/22.png" />
+<img alt="Intro" src="./dockerimages/13.png" />
+<img alt="Intro" src="./dockerimages/1.png" />
+<img alt="Intro" src="./dockerimages/2.png" />
+<img alt="Intro" src="./dockerimages/3.png" />
 
+<img alt="best practice" src="./dockerimages/17.png" />
+<img alt="dockerimages" src="./dockerimages/32.png" />
+<img alt="dockerimages" src="./dockerimages/33.png" />
+<img alt="dockerimages" src="./dockerimages/34.png" />
+<img alt="dockerimages" src="./dockerimages/35.png" />
 
 ### Writing docker files
 ![1](/Spring/dockerimages/36.png)
