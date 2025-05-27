@@ -53,46 +53,54 @@ containers or running container.
 <img alt="dockerimages" src="./dockerimages/35.png" />
 
 ### Writing docker files
-![1](/Spring/dockerimages/36.png)
-![1](/Spring/dockerimages/21.png)
+
+<img alt="Writingdockerfiles" src="./dockerimages/36.png" />
+<img alt="Writingdockerfiles" src="./dockerimages/21.png" />
 
 ### Docker CLI
 
 
 ### Layering Docker
-![1](/Spring/dockerimages/7.png)
-![1](/Spring/dockerimages/8.png)
-![1](/Spring/dockerimages/31.png)
+
+<img alt="LayeringDocker" src="./dockerimages/7.png" />
+<img alt="LayeringDocker" src="./dockerimages/8.png" />
+<img alt="LayeringDocker" src="./dockerimages/31.png" />
 
 layer it better to get low memory docker image.
 
 #### Layering Docker : best practices : Volumes and Ports
-![1](/Spring/dockerimages/9.png)
-![1](/Spring/dockerimages/12.png)
-![1](/Spring/dockerimages/10.png)
+
+<img alt="VolumesAndPorts" src="./dockerimages/9.png" />
+<img alt="VolumesAndPorts" src="./dockerimages/12.png" />
+<img alt="VolumesAndPorts" src="./dockerimages/10.png" />
 
 #### Layering Docker : best practices : Docker registry
-![1](/Spring/dockerimages/14.png)
+
+<img alt="DockerRegistry" src="./dockerimages/14.png" />
 Pulling an image from docker registry, it's similar to maven like how to download some libs by specifying it in gradle
 files.
-![1](/Spring/dockerimages/15.png)
+<img alt="DockerRegistry" src="./dockerimages/15.png" />
 
 Notice the last line there, **docker.io** is the **URL** of the registry, **library** is the **name space**, **alpine**
 is the **repository**, and **latest** is the **tag**.
+
 Now, what if I want to share my images I create? All I need to do is **retag** it and _**send it to a name space**_. You
 may have noticed on Docker Hub it showed that I was logged into my free account called mellenbowman I want to make a
 copy of Alpine latest, and upload it to my namespace. So first I have to tag it. (typing) So I'm going to change the tag
 of **docker.io/library/alpine:latest** and retag it to **docker.io/mellenbowman/alpine**. And I'm going to give it a tag
 of me. Beautiful now, I want to push that up to my account.
+
 docker push **docker.io/mellenbowman/alpine:me**
 
 pushed to her own registry.
-![1](/Spring/dockerimages/16.png)
+<img alt="Demo" src="./dockerimages/16.png" />
 
 ## Docker Orchestration: Startup
-![orch](/Spring/dockerimages/18.png)
-![1](/Spring/dockerimages/19.png)
-![1](/Spring/dockerimages/20.png)
+
+<img alt="Orchestration" src="./dockerimages/18.png" />
+<img alt="Orchestration" src="./dockerimages/19.png" />
+<img alt="Orchestration" src="./dockerimages/20.png" />
+
 Container orchestration with Docker Compose
 
 - [Instructor] In the Docker Hub, there is a trove of images ready for usage. Here's one for Postgres, a database. So
@@ -156,10 +164,12 @@ Container orchestration with Docker Compose
   in the LinkedIn library.
 
 ### Docker Alternatives
-![1](/Spring/dockerimages/25.png)
-![1](/Spring/dockerimages/26.png)
-![1](/Spring/dockerimages/27.png)
-![1](/Spring/dockerimages/28.png)
+
+<img alt="DockerAlternatives" src="./dockerimages/25.png" />
+<img alt="DockerAlternatives" src="./dockerimages/26.png" />
+<img alt="DockerAlternatives" src="./dockerimages/27.png" />
+<img alt="DockerAlternatives" src="./dockerimages/28.png" />
+
 Here is a list of common Docker commands, categorized by their primary functions such as building images, managing
 containers, and deploying services:
 
