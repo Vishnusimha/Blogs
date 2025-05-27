@@ -26,7 +26,7 @@ containers or running container.
 ## Quiz
 
 <div align="center">
-  <img alt="Demo" src="./dockerimages/4.png" />
+  <img alt="Demo" src="./dockerimages/36.png" />
 </div>
 
 
