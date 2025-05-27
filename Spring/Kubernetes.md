@@ -1,9 +1,9 @@
-<img alt="Deployment_types" src="./Deployment_types.png" />
-<img alt="Kubernetes" src="./Kubernetes.png" />
-<img alt="KubernetesRelations" src="./KubernetesRelations.png" />
-<img alt="Kuberenetes_Architecture" src="./Kuberenetes_Architecture.png" />
-<img alt="Kubernetes_Master_Worker_Nodes" src="./Kubernetes_Master_Worker_Nodes.png" />
-<img alt="Kubernetes_AWS" src="./Kubernetes_AWS.png" />
+<img alt="Deployment_types" src="kubernetesimages/Deployment_types.png" />
+<img alt="Kubernetes" src="kubernetesimages/Kubernetes.png" />
+<img alt="KubernetesRelations" src="kubernetesimages/KubernetesRelations.png" />
+<img alt="Kuberenetes_Architecture" src="kubernetesimages/Kuberenetes_Architecture.png" />
+<img alt="Kubernetes_Master_Worker_Nodes" src="kubernetesimages/Kubernetes_Master_Worker_Nodes.png" />
+<img alt="Kubernetes_AWS" src="kubernetesimages/Kubernetes_AWS.png" />
 
 ### Kubernetes Concepts
 
