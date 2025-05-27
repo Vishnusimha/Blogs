@@ -1,0 +1,5 @@
+*.iml
+.idea/modules.xml
+.idea/misc.xml
+.idea/dbnavigator.xml
+.idea/aws.xml
