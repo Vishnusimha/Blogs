@@ -26,22 +26,16 @@ containers or running container.
 ## Quiz
 
 <div align="center">
-  <img alt="Demo" src="./dockerimages/36.png" />
+  <img alt="dockerimages" src="./dockerimages/36.png" />
 </div>
 
-
-  <img alt="Demo" src="./dockerimages/5.png" />
-
-
-![1](/Spring/dockerimages/4.png)
-![1](/Spring/dockerimages/5.png)
-![1](/Spring/dockerimages/6.png)
-![1](/Spring/dockerimages/11.png)
-![1](/Spring/dockerimages/23.png)
-![1](/Spring/dockerimages/24.png)
-![1](/Spring/dockerimages/24.png)
-![1](/Spring/dockerimages/29.png)
-![1](/Spring/dockerimages/29.png)
+<img alt="dockerimages" src="./dockerimages/4.png" />
+<img alt="dockerimages" src="./dockerimages/5.png" />
+<img alt="dockerimages" src="./dockerimages/6.png" />
+<img alt="dockerimages" src="./dockerimages/11.png" />
+<img alt="dockerimages" src="./dockerimages/23.png" />
+<img alt="dockerimages" src="./dockerimages/24.png" />
+<img alt="dockerimages" src="./dockerimages/29.png" />
 
 ## Intro to docker
 ![1](/Spring/dockerimages/30.png)
