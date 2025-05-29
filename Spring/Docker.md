@@ -129,6 +129,30 @@ Common Docker CLI commands organized by use case.
 
 ### 🔸 Image Management
 
+* **Building Images**
+  `docker build [OPTIONS] PATH | URL | -`
+  *Example:* `docker build -t myapp:latest .`
+
+* **Tagging Images**
+  `docker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]`
+  *Example:* `docker tag myapp:latest myrepo/myapp:latest`
+
+* **Listing Images**
+  `docker images [OPTIONS] [REPOSITORY[:TAG]]`
+  *Example:* `docker images`
+
+* **Removing Images**
+  `docker rmi [OPTIONS] IMAGE [IMAGE...]`
+  *Example:* `docker rmi myapp:latest`
+
+* **Pulling Images**
+  `docker pull [OPTIONS] NAME[:TAG|@DIGEST]`
+  *Example:* `docker pull ubuntu:latest`
+
+* **Pushing Images**
+  `docker push [OPTIONS] NAME[:TAG]`
+  *Example:* `docker push myrepo/myapp:latest`
+
 ```bash
 docker build -t myapp .
 docker images
@@ -138,6 +162,46 @@ docker rmi myapp
 ---
 
 ### 🔸 Container Management
+* **Creating Containers**
+  `docker create [OPTIONS] IMAGE [COMMAND] [ARG...]`
+  *Example:* `docker create --name mycontainer ubuntu`
+
+* **Running Containers**
+  `docker run [OPTIONS] IMAGE [COMMAND] [ARG...]`
+  *Example:* `docker run -d -p 80:80 myapp:latest`
+
+* **Starting/Stopping/Restarting Containers**
+  `docker start`, `docker stop`, `docker restart`
+  *Examples:*
+  `docker start mycontainer`
+  `docker stop mycontainer`
+  `docker restart mycontainer`
+
+* **Removing Containers**
+  `docker rm [OPTIONS] CONTAINER [CONTAINER...]`
+  *Example:* `docker rm mycontainer`
+
+* **Viewing Container Logs**
+  `docker logs [OPTIONS] CONTAINER`
+  *Example:* `docker logs mycontainer`
+
+* **Listing Containers**
+  `docker ps [OPTIONS]`
+  *Example:* `docker ps -a`
+
+* **Executing Commands in a Running Container**
+  `docker exec [OPTIONS] CONTAINER COMMAND [ARG...]`
+  *Example:* `docker exec -it mycontainer bash`
+
+* **Inspecting Containers**
+  `docker inspect [OPTIONS] NAME|ID [NAME|ID...]`
+  *Example:* `docker inspect mycontainer`
+
+* **Copying Files To/From Containers**
+  `docker cp [OPTIONS] CONTAINER:SRC_PATH DEST_PATH|-`
+  *Example:* `docker cp mycontainer:/path/to/file /local/path`
+  `docker cp [OPTIONS] SRC_PATH|- CONTAINER:DEST_PATH`
+  *Example:* `docker cp /local/path mycontainer:/path/to/file`
 
 ```bash
 docker run -d -p 8080:80 myapp
@@ -153,9 +217,111 @@ docker logs <container_id>
 docker volume create mydata
 docker network create mynet
 ```
+* **Creating Networks**
+  `docker network create [OPTIONS] NETWORK`
+  *Example:* `docker network create mynetwork`
+
+* **Listing Networks**
+  `docker network ls`
+  *Example:* `docker network ls`
+
+* **Removing Networks**
+  `docker network rm NETWORK [NETWORK...]`
+  *Example:* `docker network rm mynetwork`
+
+* **Connecting a Container to a Network**
+  `docker network connect [OPTIONS] NETWORK CONTAINER`
+  *Example:* `docker network connect mynetwork mycontainer`
+
+* **Disconnecting a Container from a Network**
+  `docker network disconnect [OPTIONS] NETWORK CONTAINER`
+  *Example:* `docker network disconnect mynetwork mycontainer`
+
+* **Creating Volumes**
+  `docker volume create [OPTIONS] [VOLUME]`
+  *Example:* `docker volume create myvolume`
+
+* **Listing Volumes**
+  `docker volume ls`
+  *Example:* `docker volume ls`
+
+* **Inspecting Volumes**
+  `docker volume inspect VOLUME [VOLUME...]`
+  *Example:* `docker inspect myvolume`
+
+* **Removing Volumes**
+  `docker volume rm VOLUME [VOLUME...]`
+  *Example:* `docker volume rm myvolume`
+
+
+---
+#### Swarm and Service Management
+
+* **Initializing a Swarm**
+  `docker swarm init [OPTIONS]`
+  *Example:* `docker swarm init`
+
+* **Joining a Swarm**
+  `docker swarm join [OPTIONS] [TOKEN] [ADDR...]`
+  *Example:* `docker swarm join --token SWMTKN-1-xxx 192.168.1.1:2377`
+
+* **Listing Nodes**
+  `docker node ls`
+  *Example:* `docker node ls`
+
+* **Deploying a Service**
+  `docker service create [OPTIONS] IMAGE [COMMAND] [ARG...]`
+  *Example:* `docker service create --name myservice myapp:latest`
+
+* **Listing Services**
+  `docker service ls`
+  *Example:* `docker service ls`
+
+* **Inspecting Services**
+  `docker service inspect [OPTIONS] SERVICE [SERVICE...]`
+  *Example:* `docker service inspect myservice`
+
+* **Scaling Services**
+  `docker service scale SERVICE=REPLICAS [SERVICE=REPLICAS...]`
+  *Example:* `docker service scale myservice=3`
+
+* **Updating Services**
+  `docker service update [OPTIONS] SERVICE`
+  *Example:* `docker service update --image myapp:latest myservice`
+
+* **Removing Services**
+  `docker service rm SERVICE [SERVICE...]`
+  *Example:* `docker service rm myservice`
 
 ---
 
+#### Compose (Multi-Container Applications)
+
+* **Starting Services**
+  `docker-compose up [OPTIONS] [SERVICE...]`
+  *Example:* `docker-compose up -d`
+
+* **Stopping Services**
+  `docker-compose down [OPTIONS]`
+  *Example:* `docker-compose down`
+
+* **Building Services**
+  `docker-compose build [OPTIONS] [SERVICE...]`
+  *Example:* `docker-compose build`
+
+* **Viewing Logs**
+  `docker-compose logs [OPTIONS] [SERVICE...]`
+  *Example:* `docker-compose logs`
+
+* **Scaling Services**
+  `docker-compose scale SERVICE=NUM [SERVICE=NUM...]`
+  *Example:* `docker-compose scale web=3`
+
+* **Listing Containers**
+  `docker-compose ps [OPTIONS] [SERVICE...]`
+  *Example:* `docker-compose ps`
+
+---
 ## 🧱 Understanding Docker Layers
 
 Docker builds images in layers—each instruction in a Dockerfile creates a new layer.
