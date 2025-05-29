@@ -3,13 +3,11 @@ This page contains images. If there is any issue with loading, open it directly 
 
 https://github.com/LinkedInLearning/docker-for-java-developers-2452212/tree/02_05
 
-Repo for Docker LinkedIn course.
+Repo for Docker [LinkedIn course](https://github.com/LinkedInLearning/docker-for-java-developers-2452212/tree/02_05)
 
 # Comparing images to containers
 
-Selecting transcript lines in this section will navigate to timestamp in the video
-[Tutor] So
-, given that introduction to containerization concepts, let's get down to actual terminology Image.
+`So, given that introduction to containerization concepts, let's get down to actual terminology Image.
 Also known as container image or in this course, a Docker image. An image is an immutable artifact composed of files.
 It encapsulates a desired operating system, environment, the application, and a run command. We use tools to build an
 image.
@@ -22,7 +20,35 @@ Images once built are installed into a local registry, or could be shared to rem
 The next term is container runtime. Also known as a container engine.
 The container runtime is a platform for running images, just as a Java Runtime is a platform for running JARs.
 In this course, we will be using the Docker Container Engine. The last term is container, also known as Docker
-containers or running container.
+containers or running container.`
+
+The text explains three main containerization concepts:
+1. **Image (Container Image/Docker Image)**:
+  - An immutable artifact containing:
+    - Operating system
+    - Environment settings
+    - Application
+    - Run command
+
+  - Draws a parallel with Java's JAR files:
+    - Just as Java source code needs to be compiled into JARs
+    - JARs go to Maven repositories
+    - Similarly, container images go to registries (local or remote like Docker Hub)
+
+2. **Container Runtime (Container Engine)**:
+  - Platform that runs container images
+  - Comparable to Java Runtime Environment (JRE)
+  - Docker Container Engine is mentioned as an example
+
+3. **Container (Docker Container/Running Container)**:
+  - The actual running instance of an image
+
+The text makes an interesting analogy between the Java ecosystem and containerization:
+- Java: Source Code → JAR → Maven Repository
+- Containers: Source → Image → Container Registry
+
+This is essentially explaining the basic building blocks of containerization while making it relatable to Java developers by drawing parallels with familiar Java concepts.
+
 
 ##### A container is the actual instance of a running image on a container runtime. Just like an object is an instantiation of a Java class, a container is an instantiation of an image.
 
