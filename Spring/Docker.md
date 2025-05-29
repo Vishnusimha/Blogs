@@ -1,58 +1,43 @@
-# [Docker](https://github.com/Vishnusimha/Blogs/blob/main/Spring/Docker.md)
-This page contains images. If there is any issue with loading, open it directly in [Github Link](https://github.com/Vishnusimha/Blogs/blob/main/Spring/Docker.md)
+# [Docker Overview](https://github.com/Vishnusimha/Blogs/blob/main/Spring/Docker.md)
 
-https://github.com/LinkedInLearning/docker-for-java-developers-2452212/tree/02_05
+This document provides an overview of Docker concepts, comparing images to containers, and detailing various Docker commands for managing images, containers, networks, volumes, and services. It also touches upon Docker orchestration with Docker Compose and alternatives to Docker.
 
-Repo for Docker [LinkedIn course](https://github.com/LinkedInLearning/docker-for-java-developers-2452212/tree/02_05)
+**Note:** This document originally contained several images that illustrate the concepts. These images are referenced by local paths (e.g., `./dockerimages/36.png`) and sometimes cannot be displayed directly within this website. To view the original document with all images, please refer to the [Github Link](https://github.com/Vishnusimha/Blogs/blob/main/Spring/Docker.md). The content is also related to a [LinkedIn Learning course](https://github.com/LinkedInLearning/docker-for-java-developers-2452212/tree/02_05) Docker for Java Developers.
 
-# Comparing images to containers
+---
 
-`So, given that introduction to containerization concepts, let's get down to actual terminology Image.
-Also known as container image or in this course, a Docker image. An image is an immutable artifact composed of files.
-It encapsulates a desired operating system, environment, the application, and a run command. We use tools to build an
-image.
-Consider the Java Ecosystem. Java does not execute directly from Java source code.
-The source must be compiled into a byte code archive, usually a Java archive or JAR.
-JAR files can be installed into the local Maven.m2 repository or shared to server registries like Maven Central,
-Artifactory, or Nexus.
-Likewise, the containerization ecosystem requires a pre-built application image. We use tools to build an image.
-Images once built are installed into a local registry, or could be shared to remote registries like Docker Hub.
-The next term is container runtime. Also known as a container engine.
-The container runtime is a platform for running images, just as a Java Runtime is a platform for running JARs.
-In this course, we will be using the Docker Container Engine. The last term is container, also known as Docker
-containers or running container.`
+### Comparing Images to Containers
 
 The text explains three main containerization concepts:
-1. **Image (Container Image/Docker Image)**:
-  - An immutable artifact containing:
-    - Operating system
-    - Environment settings
-    - Application
-    - Run command
 
-  - Draws a parallel with Java's JAR files:
-    - Just as Java source code needs to be compiled into JARs
-    - JARs go to Maven repositories
-    - Similarly, container images go to registries (local or remote like Docker Hub)
+**Image (Container Image/Docker Image)**
+An immutable artifact containing:
 
-2. **Container Runtime (Container Engine)**:
-  - Platform that runs container images
-  - Comparable to Java Runtime Environment (JRE)
-  - Docker Container Engine is mentioned as an example
+* Operating system
+* Environment settings
+* Application
+* Run command
 
-3. **Container (Docker Container/Running Container)**:
-  - The actual running instance of an image
+Draws a parallel with Java's JAR files:
 
-The text makes an interesting analogy between the Java ecosystem and containerization:
-- Java: Source Code → JAR → Maven Repository
-- Containers: Source → Image → Container Registry
+* Just as Java source code needs to be compiled into JARs
+* JARs go to Maven repositories
+* Similarly, container images go to registries (local or remote like Docker Hub)
 
+**Container Runtime (Container Engine)**
+Platform that runs container images
+Comparable to Java Runtime Environment (JRE)
+Docker Container Engine is mentioned as an example
+
+**Container (Docker Container/Running Container)**
+The actual running instance of an image.
+Analogy: Just like an object is an instantiation of a Java class, a container is an instantiation of an image.
 This is essentially explaining the basic building blocks of containerization while making it relatable to Java developers by drawing parallels with familiar Java concepts.
 
+---
 
-##### A container is the actual instance of a running image on a container runtime. Just like an object is an instantiation of a Java class, a container is an instantiation of an image.
+### Quiz
 
-## Quiz
 
 <div align="center">
   <img alt="dockerimages" src="./dockerimages/36.png" />
@@ -65,8 +50,9 @@ This is essentially explaining the basic building blocks of containerization whi
 <img alt="dockerimages" src="./dockerimages/23.png" />
 <img alt="dockerimages" src="./dockerimages/24.png" />
 <img alt="dockerimages" src="./dockerimages/29.png" />
+---
 
-## Intro to docker
+### Intro to Docker
 
 <img alt="Intro" src="./dockerimages/30.png" />
 <img alt="Intro" src="./dockerimages/22.png" />
@@ -80,14 +66,15 @@ This is essentially explaining the basic building blocks of containerization whi
 <img alt="dockerimages" src="./dockerimages/33.png" />
 <img alt="dockerimages" src="./dockerimages/34.png" />
 <img alt="dockerimages" src="./dockerimages/35.png" />
+---
 
-### Writing docker files
+### Writing Dockerfiles
 
 <img alt="Writingdockerfiles" src="./dockerimages/36.png" />
 <img alt="Writingdockerfiles" src="./dockerimages/21.png" />
+---
 
-### Docker CLI
-
+## Docker CLI
 
 ### Layering Docker
 
@@ -95,102 +82,110 @@ This is essentially explaining the basic building blocks of containerization whi
 <img alt="LayeringDocker" src="./dockerimages/8.png" />
 <img alt="LayeringDocker" src="./dockerimages/31.png" />
 
-layer it better to get low memory docker image.
+Layering Docker is important to get low-memory Docker images.
 
-#### Layering Docker : best practices : Volumes and Ports
+---
+
+### Layering Docker: Best Practices: Volumes and Ports
 
 <img alt="VolumesAndPorts" src="./dockerimages/9.png" />
 <img alt="VolumesAndPorts" src="./dockerimages/12.png" />
 <img alt="VolumesAndPorts" src="./dockerimages/10.png" />
+---
 
-#### Layering Docker : best practices : Docker registry
+### Layering Docker: Best Practices: Docker Registry
 
 <img alt="DockerRegistry" src="./dockerimages/14.png" />
-Pulling an image from docker registry, it's similar to maven like how to download some libs by specifying it in gradle
-files.
+
+Pulling an image from a Docker registry is similar to how Maven downloads libraries by specifying them in Gradle files.
+Notice the last line there, docker.io is the URL of the registry, library is the namespace, alpine is the repository, and latest is the tag.
+Now, what if I want to share my images I create? All I need to do is retag it and send it to a namespace. You may have noticed on Docker Hub it showed that I was logged into my free account called mellenbowman. I want to make a copy of Alpine latest, and upload it to my namespace. So first I have to tag it. (typing) So I'm going to change the tag of docker.io/library/alpine\:latest and retag it to docker.io/mellenbowman/alpine. And I'm going to give it a tag of me. Beautiful now, I want to push that up to my account.
+
 <img alt="DockerRegistry" src="./dockerimages/15.png" />
 
-Notice the last line there, **docker.io** is the **URL** of the registry, **library** is the **name space**, **alpine**
-is the **repository**, and **latest** is the **tag**.
+```
+docker push docker.io/mellenbowman/alpine:me
+```
+---
 
-Now, what if I want to share my images I create? All I need to do is **retag** it and _**send it to a name space**_. You
-may have noticed on Docker Hub it showed that I was logged into my free account called mellenbowman I want to make a
-copy of Alpine latest, and upload it to my namespace. So first I have to tag it. (typing) So I'm going to change the tag
-of **docker.io/library/alpine:latest** and retag it to **docker.io/mellenbowman/alpine**. And I'm going to give it a tag
-of me. Beautiful now, I want to push that up to my account.
-
-docker push **docker.io/mellenbowman/alpine:me**
-
-pushed to her own registry.
-<img alt="Demo" src="./dockerimages/16.png" />
-
-## Docker Orchestration: Startup
+### Docker Orchestration: Startup
 
 <img alt="Orchestration" src="./dockerimages/18.png" />
 <img alt="Orchestration" src="./dockerimages/19.png" />
 <img alt="Orchestration" src="./dockerimages/20.png" />
+---
 
-Container orchestration with Docker Compose
+### Container orchestration with Docker Compose
 
-- [Instructor] In the Docker Hub, there is a trove of images ready for usage. Here's one for Postgres, a database. So
-  how do containers like web apps interact with other containers, such as Postgres? Let's go through an example. This is
-  a Spring Boot web app that is a backend part of a message blog. The data model is a Blog class. And it's a JPA entity
-  containing a message and an auto-generated identifier. There is a Spring Data repository interface for the data access
-  layer. If you are not familiar with Spring Data repositories, I have a course in the library called Spring Data 2. The
-  Application class is also a Spring Data MVC REST controller that exposes endpoints to create and view blog messages.
-  So here's the API to list all the blogs. This is the API to create a blog. And then there is a silly API that actually
-  stops the whole application. And we'll talk about that later. This is not a best practice to have a REST controller
-  combined with the Spring Boot Application class. But this is just to help keep things simple and explain things
-  better. Here's the application's properties file and it has all the properties for setting up access and the URLs and
-  passwords and username to access the Postgres database. And finally, we have a Dockerfile and that will take this
-  code, build it in Maven, and then run it as blogdemo.jar. Running related containers is called orchestration. This can
-  be done manually or through tools such as Docker Compose, Docker Swarm, and Kubernetes. Let's see orchestration the
-  hard way, which is manually. First, we create a network called blog-network. So any other containers included in that
-  network can refer to each other by name. Next, we need to create an image for blog-backend then run the Postgres image
-  to have a Postgres container. The -e allows environment variable settings to be passed in at runtime. And it has a
-  volume, so it could persist data even after the container has stopped. And then next, we have to run the blog backend
-  image as an app, and then we name it app and it's included in the blog-network. And from that reason, it can refer to
-  the Postgres host just by db, by the name db. And here are the environment variables for the name of the database is
-  blogdemo and the Postgres password is lmnop, just like set it up here as well. To manually monitor these containers,
-  we'd have to manually go to docker logs on the db container or docker logs on the app container, or hit the curl of
-  the actuator health to see if it's alive. And then finally, to tear it down, we'd have to do docker stop and docker
-  remove. And if we wanted to remove the images, do docker rmi and then to remove the network we do a docker remove
-  network. It's a lot of work. And if we want to do that manually, and of course if there's anything manual, there's
-  always an automated tool. So we're going to see how Docker Compose can be used to automate orchestration. In order to
-  start this, we have to have a docker-compose.yml file, that's the default name it's expected to be. And it's expected
-  to follow the YML or YAML syntax. And once the YAML file has been created, simply used the docker-compose up command
-  to start up all the containers and docker-compose down to tear them down. And there's a docker-compose daemon that
-  provides monitoring out of the box. So let's look at our docker-compose.yml file. So all of the settings in this YAML
-  file map directly to those Docker run command. So we have the image name is postgres, db is the container name. We
-  have our volume set up here. Here's our environment variables that we had before for the db name and the password. And
-  it's exposing the typical port for Postgres which is 5432. And here's something new that you didn't see on the Docker
-  run command, which is always, so this is the monitoring part. So if an application or container goes down, the
-  docker-compose daemon will start it back up automatically. And that's a setting that you can have, and I have that set
-  here as always. And here's our app container and it's built from the blog-backend directory. And it just to show that
-  the Docker compose is at the level out, just outside the blog-backend web folder to give context there. It exposes
-  port 8080 as 8080. And here's our environment variables that we had before. And it depends on this db. And that's why
-  we can say POSTGRES_HOST=db. And it will restart always if this needs to. And here's the declaration of the volume
-  that's needed. So let's actually push that up there so I can have a terminal. Let's clear the screen. Make sure I'm in
-  the right folder. There's the docker-compose. So I'm going to do my docker - compose up. So it's starting up, it's
-  reading in the docker-compose file. I could run this in detach mode in the background but I wanted to be interactive
-  and see that what's going on here. So we see it's starting up the web app, the blog web app. It's connecting to
-  hibernate and we see the message that that has started. So let's go to another window here, a terminal window. We'll
-  clear this screen. And I'm going to do a curl. Both will host 8080, just to say actuator/health, just for
-  informational purposes to see that it's alive. And the status is up. Let's actually hit that endpoint called blogs.
-  And I have already added some entries into this database for blogs. So these are just in JSON format. Some of the
-  messages, this is a blog. Today had been a great today. Today is not such a great day. But just like four different
-  messages that I've saved. Now let's hit that stop endpoint. And what's going to happen here is, it's actually stops
-  the web application. And we told docker-compose, if anything happens, restart it automatically. So we hit the curl
-  command and it comes back, oh, something's happened there. So empty reply. So let's go back to Local. And we see that
-  it stopped. There was a shut down message. That was actually a system out print line message in the stop endpoint. It
-  stop and it's automatically restarting again. And going back over here. And I get my data back. Now, if I wanted to
-  take it down, I did docker-compose up in detach mode. I could just do it in the same window, say docker-compose down,
-  but I'll do it in this other window here, docker-compose down. So that's going to take everything down for me. That's
-  declared in the docker-compose file. A lot easier than having to manually do all that. Docker-compose is a very simple
-  orchestration tool. And honestly, it's not used very much in production. It's used a lot as a time saver in developer
-  machines. But it can be, it's not that it can't, but more popular production tools are Kubernetes or Docker Swarm. And
-  there's other cloud offerings by Amazon AWS, Google Cloud, and Microsoft Azure. Lessons for all of these can be found
-  in the LinkedIn library.
+In Docker Hub, there is a trove of images ready for usage, such as one for Postgres, a database. This section explains how containers like web apps interact with other containers, using a Spring Boot web app example that acts as a backend for a message blog.
+The example Spring Boot application is a JPA entity with a Blog class (message and auto-generated ID) and a Spring Data repository interface for data access. The Application class also serves as a Spring Data MVC REST controller, exposing endpoints to create and view blog messages (e.g., list all blogs, create a blog, and a "silly" API to stop the application). The application's properties file contains settings for accessing the Postgres database (URLs, passwords, username). A Dockerfile builds this code into `blogdemo.jar`.
+
+---
+
+### Manual Orchestration (The Hard Way):
+
+* **Create a network**: blog-network allows containers within it to refer to each other by name.
+* **Create images**: An image for blog-backend and then run the Postgres image to have a Postgres container.
+
+    * The `-e` flag passes environment variables at runtime.
+    * A volume is used for Postgres to persist data.
+* **Run the blog-backend image as an app**: Named `app` and included in blog-network, allowing it to refer to the Postgres host as `db`. Environment variables for blogdemo database name and lmnop password are set.
+* **Monitoring**: Manually using `docker logs` on db or app containers, or curl to `actuator/health`.
+* **Tear down**: Manually using `docker stop`, `docker remove`, `docker rmi` (for images), and `docker remove network`.
+  This manual process is cumbersome.
+
+---
+
+### Automated Orchestration with Docker Compose
+
+Docker Compose automates orchestration using a `docker-compose.yml` file (default name, YAML syntax).
+
+* **Start**: `docker-compose up` starts all declared containers.
+* **Stop**: `docker-compose down` tears them down.
+* **Monitoring**: The Docker Compose daemon provides out-of-the-box monitoring.
+
+---
+
+#### Example `docker-compose.yml` breakdown:
+
+**db service (Postgres):**
+
+* image: postgres
+* container\_name: db
+* Volume setup.
+* Environment variables for db name and password.
+* Exposes port 5432.
+* `restart: always` (monitoring: if the container goes down, Docker Compose restarts it automatically).
+
+**app service (Spring Boot backend):**
+
+* `build: ./blog-backend` (builds from the specified directory).
+* Exposes port 8080.
+* Environment variables.
+* `depends_on: db` (allows `POSTGRES_HOST=db`).
+* `restart: always`.
+* Declaration of needed volumes.
+
+---
+
+#### Demo of Docker Compose:
+
+The demo shows:
+
+* Running `docker-compose up` to start the services.
+* Verifying the app's health with `curl localhost:8080/actuator/health`.
+* Listing existing blogs with `curl localhost:8080/blogs`.
+* Hitting a "stop" endpoint, which causes the web app to shut down.
+* Observing Docker Compose automatically restarting the app due to `restart: always`.
+* Verifying data is still accessible after restart.
+* Tearing down all services with `docker-compose down`.
+
+---
+
+**Docker Compose** is a simple orchestration tool, primarily used as a time-saver in developer machines.
+For production, more popular tools include Kubernetes or Docker Swarm, as well as cloud offerings from Amazon AWS, Google Cloud, and Microsoft Azure.
+
+---
 
 ### Docker Alternatives
 
@@ -198,183 +193,197 @@ Container orchestration with Docker Compose
 <img alt="DockerAlternatives" src="./dockerimages/26.png" />
 <img alt="DockerAlternatives" src="./dockerimages/27.png" />
 <img alt="DockerAlternatives" src="./dockerimages/28.png" />
+---
 
-Here is a list of common Docker commands, categorized by their primary functions such as building images, managing
-containers, and deploying services:
+### Docker CLI Commands
 
-## Image Management
+Here is a list of common Docker commands, categorized by their primary functions such as building images, managing containers, and deploying services:
 
-    Building Images
-        docker build [OPTIONS] PATH | URL | -
-            Example: docker build -t myapp:latest .
+---
 
-    Tagging Images
-        docker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]
-            Example: docker tag myapp:latest myrepo/myapp:latest
+#### Image Management
 
-    Listing Images
-        docker images [OPTIONS] [REPOSITORY[:TAG]]
-            Example: docker images
+* **Building Images**
+  `docker build [OPTIONS] PATH | URL | -`
+  *Example:* `docker build -t myapp:latest .`
 
-    Removing Images
-        docker rmi [OPTIONS] IMAGE [IMAGE...]
-            Example: docker rmi myapp:latest
+* **Tagging Images**
+  `docker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]`
+  *Example:* `docker tag myapp:latest myrepo/myapp:latest`
 
-    Pulling Images
-        docker pull [OPTIONS] NAME[:TAG|@DIGEST]
-            Example: docker pull ubuntu:latest
+* **Listing Images**
+  `docker images [OPTIONS] [REPOSITORY[:TAG]]`
+  *Example:* `docker images`
 
-    Pushing Images
-        docker push [OPTIONS] NAME[:TAG]
-            Example: docker push myrepo/myapp:latest
+* **Removing Images**
+  `docker rmi [OPTIONS] IMAGE [IMAGE...]`
+  *Example:* `docker rmi myapp:latest`
 
-## Container Management
+* **Pulling Images**
+  `docker pull [OPTIONS] NAME[:TAG|@DIGEST]`
+  *Example:* `docker pull ubuntu:latest`
 
-    Creating Containers
-        docker create [OPTIONS] IMAGE [COMMAND] [ARG...]
-            Example: docker create --name mycontainer ubuntu
+* **Pushing Images**
+  `docker push [OPTIONS] NAME[:TAG]`
+  *Example:* `docker push myrepo/myapp:latest`
 
-    Running Containers
-        docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
-            Example: docker run -d -p 80:80 myapp:latest
+---
 
-    Starting/Stopping/Restarting Containers
-        docker start [OPTIONS] CONTAINER [CONTAINER...]
-            Example: docker start mycontainer
-        docker stop [OPTIONS] CONTAINER [CONTAINER...]
-            Example: docker stop mycontainer
-        docker restart [OPTIONS] CONTAINER [CONTAINER...]
-            Example: docker restart mycontainer
+#### Container Management
 
-    Removing Containers
-        docker rm [OPTIONS] CONTAINER [CONTAINER...]
-            Example: docker rm mycontainer
+* **Creating Containers**
+  `docker create [OPTIONS] IMAGE [COMMAND] [ARG...]`
+  *Example:* `docker create --name mycontainer ubuntu`
 
-    Viewing Container Logs
-        docker logs [OPTIONS] CONTAINER
-            Example: docker logs mycontainer
+* **Running Containers**
+  `docker run [OPTIONS] IMAGE [COMMAND] [ARG...]`
+  *Example:* `docker run -d -p 80:80 myapp:latest`
 
-    Listing Containers
-        docker ps [OPTIONS]
-            Example: docker ps -a
+* **Starting/Stopping/Restarting Containers**
+  `docker start`, `docker stop`, `docker restart`
+  *Examples:*
+  `docker start mycontainer`
+  `docker stop mycontainer`
+  `docker restart mycontainer`
 
-    Executing Commands in a Running Container
-        docker exec [OPTIONS] CONTAINER COMMAND [ARG...]
-            Example: docker exec -it mycontainer bash
+* **Removing Containers**
+  `docker rm [OPTIONS] CONTAINER [CONTAINER...]`
+  *Example:* `docker rm mycontainer`
 
-    Inspecting Containers
-        docker inspect [OPTIONS] NAME|ID [NAME|ID...]
-            Example: docker inspect mycontainer
+* **Viewing Container Logs**
+  `docker logs [OPTIONS] CONTAINER`
+  *Example:* `docker logs mycontainer`
 
-    Copying Files To/From Containers
-        docker cp [OPTIONS] CONTAINER:SRC_PATH DEST_PATH|-
-            Example: docker cp mycontainer:/path/to/file /local/path
-        docker cp [OPTIONS] SRC_PATH|- CONTAINER:DEST_PATH
-            Example: docker cp /local/path mycontainer:/path/to/file
+* **Listing Containers**
+  `docker ps [OPTIONS]`
+  *Example:* `docker ps -a`
 
-## Network Management
+* **Executing Commands in a Running Container**
+  `docker exec [OPTIONS] CONTAINER COMMAND [ARG...]`
+  *Example:* `docker exec -it mycontainer bash`
 
-    Creating Networks
-        docker network create [OPTIONS] NETWORK
-            Example: docker network create mynetwork
+* **Inspecting Containers**
+  `docker inspect [OPTIONS] NAME|ID [NAME|ID...]`
+  *Example:* `docker inspect mycontainer`
 
-    Listing Networks
-        docker network ls
-            Example: docker network ls
+* **Copying Files To/From Containers**
+  `docker cp [OPTIONS] CONTAINER:SRC_PATH DEST_PATH|-`
+  *Example:* `docker cp mycontainer:/path/to/file /local/path`
+  `docker cp [OPTIONS] SRC_PATH|- CONTAINER:DEST_PATH`
+  *Example:* `docker cp /local/path mycontainer:/path/to/file`
 
-    Removing Networks
-        docker network rm NETWORK [NETWORK...]
-            Example: docker network rm mynetwork
+---
 
-    Connecting a Container to a Network
-        docker network connect [OPTIONS] NETWORK CONTAINER
-            Example: docker network connect mynetwork mycontainer
+#### Network Management
 
-    Disconnecting a Container from a Network
-        docker network disconnect [OPTIONS] NETWORK CONTAINER
-            Example: docker network disconnect mynetwork mycontainer
+* **Creating Networks**
+  `docker network create [OPTIONS] NETWORK`
+  *Example:* `docker network create mynetwork`
 
-## Volume Management
+* **Listing Networks**
+  `docker network ls`
+  *Example:* `docker network ls`
 
-    Creating Volumes
-        docker volume create [OPTIONS] [VOLUME]
-            Example: docker volume create myvolume
+* **Removing Networks**
+  `docker network rm NETWORK [NETWORK...]`
+  *Example:* `docker network rm mynetwork`
 
-    Listing Volumes
-        docker volume ls
-            Example: docker volume ls
+* **Connecting a Container to a Network**
+  `docker network connect [OPTIONS] NETWORK CONTAINER`
+  *Example:* `docker network connect mynetwork mycontainer`
 
-    Inspecting Volumes
-        docker volume inspect VOLUME [VOLUME...]
-            Example: docker volume inspect myvolume
+* **Disconnecting a Container from a Network**
+  `docker network disconnect [OPTIONS] NETWORK CONTAINER`
+  *Example:* `docker network disconnect mynetwork mycontainer`
 
-    Removing Volumes
-        docker volume rm VOLUME [VOLUME...]
-            Example: docker volume rm myvolume
+---
 
-## Swarm and Service Management
+#### Volume Management
 
-    Initializing a Swarm
-        docker swarm init [OPTIONS]
-            Example: docker swarm init
+* **Creating Volumes**
+  `docker volume create [OPTIONS] [VOLUME]`
+  *Example:* `docker volume create myvolume`
 
-    Joining a Swarm
-        docker swarm join [OPTIONS] [TOKEN] [ADDR...]
-            Example: docker swarm join --token SWMTKN-1-xxx 192.168.1.1:2377
+* **Listing Volumes**
+  `docker volume ls`
+  *Example:* `docker volume ls`
 
-    Listing Nodes
-        docker node ls
-            Example: docker node ls
+* **Inspecting Volumes**
+  `docker volume inspect VOLUME [VOLUME...]`
+  *Example:* `docker inspect myvolume`
 
-    Deploying a Service
-        docker service create [OPTIONS] IMAGE [COMMAND] [ARG...]
-            Example: docker service create --name myservice myapp:latest
+* **Removing Volumes**
+  `docker volume rm VOLUME [VOLUME...]`
+  *Example:* `docker volume rm myvolume`
 
-    Listing Services
-        docker service ls
-            Example: docker service ls
+---
 
-    Inspecting Services
-        docker service inspect [OPTIONS] SERVICE [SERVICE...]
-            Example: docker service inspect myservice
+#### Swarm and Service Management
 
-    Scaling Services
-        docker service scale SERVICE=REPLICAS [SERVICE=REPLICAS...]
-            Example: docker service scale myservice=3
+* **Initializing a Swarm**
+  `docker swarm init [OPTIONS]`
+  *Example:* `docker swarm init`
 
-    Updating Services
-        docker service update [OPTIONS] SERVICE
-            Example: docker service update --image myapp:latest myservice
+* **Joining a Swarm**
+  `docker swarm join [OPTIONS] [TOKEN] [ADDR...]`
+  *Example:* `docker swarm join --token SWMTKN-1-xxx 192.168.1.1:2377`
 
-    Removing Services
-        docker service rm SERVICE [SERVICE...]
-            Example: docker service rm myservice
+* **Listing Nodes**
+  `docker node ls`
+  *Example:* `docker node ls`
 
-## Compose (Multi-Container Applications)
+* **Deploying a Service**
+  `docker service create [OPTIONS] IMAGE [COMMAND] [ARG...]`
+  *Example:* `docker service create --name myservice myapp:latest`
 
-    Starting Services
-        docker-compose up [OPTIONS] [SERVICE...]
-            Example: docker-compose up -d
+* **Listing Services**
+  `docker service ls`
+  *Example:* `docker service ls`
 
-    Stopping Services
-        docker-compose down [OPTIONS]
-            Example: docker-compose down
+* **Inspecting Services**
+  `docker service inspect [OPTIONS] SERVICE [SERVICE...]`
+  *Example:* `docker service inspect myservice`
 
-    Building Services
-        docker-compose build [OPTIONS] [SERVICE...]
-            Example: docker-compose build
+* **Scaling Services**
+  `docker service scale SERVICE=REPLICAS [SERVICE=REPLICAS...]`
+  *Example:* `docker service scale myservice=3`
 
-    Viewing Logs
-        docker-compose logs [OPTIONS] [SERVICE...]
-            Example: docker-compose logs
+* **Updating Services**
+  `docker service update [OPTIONS] SERVICE`
+  *Example:* `docker service update --image myapp:latest myservice`
 
-    Scaling Services
-        docker-compose scale SERVICE=NUM [SERVICE=NUM...]
-            Example: docker-compose scale web=3
+* **Removing Services**
+  `docker service rm SERVICE [SERVICE...]`
+  *Example:* `docker service rm myservice`
 
-    Listing Containers
-        docker-compose ps [OPTIONS] [SERVICE...]
-            Example: docker-compose ps
+---
 
-These commands cover most of the basic and advanced operations you might need when working with Docker to build, run,
-manage, and deploy containerized applications.
+#### Compose (Multi-Container Applications)
+
+* **Starting Services**
+  `docker-compose up [OPTIONS] [SERVICE...]`
+  *Example:* `docker-compose up -d`
+
+* **Stopping Services**
+  `docker-compose down [OPTIONS]`
+  *Example:* `docker-compose down`
+
+* **Building Services**
+  `docker-compose build [OPTIONS] [SERVICE...]`
+  *Example:* `docker-compose build`
+
+* **Viewing Logs**
+  `docker-compose logs [OPTIONS] [SERVICE...]`
+  *Example:* `docker-compose logs`
+
+* **Scaling Services**
+  `docker-compose scale SERVICE=NUM [SERVICE=NUM...]`
+  *Example:* `docker-compose scale web=3`
+
+* **Listing Containers**
+  `docker-compose ps [OPTIONS] [SERVICE...]`
+  *Example:* `docker-compose ps`
+
+---
+
+These commands cover most of the basic and advanced operations you might need when working with Docker to build, run, manage, and deploy containerized applications.
