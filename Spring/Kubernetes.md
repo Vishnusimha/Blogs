@@ -1,4 +1,6 @@
-# Kubernetes 
+# [Kubernetes](https://github.com/Vishnusimha/Blogs/blob/main/Spring/Kubernetes.md)
+This page contains images. If there is any issue with loading, open it directly in [Kubernetes](https://github.com/Vishnusimha/Blogs/blob/main/Spring/Kubernetes.md)
+
 <img alt="Deployment_types" src="kubernetesimages/Deployment_types.png" />
 <img alt="Kubernetes" src="kubernetesimages/Kubernetes.png" />
 <img alt="KubernetesRelations" src="kubernetesimages/KubernetesRelations.png" />
