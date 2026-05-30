@@ -5,6 +5,9 @@ This page contains images. If there is any issue, open it directly in [Github Li
 <img alt="springimages" src="/Spring%20Boot/springimages/1.png" />
 <img alt="springimages" src="/Spring%20Boot/springimages/2.png" />
 <img alt="springimages" src="/Spring%20Boot/springimages/img_1.png" />
+<img alt="springimages" src="/Spring%20Boot/springimages/1.png" />
+<img alt="springimages" src="/Spring%20Boot/springimages/2.png" />
+<img alt="springimages" src="/Spring%20Boot/springimages/img_1.png" />
 <img alt="springimages" src="/Spring%20Boot/springimages/img.png" />
 
 Best practice instead of using @AutoWired, because for in such case its difficult to test. now since we have constructor
