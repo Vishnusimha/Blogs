@@ -1,4 +1,5 @@
-Here’s a structured guide to **GitHub Actions**, covering everything you need to learn as a software developer—from **basics to advanced**:
+Here’s a structured guide to **GitHub Actions**, covering everything you need to learn as a software developer—from *
+*basics to advanced**:
 
 ---
 
@@ -7,14 +8,15 @@ Here’s a structured guide to **GitHub Actions**, covering everything you need 
 ### 1. **What is GitHub Actions?**
 
 * GitHub Actions is a **CI/CD platform** that lets you automate tasks within your software development lifecycle.
-* Use it to run tests, build projects, deploy code, lint files, etc., whenever events like `push`, `pull_request`, or `release` happen.
+* Use it to run tests, build projects, deploy code, lint files, etc., whenever events like `push`, `pull_request`, or
+  `release` happen.
 
 ---
 
 ### 2. **Key Concepts**
 
 | Term         | Description                                                                          |
-| ------------ | ------------------------------------------------------------------------------------ |
+|--------------|--------------------------------------------------------------------------------------|
 | **Workflow** | Automation process triggered by events. Defined in `.github/workflows/*.yml`.        |
 | **Job**      | A set of steps executed on the same runner.                                          |
 | **Step**     | An individual task (running commands, calling actions).                              |
@@ -31,7 +33,7 @@ Example: `.github/workflows/hello.yml`
 ```yaml
 name: Hello World
 
-on: [push]
+on: [ push ]
 
 jobs:
   say-hello:
@@ -39,7 +41,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-      
+
       - name: Say Hello
         run: echo "Hello, GitHub Actions!"
 ```
@@ -78,8 +80,8 @@ Run tests across multiple environments:
 ```yaml
 strategy:
   matrix:
-    os: [ubuntu-latest, windows-latest]
-    node: [14, 16]
+    os: [ ubuntu-latest, windows-latest ]
+    node: [ 14, 16 ]
 jobs:
   test:
     runs-on: ${{ matrix.os }}
@@ -108,9 +110,9 @@ env:
 ```yaml
 on:
   push:
-    branches: [main]
+    branches: [ main ]
   pull_request:
-    branches: [main]
+    branches: [ main ]
   schedule:
     - cron: '0 12 * * MON'  # Every Monday at noon
   workflow_dispatch:  # Manual trigger
