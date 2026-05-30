@@ -124,6 +124,9 @@ offering a powerful and efficient way to interact with your data layer.
 <img alt="springimages" src="/Spring%20Boot/springimages/img_6.png" />
 <img alt="springimages" src="/Spring%20Boot/springimages/img_7.png" />
 
+leftoverimg/ignore
+<img alt="springimages" src="/Spring%20Boot/springimages/leftoverimg.png" />
+
 ## Spring Data Property Expression Query Methods with Clauses
 
 Overview
