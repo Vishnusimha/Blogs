@@ -68,16 +68,16 @@ Think of it as the Java Runtime Environment (JRE) that runs your compiled JARs.
 ## 🧪 Quiz
 
 <div align="center">
-  <img alt="dockerimages" src="./dockerimages/36.png" />
+  <img alt="dockerimages" src="dockerimages/36.png" />
 </div>
 
-<img alt="dockerimages" src="./dockerimages/4.png" />
-<img alt="dockerimages" src="./dockerimages/5.png" />
-<img alt="dockerimages" src="./dockerimages/6.png" />
-<img alt="dockerimages" src="./dockerimages/11.png" />
-<img alt="dockerimages" src="./dockerimages/23.png" />
-<img alt="dockerimages" src="./dockerimages/24.png" />
-<img alt="dockerimages" src="./dockerimages/29.png" />
+<img alt="dockerimages" src="dockerimages/4.png" />
+<img alt="dockerimages" src="dockerimages/5.png" />
+<img alt="dockerimages" src="dockerimages/6.png" />
+<img alt="dockerimages" src="dockerimages/11.png" />
+<img alt="dockerimages" src="dockerimages/23.png" />
+<img alt="dockerimages" src="dockerimages/24.png" />
+<img alt="dockerimages" src="dockerimages/29.png" />
 
 ---
 
@@ -89,18 +89,18 @@ Visual walkthrough of Docker basics using:
 * Practical use cases
 * Beginner-friendly best practices
 
-<img alt="Intro" src="./dockerimages/30.png" />
-<img alt="Intro" src="./dockerimages/22.png" />
-<img alt="Intro" src="./dockerimages/13.png" />
-<img alt="Intro" src="./dockerimages/1.png" />
-<img alt="Intro" src="./dockerimages/2.png" />
-<img alt="Intro" src="./dockerimages/3.png" />
+<img alt="Intro" src="dockerimages/30.png" />
+<img alt="Intro" src="dockerimages/22.png" />
+<img alt="Intro" src="dockerimages/13.png" />
+<img alt="Intro" src="dockerimages/1.png" />
+<img alt="Intro" src="dockerimages/2.png" />
+<img alt="Intro" src="dockerimages/3.png" />
 
-<img alt="best practice" src="./dockerimages/17.png" />
-<img alt="dockerimages" src="./dockerimages/32.png" />
-<img alt="dockerimages" src="./dockerimages/33.png" />
-<img alt="dockerimages" src="./dockerimages/34.png" />
-<img alt="dockerimages" src="./dockerimages/35.png" />
+<img alt="best practice" src="dockerimages/17.png" />
+<img alt="dockerimages" src="dockerimages/32.png" />
+<img alt="dockerimages" src="dockerimages/33.png" />
+<img alt="dockerimages" src="dockerimages/34.png" />
+<img alt="dockerimages" src="dockerimages/35.png" />
 
 ---
 
@@ -116,8 +116,8 @@ COPY target/myapp.jar app.jar
 ENTRYPOINT ["java", "-jar", "app.jar"]
 ```
 
-<img alt="Writingdockerfiles" src="./dockerimages/36.png" />
-<img alt="Writingdockerfiles" src="./dockerimages/21.png" />
+<img alt="Writingdockerfiles" src="dockerimages/36.png" />
+<img alt="Writingdockerfiles" src="dockerimages/21.png" />
 
 ---
 
@@ -332,9 +332,9 @@ Benefits:
 * Layer caching
 * Smaller updates
 
-<img alt="LayeringDocker" src="./dockerimages/7.png" />
-<img alt="LayeringDocker" src="./dockerimages/8.png" />
-<img alt="LayeringDocker" src="./dockerimages/31.png" />
+<img alt="LayeringDocker" src="dockerimages/7.png" />
+<img alt="LayeringDocker" src="dockerimages/8.png" />
+<img alt="LayeringDocker" src="dockerimages/31.png" />
 
 ---
 
@@ -344,9 +344,9 @@ Benefits:
 * Expose only necessary ports
 * Avoid hardcoding secrets
 
-<img alt="VolumesAndPorts" src="./dockerimages/9.png" />
-<img alt="VolumesAndPorts" src="./dockerimages/12.png" />
-<img alt="VolumesAndPorts" src="./dockerimages/10.png" />
+<img alt="VolumesAndPorts" src="dockerimages/9.png" />
+<img alt="VolumesAndPorts" src="dockerimages/12.png" />
+<img alt="VolumesAndPorts" src="dockerimages/10.png" />
 
 ---
 
@@ -359,8 +359,8 @@ docker tag alpine:latest myusername/alpine:custom
 docker push myusername/alpine:custom
 ```
 
-<img alt="DockerRegistry" src="./dockerimages/14.png" />
-<img alt="DockerRegistry" src="./dockerimages/15.png" />
+<img alt="DockerRegistry" src="dockerimages/14.png" />
+<img alt="DockerRegistry" src="dockerimages/15.png" />
 
 ---
 
@@ -407,9 +407,9 @@ Run it with:
 docker-compose up
 ```
 
-<img alt="Orchestration" src="./dockerimages/18.png" />
-<img alt="Orchestration" src="./dockerimages/19.png" />
-<img alt="Orchestration" src="./dockerimages/20.png" />
+<img alt="Orchestration" src="dockerimages/18.png" />
+<img alt="Orchestration" src="dockerimages/19.png" />
+<img alt="Orchestration" src="dockerimages/20.png" />
 
 ---
 
@@ -420,10 +420,10 @@ docker-compose up
 * **Kubernetes**: Industry-standard container orchestration
 * **LXC**: Linux container management
 
-<img alt="DockerAlternatives" src="./dockerimages/25.png" />
-<img alt="DockerAlternatives" src="./dockerimages/26.png" />
-<img alt="DockerAlternatives" src="./dockerimages/27.png" />
-<img alt="DockerAlternatives" src="./dockerimages/28.png" />
+<img alt="DockerAlternatives" src="dockerimages/25.png" />
+<img alt="DockerAlternatives" src="dockerimages/26.png" />
+<img alt="DockerAlternatives" src="dockerimages/27.png" />
+<img alt="DockerAlternatives" src="dockerimages/28.png" />
 
 ---
 

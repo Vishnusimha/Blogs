@@ -464,7 +464,7 @@ For a backend app, a Dockerfile may follow this pattern:
 # Build stage
 FROM eclipse-temurin:17-jdk AS build
 WORKDIR /app
-COPY . .
+COPY .. .
 RUN ./gradlew clean build -x test
 
 # Runtime stage
