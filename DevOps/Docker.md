@@ -430,7 +430,7 @@ docker-compose up
 ## 📘 Summary
 
 | Concept        | Analogy                    | Description                    |
-| -------------- | -------------------------- | ------------------------------ |
+|----------------|----------------------------|--------------------------------|
 | Image          | Java JAR                   | Blueprint for containers       |
 | Container      | Java Object                | Running instance of an image   |
 | Dockerfile     | Build Script               | Defines how to build an image  |

@@ -1,4 +1,4 @@
-# SQL interview questions
+# SQL Questions
 
 1. What is SQL? Explain its significance in the context of database management systems.
 2. Differentiate between SQL and NoSQL databases.
