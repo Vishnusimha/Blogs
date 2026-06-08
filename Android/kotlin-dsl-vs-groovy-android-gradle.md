@@ -627,7 +627,7 @@ can still be a practical choice if it is stable and well understood.
 In short:
 
 > Use Kotlin DSL for modern Android development. Keep Groovy when stability and legacy compatibility matter more than
-> migration.
+> migration.kotlin-dsl-vs-groovy-android-gradlekotlin-dsl-vs-groovy-android-gradle
 
 ---
 
