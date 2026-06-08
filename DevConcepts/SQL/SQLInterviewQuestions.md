@@ -1,4 +1,4 @@
-List of SQL interview questions that a Spring Boot developer might encounter:
+# SQL interview questions
 
 1. What is SQL? Explain its significance in the context of database management systems.
 2. Differentiate between SQL and NoSQL databases.
@@ -21,7 +21,7 @@ List of SQL interview questions that a Spring Boot developer might encounter:
 19. Explain the concept of database transactions.
 20. How do you troubleshoot slow-performing SQL queries?
 
-Sure, here are the answers with explanations and examples for the SQL interview questions:
+---
 
 1. **What is SQL? Explain its significance in the context of database management systems.**
     - SQL (Structured Query Language) is a standard programming language designed for managing data held in a relational
@@ -95,9 +95,8 @@ Sure, here are the answers with explanations and examples for the SQL interview 
           Example: `SELECT * FROM table1 RIGHT JOIN table2 ON table1.id = table2.id;`
         - FULL JOIN: Returns all rows when there is a match in either table.
           Example: `SELECT * FROM table1 FULL JOIN table2 ON table1.id = table2.id;`
-
-These are the answers and explanations for the first 10 SQL interview questions. Let me know if you'd like me to
-continue with the remaining questions.
+        - CROSS JOIN: Returns the Cartesian product of the two tables.
+          Example: `SELECT * FROM table1 CROSS JOIN table2;`
 ---
 
 ## in which order we use these keywords ? give example:
@@ -166,3 +165,5 @@ DROP DATABASE MyDatabase;
 ```
 
 This example demonstrates the typical sequence of SQL operations in a database environment.
+
+---
