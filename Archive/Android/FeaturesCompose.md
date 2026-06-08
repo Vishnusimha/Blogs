@@ -164,5 +164,3 @@ handling various aspects of network requests. Interceptors are particularly usef
 
 By using Request Interceptors, you can centralize common logic for outgoing requests, making your
 code more modular and maintainable.
-
-## Shimmer effected is added in this branch
