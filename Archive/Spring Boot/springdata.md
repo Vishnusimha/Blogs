@@ -3,9 +3,9 @@ This page contains images. If there is any issue, open it directly in [Github Li
 
 https://github.com/LinkedInLearning/spring-spring-data-2-2508603
 
-<img alt="Spring Data" src="/Spring%20Boot/springimages/query_Methods.png" />
-<img alt="Spring Data" src="/Spring%20Boot/springimages/img_2.png" />
-<img alt="Spring Data" src="/Spring%20Boot/springimages/img_3.png" />
+<img alt="Spring Data" src="/Archive/Spring%20Boot/springimages/query_Methods.png" />
+<img alt="Spring Data" src="/Archive/Spring%20Boot/springimages/img_2.png" />
+<img alt="Spring Data" src="/Archive/Spring%20Boot/springimages/img_3.png" />
 
 # JPA Query Methods
 
@@ -119,10 +119,10 @@ Using Spring Data property expression query methods simplifies database access, 
 boilerplate code. This approach leverages Spring's capabilities to create dynamic queries based on method names,
 offering a powerful and efficient way to interact with your data layer.
 
-<img alt="springimages" src="/Spring%20Boot/springimages/img_4.png" />
-<img alt="springimages" src="/Spring%20Boot/springimages/img_5.png" />
-<img alt="springimages" src="/Spring%20Boot/springimages/img_6.png" />
-<img alt="springimages" src="/Spring%20Boot/springimages/img_7.png" />
+<img alt="springimages" src="/Archive/Spring%20Boot/springimages/img_4.png" />
+<img alt="springimages" src="/Archive/Spring%20Boot/springimages/img_5.png" />
+<img alt="springimages" src="/Archive/Spring%20Boot/springimages/img_6.png" />
+<img alt="springimages" src="/Archive/Spring%20Boot/springimages/img_7.png" />
 
 leftoverimg/ignore
 <img alt="springimages" src="/Spring%20Boot/springimages/leftoverimg.png" />
@@ -213,10 +213,10 @@ queries dynamically.
 
 ### @Query- Annotated Method
 
-<img alt="Annotated Method" src="/Spring%20Boot/springimages/img_8.png" />
-<img alt="Annotated Method" src="/Spring%20Boot/springimages/img_9.png" />
-<img alt="Annotated Method" src="/Spring%20Boot/springimages/img_10.png" />
-<img alt="Annotated Method" src="/Spring%20Boot/springimages/img_11.png" />
+<img alt="Annotated Method" src="/Archive/Spring%20Boot/springimages/img_8.png" />
+<img alt="Annotated Method" src="/Archive/Spring%20Boot/springimages/img_9.png" />
+<img alt="Annotated Method" src="/Archive/Spring%20Boot/springimages/img_10.png" />
+<img alt="Annotated Method" src="/Archive/Spring%20Boot/springimages/img_11.png" />
 
 Using the @Query Annotation in Spring Data
 Overview
@@ -319,11 +319,11 @@ Summary
 Using the @Query annotation in Spring Data simplifies method signatures, supports complex queries, and allows for the
 use of native SQL. It enhances the flexibility of query methods, making your code cleaner and more maintainable
 
-<img alt="springimages" src="/Spring%20Boot/springimages/img_12.png" />
-<img alt="springimages" src="/Spring%20Boot/springimages/img_13.png" />
-<img alt="springimages" src="/Spring%20Boot/springimages/img_14.png" />
-<img alt="springimages" src="/Spring%20Boot/springimages/img_15.png" />
-<img alt="springimages" src="/Spring%20Boot/springimages/img_16.png" />
+<img alt="springimages" src="/Archive/Spring%20Boot/springimages/img_12.png" />
+<img alt="springimages" src="/Archive/Spring%20Boot/springimages/img_13.png" />
+<img alt="springimages" src="/Archive/Spring%20Boot/springimages/img_14.png" />
+<img alt="springimages" src="/Archive/Spring%20Boot/springimages/img_15.png" />
+<img alt="springimages" src="/Archive/Spring%20Boot/springimages/img_16.png" />
 
 ## Paging and Sorting in Spring Data
 
@@ -429,11 +429,11 @@ Summary
     Use findAll(Pageable pageable) to get paginated and sorted results.
     Access the results and metadata from the Page object.
 
-<img alt="1" src="/Spring%20Boot/springimages/img_17.png" />
-<img alt="1" src="/Spring%20Boot/springimages/img_18.png" />
-<img alt="1" src="/Spring%20Boot/springimages/img_19.png" />
-<img alt="1" src="/Spring%20Boot/springimages/img_20.png" />
-<img alt="1" src="/Spring%20Boot/springimages/img_21.png" />
+<img alt="1" src="/Archive/Spring%20Boot/springimages/img_17.png" />
+<img alt="1" src="/Archive/Spring%20Boot/springimages/img_18.png" />
+<img alt="1" src="/Archive/Spring%20Boot/springimages/img_19.png" />
+<img alt="1" src="/Archive/Spring%20Boot/springimages/img_20.png" />
+<img alt="1" src="/Archive/Spring%20Boot/springimages/img_21.png" />
 
 ## QueryDSL
 
@@ -442,22 +442,22 @@ Summary
 <img alt="1" src="/Spring/springimages/img_23.png" />
 
 ### Query by Example
-<img alt="1" src="/Spring%20Boot/springimages/img_24.png" />
-<img alt="1" src="/Spring%20Boot/springimages/img_25.png" />
-<img alt="1" src="/Spring%20Boot/springimages/img_26.png" />
-<img alt="1" src="/Spring%20Boot/springimages/img_27.png" />
-<img alt="1" src="/Spring%20Boot/springimages/img_28.png" />
-<img alt="1" src="/Spring%20Boot/springimages/img_29.png" />
+<img alt="1" src="/Archive/Spring%20Boot/springimages/img_24.png" />
+<img alt="1" src="/Archive/Spring%20Boot/springimages/img_25.png" />
+<img alt="1" src="/Archive/Spring%20Boot/springimages/img_26.png" />
+<img alt="1" src="/Archive/Spring%20Boot/springimages/img_27.png" />
+<img alt="1" src="/Archive/Spring%20Boot/springimages/img_28.png" />
+<img alt="1" src="/Archive/Spring%20Boot/springimages/img_29.png" />
 
 ## Spring data rest feature
 
-<img alt="1" src="/Spring%20Boot/springimages/img_30.png" />
-<img alt="1" src="/Spring%20Boot/springimages/img_31.png" />
-<img alt="1" src="/Spring%20Boot/springimages/img_32.png" />
-<img alt="1" src="/Spring%20Boot/springimages/img_33.png" />
-<img alt="1" src="/Spring%20Boot/springimages/img_34.png" />
-<img alt="1" src="/Spring%20Boot/springimages/img_35.png" />
-<img alt="1" src="/Spring%20Boot/springimages/img_36.png" />
+<img alt="1" src="/Archive/Spring%20Boot/springimages/img_30.png" />
+<img alt="1" src="/Archive/Spring%20Boot/springimages/img_31.png" />
+<img alt="1" src="/Archive/Spring%20Boot/springimages/img_32.png" />
+<img alt="1" src="/Archive/Spring%20Boot/springimages/img_33.png" />
+<img alt="1" src="/Archive/Spring%20Boot/springimages/img_34.png" />
+<img alt="1" src="/Archive/Spring%20Boot/springimages/img_35.png" />
+<img alt="1" src="/Archive/Spring%20Boot/springimages/img_36.png" />
 
 ## Spring Data MongoDB
 Overview
