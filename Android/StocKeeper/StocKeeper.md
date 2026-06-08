@@ -1,10 +1,9 @@
 ---
-
 title: "Why I Built StocKeeper — And the Real Problems It Solves"
 description: "The story behind StocKeeper, an Android inventory management app built to solve everyday stock, expiry, shopping, and shared inventory problems for homes, small businesses, and shared spaces."
 date: "2026-06-08"
 tags: [ "StocKeeper", "Android", "Inventory Management", "Kotlin", "Jetpack Compose", "Firebase" ]
---------------------------------------------------------------------------------------------------
+---
 
 # Why I Built StocKeeper — And the Real Problems It Solves
 
@@ -216,6 +215,29 @@ Simple does not mean basic.
 Simple means the user can actually use it.
 
 ---
+
+## What StocKeeper actually does
+
+At its core, StocKeeper is a simple inventory management app for individuals, families, shared spaces, small offices,
+and small businesses.
+
+It helps you track groceries, medicines, household supplies, office items, business stock, and daily essentials in one
+organised place. Instead of guessing what is available, what is running low, or what is about to expire, you get a clear
+view of your stock whenever you need it.
+
+The app is built around a practical everyday workflow:
+
+- Add and update stock items
+- Track quantities, expiry dates, and low-stock levels
+- Receive low-stock and expiry alerts
+- Create shopping plans and checklist items
+- Move purchased items directly back into stock
+- Use Quick Add for frequently used items
+- Manage personal or shared group inventory
+- Keep data backed up and synced securely
+
+This is what connects the app together. It is not just a list of items. It is a complete flow from stock tracking to
+alerts, planning, shopping, and updating inventory again.
 
 ## The only hard day is the first day
 
