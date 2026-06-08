@@ -1,4 +1,4 @@
-# [AuthenticationVSAuthorisation.md](AuthenticationVSAuthorisation.md)
+# Authentication VS Authorisation
 
 Authentication and Authorization are the key components of **secure data access control** 👨‍💻🔐
 
