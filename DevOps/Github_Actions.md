@@ -1,9 +1,4 @@
-Here’s a structured guide to **GitHub Actions**, covering everything you need to learn as a software developer—from *
-*basics to advanced**:
-
----
-
-## 🔰 **Basics of GitHub Actions**
+# Basics of GitHub Actions
 
 ### 1. **What is GitHub Actions?**
 
@@ -238,17 +233,4 @@ Use your own hardware to run workflows.
 
 ---
 
-## 📚 Recommended Learning Resources
-
-* 📘 [GitHub Actions Docs](https://docs.github.com/en/actions)
-* 🧪 [GitHub Actions Examples](https://github.com/actions)
-* 🎥 YouTube Channels: GitHub, Fireship, The Net Ninja
-* 📓 Projects to practice:
-
-    * CI/CD for a Node.js or Spring Boot app
-    * Linting & testing automation
-    * Deploying to Firebase/AWS/DockerHub
-
----
-
-Would you like a **PDF cheat sheet** or a **GitHub Actions project template** next?
+### [GitHub Actions Docs](https://docs.github.com/en/actions)
