@@ -3,7 +3,7 @@
 # Most Commonly Used Design Patterns in Java Backend Development (Spring Boot)✅
 
 | Design Pattern                                                     | Description                                                                                                                                         |
-| ------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span style="color:#FF6347">Singleton Pattern</span>               | Ensures a class has only one instance and provides a global point of access to it.                                                                  |
 | <span style="color:#FF6347">Factory Method Pattern</span>          | Defines an interface for creating objects, but lets subclasses alter the type of objects that will be created.                                      |
 | <span style="color:#FF6347">Builder Pattern</span>                 | Separates the construction of a complex object from its representation, allowing the same construction process to create different representations. |
