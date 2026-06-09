@@ -1,0 +1,128 @@
+[
+  {
+    "title": "Authentication vs Authorisation",
+    "date": "2026-06-08",
+    "slug": "authentication-vs-authorisation-security",
+    "summary": "Quick guide to understanding the difference between authentication and authorization: learn how to verify user identity and control access to secure systems.",
+    "categories": "Security",
+    "readTime": 1,
+    "path": "DevConcepts/Authentication_vs_Authorisation.md"
+  },
+  {
+    "title": "Basics of GitHub Actions",
+    "date": "2026-06-08",
+    "slug": "github-actions-ci-cd-basics",
+    "summary": "Introduction to GitHub Actions CI/CD automation: learn workflows, jobs, steps, and build your first continuous integration and deployment pipeline on GitHub.",
+    "categories": "DevOps",
+    "readTime": 3,
+    "path": "DevOps/Github_Actions.md"
+  },
+  {
+    "title": "Docker Overview for Beginners and Beyond",
+    "date": "2026-06-08",
+    "slug": "docker-overview-beginners-containers-guide",
+    "summary": "Comprehensive Docker guide for beginners: understand images, containers, Dockerfiles, Docker CLI, volumes, networking, Docker Compose, and practical deployment strategies.",
+    "categories": "DevOps",
+    "readTime": 8,
+    "path": "DevOps/Docker.md"
+  },
+  {
+    "title": "Kotlin DSL vs Groovy DSL in Android Gradle: Which One Should You Use?",
+    "date": "2026-06-08",
+    "slug": "kotlin-dsl-vs-groovy-dsl-android-gradle",
+    "summary": "Practical comparison of Kotlin DSL and Groovy DSL for Android Gradle: learn about type safety, IDE support, performance, and when to migrate your build scripts.",
+    "categories": "Android",
+    "readTime": 13,
+    "path": "Android/kotlin-dsl-vs-groovy-android-gradle.md"
+  },
+  {
+    "title": "Kubernetes Guide for Container Orchestration",
+    "date": "2026-06-08",
+    "slug": "kubernetes-container-orchestration-guide",
+    "summary": "Kubernetes fundamentals guide covering cluster architecture, Pods, Services, Deployments, StatefulSets, and production-ready container orchestration concepts.",
+    "categories": "DevOps",
+    "readTime": 7,
+    "path": "DevOps/Kubernetes.md"
+  },
+  {
+    "title": "Linux Skills Every Android, Backend, and Cloud Developer Should Know",
+    "date": "2026-06-08",
+    "slug": "linux-skills-developers-android-backend-cloud",
+    "summary": "Essential Linux guide for developers: master commands, file management, permissions, processes, networking, SSH, Docker, and deployment skills for Android, Spring Boot, and AWS.",
+    "categories": "DevOps",
+    "readTime": 19,
+    "path": "DevConcepts/Linux/Linux_Guide.md"
+  },
+  {
+    "title": "Most Commonly Used Design Patterns in Java Backend Development (Spring Boot)",
+    "date": "2026-06-08",
+    "slug": "common-design-patterns-java-spring-boot",
+    "summary": "Comprehensive guide to essential design patterns for Spring Boot development: learn Singleton, Factory, Builder, Adapter, Observer, Strategy patterns with real examples and best practices.",
+    "categories": "Backend Engineering",
+    "readTime": 8,
+    "path": "DevConcepts/Design_Patterns.md"
+  },
+  {
+    "title": "SQL Interview Questions",
+    "date": "2026-06-08",
+    "slug": "sql-interview-questions-database",
+    "summary": "Common SQL interview questions covering CRUD operations, joins, normalization, indexes, transactions, and performance optimization for database developer interviews.",
+    "categories": "Database",
+    "readTime": 7,
+    "path": "DevConcepts/SQL/SQL_Questions.md"
+  },
+  {
+    "title": "SQL Roadmap for Developers: From Basics to Advanced Queries",
+    "date": "2026-06-08",
+    "slug": "sql-roadmap-developers-basics-advanced",
+    "summary": "Complete SQL learning guide for developers covering CRUD operations, joins, grouping, subqueries, indexes, transactions, normalization, and real-world database optimization.",
+    "categories": "Database",
+    "readTime": 21,
+    "path": "DevConcepts/SQL/sql-roadmap-for-developers.md"
+  },
+  {
+    "title": "Serializable vs Parcelable in Android: Which One Should You Use?",
+    "date": "2026-06-08",
+    "slug": "serializable-vs-parcelable-android",
+    "summary": "Compare Serializable and Parcelable in Android: understand performance differences, when to use @Parcelize, and best practices for passing data between screens efficiently.",
+    "categories": "Android",
+    "readTime": 4,
+    "path": "Android/Serializable_vs_Parcelable.md"
+  },
+  {
+    "title": "Why I Built StocKeeper — And the Real Problems It Solves",
+    "date": "2026-06-08",
+    "slug": "why-i-built-stockeeper-inventory-management",
+    "summary": "Discover how StocKeeper solves real inventory, expiry tracking, and shared stock problems for homes, small businesses, and shared spaces with a simple Android app.",
+    "categories": "Android",
+    "readTime": 15,
+    "path": "Stockeeper_Application/Stockeeper.md"
+  },
+  {
+    "title": "Part 1: Architecture and Deployment Strategy for Full-Stack Applications",
+    "date": "2026-05-30",
+    "slug": "aws-lightsail-deployment-part-1-architecture",
+    "summary": "Comprehensive guide to planning cost-effective full-stack deployments: learn architecture decisions, Lightsail vs EC2, Docker strategy, domain setup, and deployment best practices.",
+    "categories": "AWS",
+    "readTime": 22,
+    "path": "Cloud/AWS/WebApplicationDeploymentOnLightSailAndVercel/part-1-architecture-and-deployment-strategy.md"
+  },
+  {
+    "title": "Part 2: Backend Deployment on AWS Lightsail",
+    "date": "2026-05-30",
+    "slug": "aws-lightsail-deployment-part-2-backend",
+    "summary": "Step-by-step backend deployment guide: provision Lightsail, run Docker containers, set up MySQL, configure Nginx, enable HTTPS, and deploy production-ready APIs.",
+    "categories": "AWS",
+    "readTime": 21,
+    "path": "Cloud/AWS/WebApplicationDeploymentOnLightSailAndVercel/part-2-backend-deployment-on-aws-lightsail.md"
+  },
+  {
+    "title": "Part 3: Frontend Deployment, Domains, SSL, and Troubleshooting",
+    "date": "2026-05-30",
+    "slug": "aws-lightsail-deployment-part-3-frontend-ssl",
+    "summary": "Complete guide to connecting Vercel frontend to Lightsail backend: set up custom domains, configure DNS, enable HTTPS with Let's Encrypt, fix CORS and SSL issues.",
+    "categories": "AWS",
+    "readTime": 23,
+    "path": "Cloud/AWS/WebApplicationDeploymentOnLightSailAndVercel/part-3-frontend-domains-ssl-troubleshooting.md"
+  }
+]
