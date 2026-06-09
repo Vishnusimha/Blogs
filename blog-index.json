@@ -141,6 +141,6 @@
     "summary": "PiPulse AI is a lightweight Raspberry Pi health monitoring utility that runs in the background, exposes system metrics through APIs, and provides a clean dashboard to track CPU temperature, memory, disk usage, uptime, and device health.",
     "categories": "IoT",
     "readTime": 8,
-    "path": "AI-ML-DataScience-IoT/pipulse-ai-raspberry-pi-health-monitor-dashboard.md"
+    "path": "AI_ML_DataScience_IoT/pipulse-ai-raspberry-pi-health-monitor-dashboard.md"
   }
 ]
