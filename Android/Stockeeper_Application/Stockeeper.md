@@ -19,7 +19,7 @@ So instead of starting with a random app idea, I started by observing real life 
 
 That is where StocKeeper began.
 
-![Manage_all_your_stock_in_one_place.png](../../Archive/stockeeper_images/Manage_all_your_stock_in_one_place.png)
+![Manage_all_your_stock_in_one_place.png](../stockeeper_images/Manage_all_your_stock_in_one_place.png)
 
 ---
 
