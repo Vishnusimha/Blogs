@@ -313,9 +313,17 @@ That was the product philosophy.
 
 And now, that loop works.
 
-![Track_every_important_change.webp](../stockeeper_images/Track_every_important_change.webp)
+<div class="blog-image-row">
+  <figure>
+    <img src="../stockeeper_images/Track_every_important_change.webp" alt="Track every important change" />
+    <figcaption>Review stock and plan history with clear activity records.</figcaption>
+  </figure>
 
-![Understand_your_stock_better.webp](../stockeeper_images/Understand_your_stock_better.webp)
+  <figure>
+    <img src="../stockeeper_images/Understand_your_stock_better.webp" alt="Understand your stock better" />
+    <figcaption>View reports for stock, expiry, low-stock items, and inventory planning.</figcaption>
+  </figure>
+</div>
 
 ---
 
