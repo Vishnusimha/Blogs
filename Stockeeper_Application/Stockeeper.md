@@ -113,7 +113,7 @@ Until it becomes a loss.
 Multiply that across dozens or hundreds of products, and the impact becomes serious.
 
 > **StocKeeper gives small business owners a straightforward way to track stock, expiry dates, low-stock levels, and
-item movement — so they can act early instead of discovering the damage later.**
+> item movement — so they can act early instead of discovering the damage later.**
 
 It is not trying to replace big supermarket systems.
 
@@ -224,13 +224,9 @@ One of the biggest product decisions I made was to keep StocKeeper simple.
 
 When you build an inventory app, it is easy to keep adding things:
 
-- Advanced reports
-- Complex business logic
 - Supplier management
 - Invoices
 - Barcode workflows
-- Multiple warehouse rules
-- Deep analytics
 - Enterprise-style controls
 
 All of that can be useful in the right context.
