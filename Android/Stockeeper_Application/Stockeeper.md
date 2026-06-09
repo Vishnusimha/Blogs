@@ -55,11 +55,15 @@ This problem exists in many places:
 
 At first, the idea looked simple: **build an app to track stock**.
 
-But once I started thinking seriously about it — the database design, how items should be stored, how shopping plans should work, how shared inventory should sync, how notifications should behave, and which backend approach would make sense — I realised the problem was bigger than it looked.
+But once I started thinking seriously about it — the database design, how items should be stored, how shopping plans
+should work, how shared inventory should sync, how notifications should behave, and which backend approach would make
+sense — I realised the problem was bigger than it looked.
 
 I also noticed something else.
 
-There are already inventory apps out there. Some even use similar names or solve parts of this problem. And of course, large supermarkets and big businesses already have advanced systems to manage stock, expiry, warehouses, billing, suppliers, and reporting.
+There are already inventory apps out there. Some even use similar names or solve parts of this problem. And of course,
+large supermarkets and big businesses already have advanced systems to manage stock, expiry, warehouses, billing,
+suppliers, and reporting.
 
 But those systems are not built for everyone.
 
@@ -67,7 +71,8 @@ They are often complex.
 They need training.  
 They may require proper business setup.  
 They are designed for larger operations.  
-And behind them, there are usually teams of engineers, business processes, and infrastructure keeping everything running.
+And behind them, there are usually teams of engineers, business processes, and infrastructure keeping everything
+running.
 
 That made me think differently.
 
@@ -90,11 +95,14 @@ That became the direction for StocKeeper:
 
 Walk into any small shop and look at the back shelf.
 
-> You will often find items that expired weeks ago — sometimes even months ago. Not because the owner was careless, but because there was no simple system to track what was bought, when it was bought, how fast it was moving, and when it would expire.
+> You will often find items that expired weeks ago — sometimes even months ago. Not because the owner was careless, but
+> because there was no simple system to track what was bought, when it was bought, how fast it was moving, and when it
+> would expire.
 
 For a small business, this is not a small issue.
 
-If a shop owner knows that an item is expiring in two weeks, they still have options. They can move it to the front, discount it, sell it faster, return it to the supplier, or make a better decision before it becomes waste.
+If a shop owner knows that an item is expiring in two weeks, they still have options. They can move it to the front,
+discount it, sell it faster, return it to the supplier, or make a better decision before it becomes waste.
 
 But without that visibility, the item just sits there.
 
@@ -121,13 +129,16 @@ Someone steps out to the shop and calls back:
 
 > **“What do we need? What’s finished?”**
 
-Then the person at home starts walking around — checking the fridge, pantry, medicine box, kitchen shelves, bathroom supplies, and storage areas — trying to remember what is low and what needs to be bought.
+Then the person at home starts walking around — checking the fridge, pantry, medicine box, kitchen shelves, bathroom
+supplies, and storage areas — trying to remember what is low and what needs to be bought.
 
 It works sometimes.
 
 But things still get missed.
 
-And if you live with friends, family, or flatmates, it becomes even more confusing. One person buys something without knowing someone else already bought it. Someone forgets to update the list. Another person goes to a different shop. Suddenly, shopping becomes a guessing game.
+And if you live with friends, family, or flatmates, it becomes even more confusing. One person buys something without
+knowing someone else already bought it. Someone forgets to update the list. Another person goes to a different shop.
+Suddenly, shopping becomes a guessing game.
 
 That is one of the problems I wanted StocKeeper to solve.
 
@@ -135,13 +146,15 @@ That is one of the problems I wanted StocKeeper to solve.
 > The person at the shop does not need to call home. They can simply open the app and see what is low, what is finished,
 > what is expiring soon, and what is already planned.
 
-The shopping plan also helps when multiple people are involved. Items can be organised by shop, so one person can go to the supermarket while another handles the pharmacy or household supplies. Each person gets a clear list.
+The shopping plan also helps when multiple people are involved. Items can be organised by shop, so one person can go to
+the supermarket while another handles the pharmacy or household supplies. Each person gets a clear list.
 
 **No confusion.**  
 **No duplicate buying.**  
 **No stepping on each other’s work.**
 
-And once you have shopped at a store before, the app remembers those patterns. Next time, you can quickly tick what you need, adjust quantities, and build your shopping plan much faster.
+And once you have shopped at a store before, the app remembers those patterns. Next time, you can quickly tick what you
+need, adjust quantities, and build your shopping plan much faster.
 
 > The first trip takes effort.  
 > The next one becomes easier.  
@@ -153,7 +166,9 @@ And once you have shopped at a store before, the app remembers those patterns. N
 
 Most homes have a medicine drawer, box, or cabinet.
 
-Inside, there are tablets, strips, syrups, creams, ointments, and first-aid items. But very often, nobody really knows when they were bought, whether they are still safe to use, or whether the same medicine already exists somewhere else in the house.
+Inside, there are tablets, strips, syrups, creams, ointments, and first-aid items. But very often, nobody really knows
+when they were bought, whether they are still safe to use, or whether the same medicine already exists somewhere else in
+the house.
 
 The problem is even worse with expiry dates.
 
@@ -171,7 +186,8 @@ So when someone needs medicine urgently — maybe during a fever at midnight —
 
 That is not a good situation.
 
-People may end up buying the same medicine twice. Or worse, they may use something that has already expired without realising it.
+People may end up buying the same medicine twice. Or worse, they may use something that has already expired without
+realising it.
 
 > **StocKeeper helps by letting you log medicines with purchase dates, expiry dates, quantities, and alerts.**  
 > When something is close to expiry, the app can remind you before it becomes a risk.
@@ -193,7 +209,8 @@ The more I thought about the problem, the more I realised it is not limited to j
 | **Small business**       | Fast-moving goods, slow-moving items, stock value, expiry dates, shopping or restocking plans |
 | **Personal use**         | What you already have before buying more                                                      |
 
-That is why I designed StocKeeper to be flexible. It is not locked to one category. You can use it for groceries, medicines, household items, office supplies, or almost any stock you want to organise.
+That is why I designed StocKeeper to be flexible. It is not locked to one category. You can use it for groceries,
+medicines, household items, office supplies, or almost any stock you want to organise.
 
 The goal was not to make the app complicated.
 
@@ -232,7 +249,9 @@ The core workflow is intentionally simple:
 6. Shop
 7. Add purchased items back into stock
 
-I wanted a small business owner to understand it quickly. I wanted a family member to use it without training. I wanted a shared flat to coordinate without needing a spreadsheet. I wanted someone managing medicines at home to feel more prepared.
+I wanted a small business owner to understand it quickly. I wanted a family member to use it without training. I wanted
+a shared flat to coordinate without needing a spreadsheet. I wanted someone managing medicines at home to feel more
+prepared.
 
 So I focused on making the app clean, catchy, and practical instead of overloaded.
 
@@ -278,21 +297,25 @@ I want to be honest about one thing.
 
 > **Setting up an inventory app takes effort.**
 
-On day one, you have to add your existing stock. You need to enter your groceries, medicines, household items, quantities, expiry dates, and low-stock levels. That takes patience.
+On day one, you have to add your existing stock. You need to enter your groceries, medicines, household items,
+quantities, expiry dates, and low-stock levels. That takes patience.
 
 But the app is built so that this effort does not repeat forever.
 
 After the first setup, StocKeeper starts working with you.
 
-Quick Add helps you re-add frequently used items from your history. Shopping plans remember useful details like shop, item, and quantity. Purchased items can be moved back into stock. Shared inventory keeps everyone aligned.
+Quick Add helps you re-add frequently used items from your history. Shopping plans remember useful details like shop,
+item, and quantity. Purchased items can be moved back into stock. Shared inventory keeps everyone aligned.
 
 So the first day may feel like setup.
 
 > **But after that, the app becomes lighter, faster, and more useful with every use.**
 
-In upcoming updates, I also want to make this first-day setup even easier. One idea is to add presets or common item suggestions, so users can quickly add generic everyday items and edit them instead of typing everything from scratch.
+In upcoming updates, I also want to make this first-day setup even easier. One idea is to add presets or common item
+suggestions, so users can quickly add generic everyday items and edit them instead of typing everything from scratch.
 
-For example, someone could quickly add common grocery, medicine, household, or office items from a predefined list, then customise the quantity, expiry date, shop, or category based on their actual use.
+For example, someone could quickly add common grocery, medicine, household, or office items from a predefined list, then
+customise the quantity, expiry date, shop, or category based on their actual use.
 
 That would make onboarding faster and help users reach the useful part of the app sooner.
 
@@ -317,7 +340,9 @@ That loop became the heart of the app.
 
 And the cycle continues.
 
-That sounds simple, but it is the part many tools do not complete properly. Some apps help you make a list. Some help you track items. Some remind you about expiry. But if these steps are disconnected, the user still has to manage the real workflow manually.
+That sounds simple, but it is the part many tools do not complete properly. Some apps help you make a list. Some help
+you track items. Some remind you about expiry. But if these steps are disconnected, the user still has to manage the
+real workflow manually.
 
 I wanted StocKeeper to connect the full journey.
 
@@ -340,11 +365,14 @@ And now, that loop works.
 
 This app was not built in one straight line.
 
-There were moments where I worked on it almost every day, spending a lot of time thinking through the database structure, the user flow, Firebase integration, local storage, group inventory, shopping plans, notifications, and how the screens should connect.
+There were moments where I worked on it almost every day, spending a lot of time thinking through the database
+structure, the user flow, Firebase integration, local storage, group inventory, shopping plans, notifications, and how
+the screens should connect.
 
 There were also breaks.
 
-Like many personal projects, it would have been easy to stop halfway. Especially after seeing that other apps existed in the same space, I had that thought:
+Like many personal projects, it would have been easy to stop halfway. Especially after seeing that other apps existed in
+the same space, I had that thought:
 
 > **Am I building something that already exists?**
 
@@ -352,7 +380,8 @@ But then I came back to the original reason.
 
 I was not trying to build the biggest inventory system.
 
-I was trying to build my version of a simple, complete, practical stock management app — one that solves the everyday loop clearly and works for real users.
+I was trying to build my version of a simple, complete, practical stock management app — one that solves the everyday
+loop clearly and works for real users.
 
 So I continued.
 
@@ -362,7 +391,8 @@ I worked through the release process.
 I prepared it for the Play Store.  
 I finished it properly.
 
-The Play Store release process itself was a learning experience — preparing the app, testing it, handling release requirements, writing store content, checking versions, and finally seeing the app published.
+The Play Store release process itself was a learning experience — preparing the app, testing it, handling release
+requirements, writing store content, checking versions, and finally seeing the app published.
 
 That part mattered to me because shipping is different from building.
 
@@ -377,7 +407,8 @@ StocKeeper helped me experience the full journey.
 
 Beyond the app itself, I wanted to prove something to myself.
 
-I wanted to prove that I could take a real problem I noticed in everyday life and turn it into a complete, published product.
+I wanted to prove that I could take a real problem I noticed in everyday life and turn it into a complete, published
+product.
 
 From idea to design.  
 From architecture to implementation.  
@@ -395,7 +426,8 @@ It is not just an interview talking point.
 
 > **It is a real app, built with real use cases in mind.**
 
-StocKeeper is my way of solving a small but common everyday problem — for homes, shared spaces, small offices, and small businesses.
+StocKeeper is my way of solving a small but common everyday problem — for homes, shared spaces, small offices, and small
+businesses.
 
 And for me personally, it is proof that I can build, complete, and ship something meaningful on my own.
 
@@ -407,7 +439,8 @@ StocKeeper is live, but I do not see it as finished forever.
 
 I see it as a product that can improve based on real feedback.
 
-Some ideas I am already thinking about include faster first-day setup, common item presets, better shop suggestions, smoother Quick Add flows, and more helpful insights without making the app heavy or complicated.
+Some ideas I am already thinking about include faster first-day setup, common item presets, better shop suggestions,
+smoother Quick Add flows, and more helpful insights without making the app heavy or complicated.
 
 The goal will stay the same:
 
@@ -417,6 +450,8 @@ The goal will stay the same:
 
 If you try StocKeeper and feel something is missing — a feature, a flow, a shortcut, or a better way to manage a certain type of stock — I would genuinely like to hear it.
 
-That feedback can help shape the next version.
+Your feedback can help shape the next version.
 
-[Play Store link](https://play.google.com/store/apps/details?id=com.vishnu.stockeeper)
+[Download StocKeeper on Google Play](https://play.google.com/store/apps/details?id=com.vishnu.stockeeper)
+
+For feedback or suggestions, please [contact me](https://simhatech.xyz/contact).
