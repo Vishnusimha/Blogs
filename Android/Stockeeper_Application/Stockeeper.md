@@ -7,18 +7,33 @@ tags: [ "StocKeeper", "Android", "Inventory Management", "Kotlin", "Jetpack Comp
 
 # Why I Built Stockeeper — And the Real Problems It Solves
 
-As an Android developer, I always wanted to build and ship a complete app entirely on my own.
+As an Android developer, I have built many small apps while learning and improving my skills.
+
+Notes apps.  
+Simple utility apps.  
+Practice projects.  
+UI experiments.
+
+They helped me learn, but I never felt they were the kind of apps I wanted to seriously publish. There are already
+thousands of simple apps like that, and I did not want to release something just for the sake of saying I had an app on
+the Play Store.
+
+At the same time, I always wanted to build and ship a complete app entirely on my own.
 
 Not just a demo project.  
 Not just something to add to my portfolio.  
 Not something half-finished that only works in screenshots.
 
-I wanted to build something **real** — something useful, practical, and reliable enough for people to use every day.
+I wanted to wait until I found a problem that felt real.
 
-So instead of starting with a random app idea, I started by observing real life around me.
+Something I had seen in everyday life.  
+Something useful beyond screenshots and portfolio demos.  
+Something practical enough for people to rely on every day.
+
+That is when I started paying more attention to the world around me — small shops, homes, shared flats, medicine
+cabinets, shopping lists, and the everyday confusion around stock.
 
 > **That is where StocKeeper began.**
-
 ---
 
 ## The idea started with a simple question
