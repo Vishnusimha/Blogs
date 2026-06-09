@@ -313,17 +313,9 @@ That was the product philosophy.
 
 And now, that loop works.
 
-<div class="blog-image-row">
-  <figure>
-    <img src="../stockeeper_images/Track_every_important_change.webp" alt="Track every important change" />
-    <figcaption>Review stock and plan history with clear activity records.</figcaption>
-  </figure>
-
-  <figure>
-    <img src="../stockeeper_images/Understand_your_stock_better.webp" alt="Understand your stock better" />
-    <figcaption>View reports for stock, expiry, low-stock items, and inventory planning.</figcaption>
-  </figure>
-</div>
+| ![Track every important change](../stockeeper_images/Track_every_important_change.webp) | ![Understand your stock better](../stockeeper_images/Understand_your_stock_better.webp) |
+|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| Review stock and plan history with clear activity records.                              | View reports for stock, expiry, low-stock items, and inventory planning.                |
 
 ---
 
