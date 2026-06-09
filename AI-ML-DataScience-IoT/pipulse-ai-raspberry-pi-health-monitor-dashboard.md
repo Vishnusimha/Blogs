@@ -7,7 +7,7 @@ summary: "PiPulse AI is a lightweight Raspberry Pi health monitoring utility tha
 categories: IoT
 readTime: 8
 ---
-s
+
 # PiPulse AI: A Smart Raspberry Pi Health Monitor with Dashboard and API
 
 Recently, I built **PiPulse AI**, a lightweight Raspberry Pi health monitoring utility designed to make device
