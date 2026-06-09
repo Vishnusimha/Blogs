@@ -133,5 +133,14 @@
     "categories": "AWS",
     "readTime": 23,
     "path": "Cloud/AWS/WebApplicationDeploymentOnLightSailAndVercel/part-3-frontend-domains-ssl-troubleshooting.md"
+  },
+  {
+    "title": "PiPulse AI: A Smart Raspberry Pi Health Monitor with Dashboard and API",
+    "date": "2026-05-25",
+    "slug": "pipulse-ai-raspberry-pi-health-monitor-dashboard",
+    "summary": "PiPulse AI is a lightweight Raspberry Pi health monitoring utility that runs in the background, exposes system metrics through APIs, and provides a clean dashboard to track CPU temperature, memory, disk usage, uptime, and device health.",
+    "categories": "IoT",
+    "readTime": 8,
+    "path": "AI-ML-DataScience-IoT/pipulse-ai-raspberry-pi-health-monitor-dashboard.md"
   }
 ]
