@@ -19,15 +19,13 @@ So instead of starting with a random app idea, I started by observing real life 
 
 That is where StocKeeper began.
 
-![Manage_all_your_stock_in_one_place.webp](../stockeeper_images/Manage_all_your_stock_in_one_place.webp)
-
 ---
 
 ## The idea started with a simple question
 
 The question was simple:
 
-**Why is it still so difficult to know what we already have, what is running low, and what is about to expire?**
+> **Why is it still so difficult to know what we already have, what is running low, and what is about to expire?**
 
 This problem exists in many places.
 
@@ -66,13 +64,15 @@ A practical workflow.
 A complete loop.
 No unnecessary complexity.
 
+![stockeeper_problems.png](../stockeeper_images/stockeeper_problems.png)
+
 ---
 
 ## The small business problem
 
 Walk into any small shop and look at the back shelf.
 
-You will often find items that expired weeks ago — sometimes even months ago. Not because the owner was careless, but because there was no simple system to track what was bought, when it was bought, how fast it was moving, and when it would expire.
+> You will often find items that expired weeks ago — sometimes even months ago. Not because the owner was careless, but because there was no simple system to track what was bought, when it was bought, how fast it was moving, and when it would expire.
 
 For a small business, this is not a small issue.
 
@@ -128,8 +128,6 @@ The first trip takes effort.
 The next one becomes easier.
 That is exactly how the app is designed to work.
 
-![Manage_shared_group_inventory.webp](../stockeeper_images/Manage_shared_group_inventory.webp)
-
 ---
 
 ## The medicine cabinet nobody understands
@@ -159,7 +157,6 @@ That means you can use it in time, replace it when needed, or safely clear it ou
 
 For me, this was not just an inventory feature. It was a real household safety problem worth solving.
 
-![Add_stock_faster_with_smart_alerts.webp](../stockeeper_images/Add_stock_faster_with_smart_alerts.webp)
 ---
 
 ## Useful beyond homes and shops
@@ -246,7 +243,7 @@ The app is built around a practical everyday workflow:
 This is what connects the app together. It is not just a list of items. It is a complete flow from stock tracking to
 alerts, planning, shopping, and updating inventory again.
 
-![Plan_your_shopping_before_you_buy.webp](../stockeeper_images/Plan_your_shopping_before_you_buy.webp)
+![stockeeper_solutions.png](../stockeeper_images/stockeeper_solutions.png)
 
 ---
 
@@ -274,15 +271,13 @@ For example, someone could quickly add common grocery, medicine, household, or o
 
 That would make onboarding faster and help users reach the useful part of the app sooner.
 
-![Tick_off_items_as_you_shop.webp](../stockeeper_images/Tick_off_items_as_you_shop.webp)
-
 ---
 
 ## The loop I wanted to close
 
 While building StocKeeper, I kept coming back to one simple cycle:
 
-**Stock → Alerts → Plan → Shop → Add to Stock → Back to Stock.**
+> **Stock → Alerts → Plan → Shop → Add to Stock → Back to Stock.**
 
 That loop became the heart of the app.
 
@@ -313,9 +308,7 @@ That was the product philosophy.
 
 And now, that loop works.
 
-| ![Track every important change](../stockeeper_images/Track_every_important_change.webp) | ![Understand your stock better](../stockeeper_images/Understand_your_stock_better.webp) |
-|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| Review stock and plan history with clear activity records.                              | View reports for stock, expiry, low-stock items, and inventory planning.                |
+![Stockloop_landscape.png](../stockeeper_images/Stockloop_landscape.png)
 
 ---
 
