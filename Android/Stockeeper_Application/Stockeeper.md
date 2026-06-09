@@ -92,6 +92,8 @@ It is not trying to replace big supermarket systems.
 
 It is for the smaller places where a simple, fast, understandable tool can make a real difference.
 
+![Stay_ahead_with_smart_alerts.png](../stockeeper_images/Stay_ahead_with_smart_alerts.png)
+
 ---
 
 ## The household problem — the phone call nobody wants to make
@@ -126,6 +128,8 @@ The first trip takes effort.
 The next one becomes easier.
 That is exactly how the app is designed to work.
 
+![Manage_shared_group_inventory.png](../stockeeper_images/Manage_shared_group_inventory.png)
+
 ---
 
 ## The medicine cabinet nobody understands
@@ -155,6 +159,7 @@ That means you can use it in time, replace it when needed, or safely clear it ou
 
 For me, this was not just an inventory feature. It was a real household safety problem worth solving.
 
+![Add_stock_faster_with_smart_alerts.png](../stockeeper_images/Add_stock_faster_with_smart_alerts.png)
 ---
 
 ## Useful beyond homes and shops
@@ -241,6 +246,10 @@ The app is built around a practical everyday workflow:
 This is what connects the app together. It is not just a list of items. It is a complete flow from stock tracking to
 alerts, planning, shopping, and updating inventory again.
 
+![Plan_your_shopping_before_you_buy.png](../stockeeper_images/Plan_your_shopping_before_you_buy.png)
+
+---
+
 ## The only hard day is the first day
 
 I want to be honest about one thing.
@@ -264,6 +273,8 @@ In upcoming updates, I also want to make this first-day setup even easier. One i
 For example, someone could quickly add common grocery, medicine, household, or office items from a predefined list, then customise the quantity, expiry date, shop, or category based on their actual use.
 
 That would make onboarding faster and help users reach the useful part of the app sooner.
+
+![Tick_off_items_as_you_shop.png](../stockeeper_images/Tick_off_items_as_you_shop.png)
 
 ---
 
@@ -301,6 +312,10 @@ Simple enough to use every day.
 That was the product philosophy.
 
 And now, that loop works.
+
+![Track_every_important_change.png](../stockeeper_images/Track_every_important_change.png)
+
+![Understand_your_stock_better.png](../stockeeper_images/Understand_your_stock_better.png)
 
 ---
 
