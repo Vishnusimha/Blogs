@@ -87,7 +87,7 @@ That became the direction for StocKeeper:
 - A complete loop
 - No unnecessary complexity
 
-![StocKeeper problem overview](../stockeeper_images/stockeeper_problems.png)
+![StocKeeper problem overview](stockeeper_images/stockeeper_problems.png)
 
 ---
 
@@ -287,7 +287,7 @@ The app is built around a practical everyday workflow:
 This is what connects the app together. It is not just a list of items. It is a complete flow from stock tracking to
 alerts, planning, shopping, and updating inventory again.
 
-![StocKeeper solution overview](../stockeeper_images/stockeeper_solutions.png)
+![StocKeeper solution overview](stockeeper_images/stockeeper_solutions.png)
 
 ---
 
@@ -357,7 +357,7 @@ That was the product philosophy.
 
 And now, that loop works.
 
-![StocKeeper inventory loop](../stockeeper_images/Stockloop_landscape.png)
+![StocKeeper inventory loop](stockeeper_images/Stockloop_landscape.png)
 
 ---
 
