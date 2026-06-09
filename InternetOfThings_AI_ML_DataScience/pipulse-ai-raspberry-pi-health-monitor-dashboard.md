@@ -22,6 +22,8 @@ So I created PiPulse AI as a small but useful monitoring layer for Raspberry Pi.
 It runs on the Pi, collects important system health information, exposes it through APIs, and also hosts a simple
 browser-based dashboard where the data can be viewed visually.
 
+---
+
 ## Why I Built PiPulse AI
 
 Raspberry Pi is extremely useful for home servers, IoT projects, automation, dashboards, and edge computing experiments.
@@ -83,6 +85,10 @@ The dashboard can show useful system information such as:
 * Overall health condition
 
 The purpose is not to make it overly complex. I wanted it to be clean, practical, and easy to understand.
+
+![pipulse-ai-dashboard.png](iot_images/pipulse-ai-dashboard.png)
+
+---
 
 ## API-First Design
 
@@ -191,8 +197,6 @@ For example, later it can support:
 * Android app integration
 * AI-based system health summaries
 * Multiple Raspberry Pi monitoring
-
-![pipulse-ai-dashboard.png](iot_images/pipulse-ai-dashboard.png)
 
 ## Future Improvements
 
