@@ -99,6 +99,15 @@
     "path": "Stockeeper_Application/Stockeeper.md"
   },
   {
+    "title": "Setting Up Android CI with GitHub Actions: A Practical Step-by-Step Guide",
+    "date": "2026-06-01",
+    "slug": "android-ci-github-actions-step-by-step-guide",
+    "summary": "Step-by-step guide to setting up Android CI with GitHub Actions, including unit tests, lint checks, APK/AAB builds, artifact uploads, and branch protection rules.",
+    "categories": "Android",
+    "readTime": 12,
+    "path": "DevOps/android-github-actions-ci-blog.md"
+  },
+  {
     "title": "Part 1: Architecture and Deployment Strategy for Full-Stack Applications",
     "date": "2026-05-30",
     "slug": "aws-lightsail-deployment-part-1-architecture",
