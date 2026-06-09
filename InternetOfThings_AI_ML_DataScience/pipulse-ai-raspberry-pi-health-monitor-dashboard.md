@@ -245,3 +245,5 @@ terminal.
 This project also gives me a strong base for future Raspberry Pi + AI + IoT experiments.
 
 PiPulse AI is small, practical, and extensible — exactly the kind of project I enjoy building.
+
+[pipulse-ai-chat-server](https://github.com/Vishnusimha/pipulse-ai-chat-server)
