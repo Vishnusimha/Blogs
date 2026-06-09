@@ -1,3 +1,13 @@
+---
+title: "Part 1: Architecture and Deployment Strategy for Full-Stack Applications"
+date: 2026-05-30
+slug: "aws-lightsail-deployment-part-1-architecture"
+tags: [ "AWS", "Lightsail", "Vercel", "Deployment", "Docker", "Nginx" ]
+summary: "Comprehensive guide to planning cost-effective full-stack deployments: learn architecture decisions, Lightsail vs EC2, Docker strategy, domain setup, and deployment best practices."
+categories: AWS
+readTime: 22
+---
+
 # Part 1 — Architecture and Deployment Strategy
 
 ## How to Plan a Cost-Effective Full-Stack Deployment with AWS Lightsail, Docker, MySQL, Nginx, SSL, and Vercel

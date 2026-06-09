@@ -1,3 +1,13 @@
+---
+title: "SQL Interview Questions"
+date: 2026-06-08
+slug: "sql-interview-questions-database"
+tags: [ "SQL", "Database", "Joins", "Transactions", "Normalization" ]
+summary: "Common SQL interview questions covering CRUD operations, joins, normalization, indexes, transactions, and performance optimization for database developer interviews."
+categories: Database
+readTime: 7
+---
+
 # SQL Questions
 
 1. What is SQL? Explain its significance in the context of database management systems.

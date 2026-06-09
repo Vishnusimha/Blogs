@@ -1,3 +1,13 @@
+---
+title: "Docker Overview for Beginners and Beyond"
+date: 2026-06-08
+slug: "docker-overview-beginners-containers-guide"
+tags: [ "Docker", "Containers", "Dockerfile", "Volumes", "Networking", "DevOps" ]
+summary: "Comprehensive Docker guide for beginners: understand images, containers, Dockerfiles, Docker CLI, volumes, networking, Docker Compose, and practical deployment strategies."
+categories: DevOps
+readTime: 8
+---
+
 # 🚢 Docker Overview for Beginners and Beyond
 
 > 📎 [View with Images on GitHub](https://github.com/Vishnusimha/Blogs/blob/main/Spring/Docker.md)

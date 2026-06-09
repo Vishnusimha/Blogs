@@ -1,3 +1,13 @@
+---
+title: "Part 3: Frontend Deployment, Domains, SSL, and Troubleshooting"
+date: 2026-05-30
+slug: "aws-lightsail-deployment-part-3-frontend-ssl"
+tags: [ "Vercel", "Domains", "SSL", "HTTPS", "CORS", "DNS" ]
+summary: "Complete guide to connecting Vercel frontend to Lightsail backend: set up custom domains, configure DNS, enable HTTPS with Let's Encrypt, fix CORS and SSL issues."
+categories: AWS
+readTime: 23
+---
+
 # Part 3: Frontend Deployment, Domains, SSL, and Troubleshooting
 
 ## Connecting a Vercel Frontend to an AWS Lightsail Backend With a Custom Domain, HTTPS, Nginx, and Production-Ready CORS

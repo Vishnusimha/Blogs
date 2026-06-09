@@ -1,8 +1,11 @@
 ---
 title: "Serializable vs Parcelable in Android: Which One Should You Use?"
-description: "A beginner-friendly Android developer guide explaining the difference between Serializable and Parcelable, including performance, use cases, @Parcelize, and best practices for passing data between screens."
-date: "2026-06-08"
-tags: [ "Android", "Kotlin", "Serializable", "Parcelable", "Parcelize", "App Development" ]
+date: 2026-06-08
+slug: "serializable-vs-parcelable-android"
+tags: [ "Android", "Kotlin", "Serializable", "Parcelable", "Parcelize" ]
+summary: "Compare Serializable and Parcelable in Android: understand performance differences, when to use @Parcelize, and best practices for passing data between screens efficiently."
+categories: Android
+readTime: 4
 ---
 
 # Serializable vs Parcelable in Android

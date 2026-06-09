@@ -1,8 +1,11 @@
 ---
 title: "Linux Skills Every Android, Backend, and Cloud Developer Should Know"
-description: "A practical developer-focused Linux guide covering essential commands, file management, permissions, processes, networking, logs, Bash scripting, SSH, Git, Docker, Spring Boot deployment, Android development workflows, and AWS cloud operations."
-date: "2026-06-08"
-tags: [ "Linux", "Android", "Spring Boot", "Backend Development", "AWS", "Cloud", "DevOps", "Bash", "Docker" ]
+date: 2026-06-08
+slug: "linux-skills-developers-android-backend-cloud"
+tags: [ "Linux", "Bash", "SSH", "Docker", "AWS" ]
+summary: "Essential Linux guide for developers: master commands, file management, permissions, processes, networking, SSH, Docker, and deployment skills for Android, Spring Boot, and AWS."
+categories: DevOps
+readTime: 19
 ---
 
 # Linux Skills Every Android, Backend, and Cloud Developer Should Know

@@ -1,3 +1,13 @@
+---
+title: "Basics of GitHub Actions"
+date: 2026-06-08
+slug: "github-actions-ci-cd-basics"
+tags: [ "GitHub Actions", "CI/CD", "Workflows", "Automation" ]
+summary: "Introduction to GitHub Actions CI/CD automation: learn workflows, jobs, steps, and build your first continuous integration and deployment pipeline on GitHub."
+categories: DevOps
+readTime: 3
+---
+
 # Basics of GitHub Actions
 
 ### 1. **What is GitHub Actions?**

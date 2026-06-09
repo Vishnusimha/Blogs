@@ -1,3 +1,13 @@
+---
+title: "Most Commonly Used Design Patterns in Java Backend Development (Spring Boot)"
+date: 2026-06-08
+slug: "common-design-patterns-java-spring-boot"
+tags: [ "Design Patterns", "Java", "Spring Boot", "Backend Engineering" ]
+summary: "Comprehensive guide to essential design patterns for Spring Boot development: learn Singleton, Factory, Builder, Adapter, Observer, Strategy patterns with real examples and best practices."
+categories: Backend Engineering
+readTime: 8
+---
+
 
 
 # Most Commonly Used Design Patterns in Java Backend Development (Spring Boot)✅

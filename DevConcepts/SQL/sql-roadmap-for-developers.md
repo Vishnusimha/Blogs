@@ -1,8 +1,11 @@
 ---
 title: "SQL Roadmap for Developers: From Basics to Advanced Queries"
-description: "A practical SQL learning guide for developers covering database basics, CRUD operations, filtering, joins, grouping, subqueries, indexes, transactions, normalization, views, stored procedures, performance, and interview-style practice questions."
-date: "2026-06-08"
-tags: [ "SQL", "Database", "Backend Development", "Data", "Interview Preparation", "Software Engineering" ]
+date: 2026-06-08
+slug: "sql-roadmap-developers-basics-advanced"
+tags: [ "SQL", "Database", "Queries", "Indexes", "Transactions" ]
+summary: "Complete SQL learning guide for developers covering CRUD operations, joins, grouping, subqueries, indexes, transactions, normalization, and real-world database optimization."
+categories: Database
+readTime: 21
 ---
 
 # SQL Roadmap for Developers: From Basics to Advanced Queries

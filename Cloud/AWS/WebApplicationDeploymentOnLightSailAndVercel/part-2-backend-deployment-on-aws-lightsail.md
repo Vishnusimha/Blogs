@@ -1,3 +1,13 @@
+---
+title: "Part 2: Backend Deployment on AWS Lightsail"
+date: 2026-05-30
+slug: "aws-lightsail-deployment-part-2-backend"
+tags: [ "AWS", "Lightsail", "Docker", "MySQL", "Nginx", "Deployment" ]
+summary: "Step-by-step backend deployment guide: provision Lightsail, run Docker containers, set up MySQL, configure Nginx, enable HTTPS, and deploy production-ready APIs."
+categories: AWS
+readTime: 21
+---
+
 # Part 2 — Backend Deployment on AWS Lightsail
 
 ## A Practical, Beginner-Friendly Guide to Deploying a Dockerized Backend with MySQL, Static IP, Nginx, HTTPS, and Production Environment Configuration

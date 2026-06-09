@@ -1,3 +1,13 @@
+---
+title: "Authentication vs Authorisation"
+date: 2026-06-08
+slug: "authentication-vs-authorisation-security"
+tags: [ "Authentication", "Authorization", "Security", "Access Control" ]
+summary: "Quick guide to understanding the difference between authentication and authorization: learn how to verify user identity and control access to secure systems."
+categories: Security
+readTime: 1
+---
+
 # Authentication VS Authorisation
 
 Authentication and Authorization are the key components of **secure data access control** 👨‍💻🔐

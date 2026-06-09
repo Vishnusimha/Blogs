@@ -1,3 +1,13 @@
+---
+title: "Kubernetes Guide for Container Orchestration"
+date: 2026-06-08
+slug: "kubernetes-container-orchestration-guide"
+tags: [ "Kubernetes", "Pods", "Deployments", "Services", "Orchestration" ]
+summary: "Kubernetes fundamentals guide covering cluster architecture, Pods, Services, Deployments, StatefulSets, and production-ready container orchestration concepts."
+categories: DevOps
+readTime: 7
+---
+
 # [Kubernetes](https://github.com/Vishnusimha/Blogs/blob/main/Spring/Kubernetes.md)
 This page contains images. If there is any issue with loading, open it directly in [Kubernetes](https://github.com/Vishnusimha/Blogs/blob/main/DevOps/Kubernetes.md)
 

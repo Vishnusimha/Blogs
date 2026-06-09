@@ -1,8 +1,11 @@
 ---
 title: "Why I Built StocKeeper — And the Real Problems It Solves"
-description: "The story behind StocKeeper, an Android inventory management app built to solve everyday stock, expiry, shopping, and shared inventory problems for homes, small businesses, and shared spaces."
-date: "2026-06-08"
-tags: [ "StocKeeper", "Android", "Inventory Management", "Kotlin", "Jetpack Compose", "Firebase" ]
+date: 2026-06-08
+slug: "why-i-built-stockeeper-inventory-management"
+tags: [ "StocKeeper", "Android", "Kotlin", "Jetpack Compose", "Firebase", "Inventory Management" ]
+summary: "Discover how StocKeeper solves real inventory, expiry tracking, and shared stock problems for homes, small businesses, and shared spaces with a simple Android app."
+categories: Android
+readTime: 15
 ---
 
 # Why I Built StocKeeper — And the Real Problems It Solves

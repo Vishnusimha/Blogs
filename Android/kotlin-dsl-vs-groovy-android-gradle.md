@@ -1,8 +1,11 @@
 ---
 title: "Kotlin DSL vs Groovy DSL in Android Gradle: Which One Should You Use?"
-description: "A practical Android developer guide comparing Kotlin DSL and Groovy DSL for Gradle build scripts, including syntax, type safety, IDE support, performance, migration tips, and when to use each one."
-date: "2026-06-08"
-tags: [ "Android", "Gradle", "Kotlin DSL", "Groovy DSL", "Build System" ]
+date: 2026-06-08
+slug: "kotlin-dsl-vs-groovy-dsl-android-gradle"
+tags: [ "Android", "Kotlin", "Gradle", "Kotlin DSL", "Groovy DSL" ]
+summary: "Practical comparison of Kotlin DSL and Groovy DSL for Android Gradle: learn about type safety, IDE support, performance, and when to migrate your build scripts."
+categories: Android
+readTime: 13
 ---
 
 # Kotlin DSL vs Groovy DSL in Android Gradle: Which One Should You Use?
