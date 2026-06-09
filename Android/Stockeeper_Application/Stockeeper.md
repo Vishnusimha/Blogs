@@ -92,8 +92,6 @@ It is not trying to replace big supermarket systems.
 
 It is for the smaller places where a simple, fast, understandable tool can make a real difference.
 
-![Stay_ahead_with_smart_alerts.webp](../stockeeper_images/Stay_ahead_with_smart_alerts.webp)
-
 ---
 
 ## The household problem — the phone call nobody wants to make
