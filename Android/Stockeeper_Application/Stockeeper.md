@@ -19,7 +19,7 @@ So instead of starting with a random app idea, I started by observing real life 
 
 That is where StocKeeper began.
 
-![Manage_all_your_stock_in_one_place.png](../stockeeper_images/Manage_all_your_stock_in_one_place.png)
+![Manage_all_your_stock_in_one_place.webp](../stockeeper_images/Manage_all_your_stock_in_one_place.webp)
 
 ---
 
@@ -92,7 +92,7 @@ It is not trying to replace big supermarket systems.
 
 It is for the smaller places where a simple, fast, understandable tool can make a real difference.
 
-![Stay_ahead_with_smart_alerts.png](../stockeeper_images/Stay_ahead_with_smart_alerts.png)
+![Stay_ahead_with_smart_alerts.webp](../stockeeper_images/Stay_ahead_with_smart_alerts.webp)
 
 ---
 
@@ -128,7 +128,7 @@ The first trip takes effort.
 The next one becomes easier.
 That is exactly how the app is designed to work.
 
-![Manage_shared_group_inventory.png](../stockeeper_images/Manage_shared_group_inventory.png)
+![Manage_shared_group_inventory.webp](../stockeeper_images/Manage_shared_group_inventory.webp)
 
 ---
 
@@ -159,7 +159,7 @@ That means you can use it in time, replace it when needed, or safely clear it ou
 
 For me, this was not just an inventory feature. It was a real household safety problem worth solving.
 
-![Add_stock_faster_with_smart_alerts.png](../stockeeper_images/Add_stock_faster_with_smart_alerts.png)
+![Add_stock_faster_with_smart_alerts.webp](../stockeeper_images/Add_stock_faster_with_smart_alerts.webp)
 ---
 
 ## Useful beyond homes and shops
@@ -246,7 +246,7 @@ The app is built around a practical everyday workflow:
 This is what connects the app together. It is not just a list of items. It is a complete flow from stock tracking to
 alerts, planning, shopping, and updating inventory again.
 
-![Plan_your_shopping_before_you_buy.png](../stockeeper_images/Plan_your_shopping_before_you_buy.png)
+![Plan_your_shopping_before_you_buy.webp](../stockeeper_images/Plan_your_shopping_before_you_buy.webp)
 
 ---
 
@@ -274,7 +274,7 @@ For example, someone could quickly add common grocery, medicine, household, or o
 
 That would make onboarding faster and help users reach the useful part of the app sooner.
 
-![Tick_off_items_as_you_shop.png](../stockeeper_images/Tick_off_items_as_you_shop.png)
+![Tick_off_items_as_you_shop.webp](../stockeeper_images/Tick_off_items_as_you_shop.webp)
 
 ---
 
@@ -313,9 +313,9 @@ That was the product philosophy.
 
 And now, that loop works.
 
-![Track_every_important_change.png](../stockeeper_images/Track_every_important_change.png)
+![Track_every_important_change.webp](../stockeeper_images/Track_every_important_change.webp)
 
-![Understand_your_stock_better.png](../stockeeper_images/Understand_your_stock_better.png)
+![Understand_your_stock_better.webp](../stockeeper_images/Understand_your_stock_better.webp)
 
 ---
 
