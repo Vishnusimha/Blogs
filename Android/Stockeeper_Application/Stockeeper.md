@@ -5,7 +5,7 @@ date: "2026-06-08"
 tags: [ "StocKeeper", "Android", "Inventory Management", "Kotlin", "Jetpack Compose", "Firebase" ]
 ---
 
-# Why I Built Stockeeper — And the Real Problems It Solves
+# Why I Built StocKeeper — And the Real Problems It Solves
 
 As an Android developer, I have built many small apps while learning and improving my skills.
 
