@@ -34,6 +34,7 @@ That is when I started paying more attention to the world around me — small sh
 cabinets, shopping lists, and the everyday confusion around stock.
 
 > **That is where StocKeeper began.**
+
 ---
 
 ## The idea started with a simple question
