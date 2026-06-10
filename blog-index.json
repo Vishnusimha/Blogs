@@ -1,5 +1,23 @@
 [
   {
+    "title": "Basic Electronics Every ECE & IoT Student Must Understand",
+    "date": "2026-06-10",
+    "slug": "basic-electronics-ece-iot-students",
+    "summary": "A beginner-friendly guide to the essential electronics concepts every ECE and IoT student should know: voltage, current, resistance, power, Ohm’s Law, Kirchhoff’s Laws, series and parallel circuits, components, power supplies, grounding, and practical debugging.",
+    "categories": "Electronics",
+    "readTime": 18,
+    "path": "Electronics/basic-electronics-ece-iot-students.md"
+  },
+  {
+    "title": "Digital Electronics Basics Every ECE, IoT, and Embedded Learner Should Understand",
+    "date": "2026-06-10",
+    "slug": "digital-electronics-basics-ece-iot-embedded",
+    "summary": "A beginner-to-intermediate guide to digital electronics for ECE, IoT, embedded, and software-oriented learners, covering logic gates, sequential logic, ADC, DAC, PWM, GPIO, interrupts, timers, debouncing, and memory with clear explanations and practical examples.",
+    "categories": "Electronics",
+    "readTime": 22,
+    "path": "Electronics/digital-electronics-basics-ece-iot-embedded.md"
+  },
+  {
     "title": "Authentication vs Authorisation",
     "date": "2026-06-08",
     "slug": "authentication-vs-authorisation-security",
