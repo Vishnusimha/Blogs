@@ -1,5 +1,5 @@
 ---
-title: "Android Views, ViewGroups, Layouts and Custom Views Interview Notes"
+title: "DAY 2 Android Views, ViewGroups, Layouts and Custom Views Interview Notes"
 date: 2026-06-12
 slug: "android-views-viewgroups-layouts-custom-views-interview-notes"
 tags: [ "Notes", "Android", "Views", "ViewGroups", "ConstraintLayout", "Custom Views", "UI Performance" ]

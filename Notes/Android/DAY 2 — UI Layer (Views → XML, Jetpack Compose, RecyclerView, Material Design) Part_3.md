@@ -1,5 +1,5 @@
 ---
-title: "Material Design and RecyclerView Interview Notes"
+title: "DAY 2 Material Design and RecyclerView Interview Notes"
 date: 2026-06-12
 slug: "material-design-recyclerview-interview-notes"
 tags: [ "Notes", "Android", "Material Design", "RecyclerView", "Adapters", "DiffUtil", "Paging 3" ]

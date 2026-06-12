@@ -99,7 +99,7 @@
     "path": "Notes/Android/DAY 5 Room Persistence Library Complete Guide.md"
   },
   {
-    "title": "Hilt Dependency Injection: Complete Senior-Level Guide for Android",
+    "title": "DAY 3 Hilt Dependency Injection: Complete Senior-Level Guide for Android",
     "date": "2026-06-20",
     "slug": "hilt-dependency-injection-android-guide",
     "summary": "An exhaustive guide to Hilt DI in Android, covering everything from basic setup to advanced concepts like qualifiers, assisted injection, and testing.",
@@ -160,24 +160,6 @@
     "categories": "Notes",
     "readTime": 15,
     "path": "Notes/arrays/A_Java_Practice_EasyTOHardArrays_Day2.md"
-  },
-  {
-    "title": "Android Architecture, State and Dependency Management Guide",
-    "date": "2026-06-12",
-    "slug": "android-architecture-state-dependency-management-guide",
-    "summary": "Personal senior Android architecture notes covering MVC, MVP, MVVM, Clean Architecture, Repository Pattern, Single Source of Truth, MVI, unidirectional data flow, modular architecture, state management, dependency injection, navigation, and testing.",
-    "categories": "Notes",
-    "readTime": 30,
-    "path": "Notes/Android/DAY 3 - Architecture, State & Dependency Management.md"
-  },
-  {
-    "title": "Android Architecture, ViewModel and Dependency Injection Interview Q&A",
-    "date": "2026-06-12",
-    "slug": "android-architecture-viewmodel-dependency-injection-interview-qa",
-    "summary": "Personal Android interview Q&A notes covering Dependency Injection, Hilt and Dagger, Data Binding, ViewModel, LiveData, MVVM, ViewModelFactory, Navigation Component, deprecated ViewModelProviders, and ViewModelStoreOwner.",
-    "categories": "Notes",
-    "readTime": 16,
-    "path": "Notes/Android/DAY 3 - Architecture, State & Dependency Management Q & A.md"
   },
   {
     "title": "Android Concurrency Concepts: Coroutines, Flow and Background Execution",
@@ -243,33 +225,6 @@
     "path": "Notes/Android/DAY 6 Testing, Debugging, Performance, Build & Compatibility.md"
   },
   {
-    "title": "Android UI Layer Guide: Views, XML, Jetpack Compose, RecyclerView and Material Design",
-    "date": "2026-06-12",
-    "slug": "android-ui-layer-views-xml-compose-recyclerview-material",
-    "summary": "Personal Android UI layer notes covering the View system, XML layouts, RecyclerView, custom views, Material Design, Jetpack Compose state, recomposition, side effects, lifecycle awareness, and Compose vs XML trade-offs.",
-    "categories": "Notes",
-    "readTime": 28,
-    "path": "Notes/Android/DAY 2 — UI Layer (Views, XML, Jetpack Compose, RecyclerView, Material).md"
-  },
-  {
-    "title": "Android UI Layer Interview Questions Part 1",
-    "date": "2026-06-12",
-    "slug": "android-ui-layer-interview-questions-part-1",
-    "summary": "Personal Android interview notes covering RecyclerView, ListView, Material Design, ViewBinding, layouts, custom views, user input, responsive design, pagination, themes, swipe-to-refresh, resources, and animations.",
-    "categories": "Notes",
-    "readTime": 18,
-    "path": "Notes/Android/DAY 2 — UI Layer (Views → XML, Jetpack Compose, RecyclerView, Material Design) Part_1.md"
-  },
-  {
-    "title": "Android Views, ViewGroups, Layouts and Custom Views Interview Notes",
-    "date": "2026-06-12",
-    "slug": "android-views-viewgroups-layouts-custom-views-interview-notes",
-    "summary": "Personal Android interview notes covering Views, ViewGroups, rendering lifecycle, touch dispatch, ConstraintLayout, LinearLayout, RelativeLayout, custom views, Canvas drawing, and UI performance optimization.",
-    "categories": "Notes",
-    "readTime": 22,
-    "path": "Notes/Android/DAY 2 — UI Layer (Views → XML, Jetpack Compose, RecyclerView, Material Design) Part_2.md"
-  },
-  {
     "title": "DAY 1 Android Fundamentals and System Internals Part 1",
     "date": "2026-06-12",
     "slug": "android-fundamentals-system-internals-part-1",
@@ -295,6 +250,60 @@
     "categories": "Notes",
     "readTime": 10,
     "path": "Notes/Android/DAY 1 Android_Manifest_File_Guide.md"
+  },
+  {
+    "title": "DAY 2 Android UI Layer Guide: Views, XML, Jetpack Compose, RecyclerView and Material Design",
+    "date": "2026-06-12",
+    "slug": "android-ui-layer-views-xml-compose-recyclerview-material",
+    "summary": "Personal Android UI layer notes covering the View system, XML layouts, RecyclerView, custom views, Material Design, Jetpack Compose state, recomposition, side effects, lifecycle awareness, and Compose vs XML trade-offs.",
+    "categories": "Notes",
+    "readTime": 28,
+    "path": "Notes/Android/DAY 2 — UI Layer (Views, XML, Jetpack Compose, RecyclerView, Material).md"
+  },
+  {
+    "title": "DAY 2 Android UI Layer Interview Questions Part 1",
+    "date": "2026-06-12",
+    "slug": "android-ui-layer-interview-questions-part-1",
+    "summary": "Personal Android interview notes covering RecyclerView, ListView, Material Design, ViewBinding, layouts, custom views, user input, responsive design, pagination, themes, swipe-to-refresh, resources, and animations.",
+    "categories": "Notes",
+    "readTime": 18,
+    "path": "Notes/Android/DAY 2 — UI Layer (Views → XML, Jetpack Compose, RecyclerView, Material Design) Part_1.md"
+  },
+  {
+    "title": "DAY 2 Android Views, ViewGroups, Layouts and Custom Views Interview Notes",
+    "date": "2026-06-12",
+    "slug": "android-views-viewgroups-layouts-custom-views-interview-notes",
+    "summary": "Personal Android interview notes covering Views, ViewGroups, rendering lifecycle, touch dispatch, ConstraintLayout, LinearLayout, RelativeLayout, custom views, Canvas drawing, and UI performance optimization.",
+    "categories": "Notes",
+    "readTime": 22,
+    "path": "Notes/Android/DAY 2 — UI Layer (Views → XML, Jetpack Compose, RecyclerView, Material Design) Part_2.md"
+  },
+  {
+    "title": "DAY 2 Material Design and RecyclerView Interview Notes",
+    "date": "2026-06-12",
+    "slug": "material-design-recyclerview-interview-notes",
+    "summary": "Personal Android interview notes covering Material Design principles, Material Components, color and theming systems, elevation, RecyclerView, adapters, ViewHolder pattern, LayoutManagers, pagination, ItemDecorations, and efficient list updates.",
+    "categories": "Notes",
+    "readTime": 20,
+    "path": "Notes/Android/DAY 2 — UI Layer (Views → XML, Jetpack Compose, RecyclerView, Material Design) Part_3.md"
+  },
+  {
+    "title": "DAY 3 Android Architecture, State and Dependency Management Guide",
+    "date": "2026-06-12",
+    "slug": "android-architecture-state-dependency-management-guide",
+    "summary": "Personal senior Android architecture notes covering MVC, MVP, MVVM, Clean Architecture, Repository Pattern, Single Source of Truth, MVI, unidirectional data flow, modular architecture, state management, dependency injection, navigation, and testing.",
+    "categories": "Notes",
+    "readTime": 30,
+    "path": "Notes/Android/DAY 3 - Architecture, State & Dependency Management.md"
+  },
+  {
+    "title": "DAY 3 Android Architecture, ViewModel and Dependency Injection Interview Q&A",
+    "date": "2026-06-12",
+    "slug": "android-architecture-viewmodel-dependency-injection-interview-qa",
+    "summary": "Personal Android interview Q&A notes covering Dependency Injection, Hilt and Dagger, Data Binding, ViewModel, LiveData, MVVM, ViewModelFactory, Navigation Component, deprecated ViewModelProviders, and ViewModelStoreOwner.",
+    "categories": "Notes",
+    "readTime": 16,
+    "path": "Notes/Android/DAY 3 - Architecture, State & Dependency Management Q & A.md"
   },
   {
     "title": "DataStore, SharedPreferences and EncryptedSharedPreferences Guide",
@@ -331,15 +340,6 @@
     "categories": "Notes",
     "readTime": 8,
     "path": "Notes/Android/DAY 8 Kotlin, System Thinking & Interview Readiness.md"
-  },
-  {
-    "title": "Material Design and RecyclerView Interview Notes",
-    "date": "2026-06-12",
-    "slug": "material-design-recyclerview-interview-notes",
-    "summary": "Personal Android interview notes covering Material Design principles, Material Components, color and theming systems, elevation, RecyclerView, adapters, ViewHolder pattern, LayoutManagers, pagination, ItemDecorations, and efficient list updates.",
-    "categories": "Notes",
-    "readTime": 20,
-    "path": "Notes/Android/DAY 2 — UI Layer (Views → XML, Jetpack Compose, RecyclerView, Material Design) Part_3.md"
   },
   {
     "title": "Room Database Migrations and CRUD Complete Guide",

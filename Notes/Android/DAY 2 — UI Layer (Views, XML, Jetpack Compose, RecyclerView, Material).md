@@ -1,5 +1,5 @@
 ---
-title: "Android UI Layer Guide: Views, XML, Jetpack Compose, RecyclerView and Material Design"
+title: "DAY 2 Android UI Layer Guide: Views, XML, Jetpack Compose, RecyclerView and Material Design"
 date: 2026-06-12
 slug: "android-ui-layer-views-xml-compose-recyclerview-material"
 tags: [ "Notes", "Android", "UI Layer", "Jetpack Compose", "RecyclerView", "Material Design", "XML Views" ]

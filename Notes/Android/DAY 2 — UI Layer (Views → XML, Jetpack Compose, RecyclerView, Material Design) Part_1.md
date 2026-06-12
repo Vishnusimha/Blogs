@@ -1,5 +1,5 @@
 ---
-title: "Android UI Layer Interview Questions Part 1"
+title: "DAY 2 Android UI Layer Interview Questions Part 1"
 date: 2026-06-12
 slug: "android-ui-layer-interview-questions-part-1"
 tags: [ "Notes", "Android", "UI Layer", "RecyclerView", "ViewBinding", "Layouts", "Material Design" ]

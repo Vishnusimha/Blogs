@@ -1,5 +1,5 @@
 ---
-title: "Android Architecture, State and Dependency Management Guide"
+title: "DAY 3 Android Architecture, State and Dependency Management Guide"
 date: 2026-06-12
 slug: "android-architecture-state-dependency-management-guide"
 tags: [ "Notes", "Android", "Architecture", "MVVM", "Clean Architecture", "State Management", "Dependency Injection" ]

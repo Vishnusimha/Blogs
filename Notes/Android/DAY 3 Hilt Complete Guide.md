@@ -1,5 +1,5 @@
 ---
-title: "Hilt Dependency Injection: Complete Senior-Level Guide for Android"
+title: "DAY 3 Hilt Dependency Injection: Complete Senior-Level Guide for Android"
 date: 2026-06-20
 slug: "hilt-dependency-injection-android-guide"
 tags: [ "Notes", "Android", "Hilt", "Dependency Injection", "Dagger", "Architecture" ]
