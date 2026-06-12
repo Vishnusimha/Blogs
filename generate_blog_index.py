@@ -27,6 +27,7 @@ SUPPORTED_NOTE_EXTENSIONS = {
     ".js",
     ".css",
     ".html",
+    ".pdf",
 }
 LANGUAGE_BY_EXTENSION = {
     ".md": "markdown",
@@ -39,6 +40,7 @@ LANGUAGE_BY_EXTENSION = {
     ".css": "css",
     ".html": "html",
     ".txt": "text",
+    ".pdf": "pdf",
 }
 GENERATED_FILENAMES = {"blog-index.json"}
 
@@ -145,6 +147,8 @@ def get_note_type(extension: str) -> str:
         return "markdown"
     if extension == ".txt":
         return "text"
+    if extension == ".pdf":
+        return "pdf"
     return "code"
 
 def build_raw_url(rel_path: str) -> str:

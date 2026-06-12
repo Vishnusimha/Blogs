@@ -162,6 +162,30 @@
     "path": "InternetOfThings_AI_ML_DataScience/pipulse-ai-raspberry-pi-health-monitor-dashboard.md"
   },
   {
+    "title": "DSA.pdf",
+    "slug": "notes-aws-dsa-pdf",
+    "category": "Notes",
+    "categories": "Notes",
+    "type": "pdf",
+    "extension": ".pdf",
+    "language": "pdf",
+    "path": "Notes/AWS/DSA.pdf",
+    "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/AWS/DSA.pdf",
+    "isNote": true
+  },
+  {
+    "title": "document.pdf",
+    "slug": "notes-aws-document-pdf",
+    "category": "Notes",
+    "categories": "Notes",
+    "type": "pdf",
+    "extension": ".pdf",
+    "language": "pdf",
+    "path": "Notes/AWS/document.pdf",
+    "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/AWS/document.pdf",
+    "isNote": true
+  },
+  {
     "title": "5 Android Phone Interview Questions",
     "slug": "notes-android-android-phone-interview-md",
     "category": "Notes",
@@ -702,6 +726,18 @@
     "readTime": 8
   },
   {
+    "title": "A4 SQL JOINs Cheat Sheet .pdf",
+    "slug": "notes-sql-a4-sql-joi-ns-cheat-sheet-pdf",
+    "category": "Notes",
+    "categories": "Notes",
+    "type": "pdf",
+    "extension": ".pdf",
+    "language": "pdf",
+    "path": "Notes/SQL/A4 SQL JOINs Cheat Sheet .pdf",
+    "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/SQL/A4%20SQL%20JOINs%20Cheat%20Sheet%20.pdf",
+    "isNote": true
+  },
+  {
     "title": "SQL NOTES",
     "slug": "notes-sql-sql-notes-md",
     "category": "Notes",
@@ -711,6 +747,18 @@
     "language": "markdown",
     "path": "Notes/SQL/SQL-NOTES.md",
     "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/SQL/SQL-NOTES.md",
+    "isNote": true
+  },
+  {
+    "title": "SQL_Cheat_Sheet.pdf",
+    "slug": "notes-sql-sql-cheat-sheet-pdf",
+    "category": "Notes",
+    "categories": "Notes",
+    "type": "pdf",
+    "extension": ".pdf",
+    "language": "pdf",
+    "path": "Notes/SQL/SQL_Cheat_Sheet.pdf",
+    "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/SQL/SQL_Cheat_Sheet.pdf",
     "isNote": true
   },
   {
@@ -891,6 +939,30 @@
     "language": "markdown",
     "path": "Notes/Spring Boot/Interview_prep/mongodb.md",
     "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/Spring%20Boot/Interview_prep/mongodb.md",
+    "isNote": true
+  },
+  {
+    "title": "PostgreSQL Resources.pdf",
+    "slug": "notes-spring-boot-pdf-postgre-sql-resources-pdf",
+    "category": "Notes",
+    "categories": "Notes",
+    "type": "pdf",
+    "extension": ".pdf",
+    "language": "pdf",
+    "path": "Notes/Spring Boot/pdf/PostgreSQL Resources.pdf",
+    "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/Spring%20Boot/pdf/PostgreSQL%20Resources.pdf",
+    "isNote": true
+  },
+  {
+    "title": "springboot questions.pdf",
+    "slug": "notes-spring-boot-pdf-springboot-questions-pdf",
+    "category": "Notes",
+    "categories": "Notes",
+    "type": "pdf",
+    "extension": ".pdf",
+    "language": "pdf",
+    "path": "Notes/Spring Boot/pdf/springboot questions.pdf",
+    "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/Spring%20Boot/pdf/springboot%20questions.pdf",
     "isNote": true
   },
   {
@@ -1422,6 +1494,30 @@
     "language": "java",
     "path": "Notes/arrays/day3/hackerrank/TwoSum.java",
     "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/arrays/day3/hackerrank/TwoSum.java",
+    "isNote": true
+  },
+  {
+    "title": "Atlassian-Git-Cheatsheet.pdf",
+    "slug": "notes-git-atlassian-git-cheatsheet-pdf",
+    "category": "Notes",
+    "categories": "Notes",
+    "type": "pdf",
+    "extension": ".pdf",
+    "language": "pdf",
+    "path": "Notes/git/Atlassian-Git-Cheatsheet.pdf",
+    "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/git/Atlassian-Git-Cheatsheet.pdf",
+    "isNote": true
+  },
+  {
+    "title": "git-cheat-sheet-git-lab.pdf",
+    "slug": "notes-git-git-cheat-sheet-git-lab-pdf",
+    "category": "Notes",
+    "categories": "Notes",
+    "type": "pdf",
+    "extension": ".pdf",
+    "language": "pdf",
+    "path": "Notes/git/git-cheat-sheet-git-lab.pdf",
+    "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/git/git-cheat-sheet-git-lab.pdf",
     "isNote": true
   }
 ]
