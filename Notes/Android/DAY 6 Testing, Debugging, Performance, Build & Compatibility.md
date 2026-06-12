@@ -1,3 +1,13 @@
+---
+title: "Android Testing, Debugging, Performance, Build and Compatibility Q&A"
+date: 2026-06-12
+slug: "android-testing-debugging-performance-build-compatibility-qa"
+tags: [ "Notes", "Android", "Testing", "Debugging", "Performance", "Gradle", "Compatibility" ]
+summary: "Personal Android interview Q&A notes covering app performance optimization, ADB, ProGuard, memory leaks, backward compatibility, Android Gradle Plugin, unit testing, Jetpack, build.gradle, and dependency management."
+categories: Notes
+readTime: 12
+---
+
 # Technical interview questions
 
 #### DAY 6 Testing, Debugging, Performance, Tooling, Build & Compatibility

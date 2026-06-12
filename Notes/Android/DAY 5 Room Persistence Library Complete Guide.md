@@ -1,3 +1,13 @@
+---
+title: "Room Persistence Library: Complete Advanced Guide"
+date: 2026-06-21
+slug: "android-room-persistence-guide"
+tags: [ "Notes", "Android", "Room", "Database", "Persistence", "Flow", "Paging" ]
+summary: "An in-depth guide to Room Persistence Library in Android, comparing Flow vs PagingSource, and explaining offline-first architecture with best practices."
+categories: Notes
+readTime: 18
+---
+
 # Room Persistence Library — Complete Advanced Guide (Interview + Real-World)
 
 Room is the **official SQLite abstraction layer** in Android Jetpack. It provides a robust,

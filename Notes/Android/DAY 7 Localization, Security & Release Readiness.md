@@ -1,3 +1,13 @@
+---
+title: "Android Localization, Security and Release Readiness Q&A"
+date: 2026-06-12
+slug: "android-localization-security-release-readiness-qa"
+tags: [ "Notes", "Android", "Localization", "Security", "Play Store Release", "Encryption", "Biometric Authentication" ]
+summary: "Personal Android interview Q&A notes covering localization, Android security best practices, Google Play Store publishing steps, encryption with Android Keystore, biometric authentication, and ProGuard rules."
+categories: Notes
+readTime: 10
+---
+
 # Technical interview questions
 
 #### DAY 7 Localization, Security & Release Readiness

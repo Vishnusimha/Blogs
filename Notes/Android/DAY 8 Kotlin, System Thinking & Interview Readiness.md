@@ -1,3 +1,13 @@
+---
+title: "Kotlin, System Thinking and Android Interview Readiness Q&A"
+date: 2026-06-12
+slug: "kotlin-system-thinking-android-interview-readiness-qa"
+tags: [ "Notes", "Kotlin", "Android", "Interview Preparation", "Coroutines", "Inheritance", "Companion Object" ]
+summary: "Personal Kotlin and Android interview notes covering Kotlin advantages, null safety, coroutines, extension functions, Java interoperability, the open keyword, inheritance, object declarations, and companion objects."
+categories: Notes
+readTime: 8
+---
+
 # Technical interview questions
 
 #### DAY 8 Kotlin, System Thinking & Interview Readiness

@@ -1,3 +1,13 @@
+---
+title: "Android App Bundle (AAB) & APK Structure: Senior Guide"
+date: 2026-06-29
+slug: "android-app-bundle-apk-structure-guide"
+tags: [ "Notes", "Android", "APK", "AAB", "Build Pipeline", "Architecture" ]
+summary: "A deep dive into Android application packaging, explaining the internal structure of APKs, the build pipeline, DEX files, and the benefits of using Android App Bundles (AAB) for optimized delivery."
+categories: Notes
+readTime: 15
+---
+
 # App Bundles & APK Structure (Senior Android Interview Guide)
 
 > This document explains **APK internals, build pipeline, signing, splits, Play delivery, AAB vs APK trade-offs**, and common interview traps.  

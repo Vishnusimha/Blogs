@@ -1,3 +1,13 @@
+---
+title: "Android Concurrency, Coroutines, Services and Background Execution Q&A"
+date: 2026-06-12
+slug: "android-concurrency-coroutines-services-background-execution-qa"
+tags: [ "Notes", "Android", "Coroutines", "Services", "Background Work", "JobScheduler", "WorkManager" ]
+summary: "Personal Android interview Q&A notes covering services, threads, threading models, AsyncTask, JobScheduler, WorkManager, foreground services, bound services, and efficient background task handling."
+categories: Notes
+readTime: 16
+---
+
 # Technical interview questions
 
 #### DAY 4 — Concurrency, Coroutines, Services & Background Execution

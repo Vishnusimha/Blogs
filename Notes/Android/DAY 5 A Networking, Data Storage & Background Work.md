@@ -1,3 +1,13 @@
+---
+title: "Android Networking, Data Storage and Background Work Guide"
+date: 2026-06-12
+slug: "android-networking-data-storage-background-work-guide"
+tags: [ "Notes", "Android", "Networking", "Retrofit", "OkHttp", "Room", "WorkManager", "Paging 3" ]
+summary: "Personal Android interview notes covering REST APIs, Retrofit, OkHttp, JSON parsing, connectivity changes, WebSockets, local data storage, Room, DataStore, WorkManager, Paging 3, and background work best practices."
+categories: Notes
+readTime: 34
+---
+
 # DAY 5 — Networking, Data Storage & Background Work
 
 ## 📚 Table of Contents

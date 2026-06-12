@@ -1,3 +1,13 @@
+---
+title: "Array Pattern Code Snippet Quiz"
+date: 2026-06-16
+slug: "array-pattern-code-snippet-quiz"
+tags: [ "Notes", "Java", "Arrays", "Quiz", "DSA", "Practice" ]
+summary: "A quick self-assessment quiz on common array patterns, pointer roles, and boundary conditions based on real-world coding mistakes."
+categories: Notes
+readTime: 5
+---
+
 # 🧠 Array Pattern Code Snippet Quiz (Based on Your Mistakes)
 
 These questions target the exact logic areas where you got stuck:

@@ -1,3 +1,13 @@
+---
+title: "Java Array Practice Day 1"
+date: 2026-06-12
+slug: "java-array-practice-day-1"
+tags: [ "Notes", "Java", "Arrays", "DSA", "Practice", "Two-Pointer" ]
+summary: "Comprehensive Java array practice notes covering reverse array, moving zeros, checking if sorted, and more with common thinking mistakes and fixes."
+categories: Notes
+readTime: 12
+---
+
 # [ReverseAnArray.java](day1/ReverseAnArray.java)
 
 ## Table of Contents
@@ -116,6 +126,16 @@
   - [Mistake 4 — Overthinking With Extra Conditions](#mistake-4--overthinking-with-extra-conditions)
   - [✅ Final Correct Thinking Pattern](#final-correct-thinking-pattern)
   - [🏆 What You Did Right](#what-you-did-right-5)
+
+---
+title: "Java Array Practice Day 1"
+date: 2026-06-12
+slug: "java-array-practice-day-1"
+tags: [ "Notes", "Java", "Arrays", "DSA", "Practice", "Two-Pointer" ]
+summary: "Comprehensive Java array practice notes covering reverse array, moving zeros, checking if sorted, and more with common thinking mistakes and fixes."
+categories: Notes
+readTime: 12
+---
 
 # [ReverseAnArray.java](day1/ReverseAnArray.java)
 

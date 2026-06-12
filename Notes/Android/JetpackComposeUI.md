@@ -1,3 +1,13 @@
+---
+title: "Jetpack Compose UI Layout Hierarchy & Best Practices"
+date: 2026-06-26
+slug: "jetpack-compose-ui-layout-guide"
+tags: [ "Notes", "Android", "Jetpack Compose", "UI", "Scaffold", "Layouts" ]
+summary: "A deep dive into structural layers of Jetpack Compose UI, explaining Scaffold, Column, Row, Box, and how to build scalable and reusable UI components."
+categories: Notes
+readTime: 8
+---
+
 # Jetpack Compose UI
 
 ---

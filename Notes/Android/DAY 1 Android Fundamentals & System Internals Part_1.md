@@ -1,3 +1,13 @@
+---
+title: "Android Fundamentals and System Internals Part 1"
+date: 2026-06-12
+slug: "android-fundamentals-system-internals-part-1"
+tags: [ "Notes", "Android", "Interview Preparation", "Android Fundamentals", "Activities", "Permissions", "Content Providers" ]
+summary: "Personal Android interview notes covering Android basics, app components, activity lifecycle, fragments, manifest, permissions, intents, assets, resources, and ContentProvider concepts."
+categories: Notes
+readTime: 20
+---
+
 # Technical interview questions
 
 [DAY 1 Android_Manifest_File_Guide.md](DAY%201%20Android_Manifest_File_Guide.md)

@@ -1,3 +1,13 @@
+---
+title: "Firebase Cloud Messaging (FCM) for Android Developers"
+date: 2026-06-23
+slug: "android-fcm-complete-guide"
+tags: [ "Notes", "Android", "Firebase", "FCM", "Push Notifications", "Architecture" ]
+summary: "A deep dive into Firebase Cloud Messaging, explaining the difference between notification and data messages, token management, and production-ready implementation strategies."
+categories: Notes
+readTime: 12
+---
+
 From a hiring and architecture standpoint, a **mid-level Android developer is not expected to just
 “send notifications”** — they are expected to understand the full FCM lifecycle, delivery behavior,
 and production constraints.

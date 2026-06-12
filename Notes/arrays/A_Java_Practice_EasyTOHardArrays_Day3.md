@@ -1,3 +1,13 @@
+---
+title: "Java Array Practice Day 3"
+date: 2026-06-14
+slug: "java-array-practice-day-3"
+tags: [ "Notes", "Java", "Arrays", "Rotate Array", "Cyclic Sort", "Binary Search", "Sliding Window" ]
+summary: "Advanced Java array practice covering array rotation, cyclic sort for missing positive numbers, searching in rotated sorted arrays, and complex sliding window problems."
+categories: Notes
+readTime: 18
+---
+
 # A Java Practice: Easy to Hard Arrays - Day 3
 
 ## Table of Contents

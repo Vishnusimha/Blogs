@@ -1,3 +1,14 @@
+---
+title: "Implementing SSL Pinning with OkHttp and Retrofit"
+date: 2026-06-12
+slug: "implementing-ssl-pinning-okhttp-retrofit"
+tags: [ "Notes", "Android", "SSL Pinning", "OkHttp", "Retrofit", "Security", "Networking" ]
+summary: "Personal Android security notes explaining how to implement SSL pinning with OkHttp and Retrofit using CertificatePinner, certificate hashes, Retrofit client integration, and handling pinning failures."
+categories: Notes
+readTime: 8
+---
+
+
 #### Implementing SSL pinning with OkHttp (and by extension with Retrofit, which uses OkHttp as its networking layer) involves configuring OkHttp to trust a specific certificate or public key instead of the default system trust store.
 
 ### Implementing SSL Pinning with OkHttp and Retrofit

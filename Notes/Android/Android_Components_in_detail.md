@@ -1,3 +1,13 @@
+---
+title: "Android Core Components: Detailed Lifecycle & Usage Guide"
+date: 2026-07-02
+slug: "android-core-components-detailed-guide"
+tags: [ "Notes", "Android", "Activity", "Fragment", "Service", "BroadcastReceiver", "ContentProvider", "Lifecycle" ]
+summary: "An in-depth exploration of Android's core application components, providing detailed lifecycle diagrams, best practices for Services and Intents, and explaining the roles of BroadcastReceivers and ContentProviders in modern app development."
+categories: Notes
+readTime: 20
+---
+
 # [Android_Components_in_detail](Android_Components_in_detail.md)
 
 ## Table of Contents

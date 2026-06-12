@@ -1,3 +1,12 @@
+---
+title: "Networking in Android with Retrofit"
+date: 2026-06-22
+slug: "android-retrofit-networking-guide"
+tags: [ "Notes", "Android", "Retrofit", "Networking", "API", "Interceptors" ]
+summary: "A comprehensive introduction to Retrofit, explaining why it's the standard for Android networking, covering annotations, converters, error handling, and request interceptors."
+categories: Notes
+readTime: 6
+---
 
 ## Retrofit
 

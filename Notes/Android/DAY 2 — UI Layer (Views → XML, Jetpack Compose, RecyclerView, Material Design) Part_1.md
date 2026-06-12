@@ -1,3 +1,13 @@
+---
+title: "Android UI Layer Interview Questions Part 1"
+date: 2026-06-12
+slug: "android-ui-layer-interview-questions-part-1"
+tags: [ "Notes", "Android", "UI Layer", "RecyclerView", "ViewBinding", "Layouts", "Material Design" ]
+summary: "Personal Android interview notes covering RecyclerView, ListView, Material Design, ViewBinding, layouts, custom views, user input, responsive design, pagination, themes, swipe-to-refresh, resources, and animations."
+categories: Notes
+readTime: 18
+---
+
 # Technical interview questions
 
 ## DAY 2 — UI Layer (Views → XML, Jetpack Compose, RecyclerView, Material Design)

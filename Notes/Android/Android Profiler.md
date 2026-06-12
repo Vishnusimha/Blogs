@@ -1,3 +1,13 @@
+---
+title: "Android Performance Tooling: Profiler, LeakCanary, and Systrace"
+date: 2026-07-01
+slug: "android-performance-tools-guide"
+tags: [ "Notes", "Android", "Performance", "Android Profiler", "LeakCanary", "Systrace" ]
+summary: "A roadmap for learning Android performance optimization tools, comparing the ease of use and ROI of Android Profiler, LeakCanary, and Systrace for developers."
+categories: Notes
+readTime: 6
+---
+
 ## 🥇 Easiest & Quickest to Learn → **Android Profiler**
 
 ### Why it’s the fastest win

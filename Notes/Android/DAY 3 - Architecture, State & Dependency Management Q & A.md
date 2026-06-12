@@ -1,3 +1,13 @@
+---
+title: "Android Architecture, ViewModel and Dependency Injection Interview Q&A"
+date: 2026-06-12
+slug: "android-architecture-viewmodel-dependency-injection-interview-qa"
+tags: [ "Notes", "Android", "ViewModel", "LiveData", "MVVM", "Dependency Injection", "Navigation Component" ]
+summary: "Personal Android interview Q&A notes covering Dependency Injection, Hilt and Dagger, Data Binding, ViewModel, LiveData, MVVM, ViewModelFactory, Navigation Component, deprecated ViewModelProviders, and ViewModelStoreOwner."
+categories: Notes
+readTime: 16
+---
+
 # Technical interview questions
 
 #### DAY 3 Architecture, State & Dependency Management

@@ -1,4 +1,14 @@
 
+---
+title: "Android Developer Interview Questions: Master List"
+date: 2026-06-28
+slug: "android-interview-questions-master-list"
+tags: [ "Notes", "Android", "Interview", "Questions", "Fundamentals", "UI", "Architecture" ]
+summary: "A massive collection of Android interview questions categorized by day and topic, ranging from basic system internals to advanced architectural patterns and testing."
+categories: Notes
+readTime: 15
+---
+
 ## DAY 1 Android Fundamentals & System Internals Part 1
 
 1. What is Android and what are its key features?

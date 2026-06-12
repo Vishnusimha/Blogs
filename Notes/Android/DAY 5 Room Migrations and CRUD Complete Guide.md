@@ -1,3 +1,13 @@
+---
+title: "Room Database Migrations and CRUD Complete Guide"
+date: 2026-06-12
+slug: "room-database-migrations-crud-complete-guide"
+tags: [ "Notes", "Android", "Room", "SQLite", "Migrations", "CRUD", "Database" ]
+summary: "Personal Android database notes covering Room migrations, schema upgrades, destructive migration, CRUD implementation with Entity, DAO, Database, Repository, ViewModel, and migration testing strategies."
+categories: Notes
+readTime: 20
+---
+
 # Room Database Migrations & CRUD — Complete Advanced Guide
 
 This guide covers **Room migrations + full CRUD implementation** in a real-world Android

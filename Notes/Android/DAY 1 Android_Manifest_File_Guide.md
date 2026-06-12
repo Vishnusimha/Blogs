@@ -1,3 +1,13 @@
+---
+title: "Android Manifest File Guide"
+date: 2026-06-12
+slug: "android-manifest-file-guide"
+tags: [ "Notes", "Android", "AndroidManifest", "Permissions", "Intent Filters", "Deep Links", "Security" ]
+summary: "Personal study notes explaining AndroidManifest.xml responsibilities, permissions, intent filters, deep links, exported components, manifest security, and key application-level flags."
+categories: Notes
+readTime: 10
+---
+
 # AndroidManifest.xml (Senior Android Interview Notes)
 
 ## Table of Contents

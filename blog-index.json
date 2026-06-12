@@ -1,5 +1,356 @@
 [
   {
+    "title": "Android Core Components: Detailed Lifecycle & Usage Guide",
+    "date": "2026-07-02",
+    "slug": "android-core-components-detailed-guide",
+    "summary": "An in-depth exploration of Android's core application components, providing detailed lifecycle diagrams, best practices for Services and Intents, and explaining the roles of BroadcastReceivers and ContentProviders in modern app development.",
+    "categories": "Notes",
+    "readTime": 20,
+    "path": "Notes/Android/Android_Components_in_detail.md"
+  },
+  {
+    "title": "Android Performance Tooling: Profiler, LeakCanary, and Systrace",
+    "date": "2026-07-01",
+    "slug": "android-performance-tools-guide",
+    "summary": "A roadmap for learning Android performance optimization tools, comparing the ease of use and ROI of Android Profiler, LeakCanary, and Systrace for developers.",
+    "categories": "Notes",
+    "readTime": 6,
+    "path": "Notes/Android/Android Profiler.md"
+  },
+  {
+    "title": "Android Technical Interview Q&A: Orientation, Binding, and i18n",
+    "date": "2026-06-30",
+    "slug": "android-technical-interview-qa-guide",
+    "summary": "A collection of technical interview questions and answers for Android developers, covering screen orientation changes, the difference between Data Binding and View Binding, and internationalization (i18n) best practices.",
+    "categories": "Notes",
+    "readTime": 12,
+    "path": "Notes/Android/AndroidTechinalInterviewQ&A.md"
+  },
+  {
+    "title": "Android App Bundle (AAB) & APK Structure: Senior Guide",
+    "date": "2026-06-29",
+    "slug": "android-app-bundle-apk-structure-guide",
+    "summary": "A deep dive into Android application packaging, explaining the internal structure of APKs, the build pipeline, DEX files, and the benefits of using Android App Bundles (AAB) for optimized delivery.",
+    "categories": "Notes",
+    "readTime": 15,
+    "path": "Notes/Android/DAY 1 App_Bundles_and_APK_Structure.md"
+  },
+  {
+    "title": "Mid-Level Android Interview Checklist: 7-Day Execution Flow",
+    "date": "2026-06-27",
+    "slug": "android-interview-checklist-7-day-plan",
+    "summary": "A comprehensive 7-day study plan and checklist for mid-level Android developer interviews, covering everything from core platform knowledge to system design.",
+    "categories": "Notes",
+    "readTime": 10,
+    "path": "Notes/Android/AndoidChecklist.md"
+  },
+  {
+    "title": "Jetpack Compose UI Layout Hierarchy & Best Practices",
+    "date": "2026-06-26",
+    "slug": "jetpack-compose-ui-layout-guide",
+    "summary": "A deep dive into structural layers of Jetpack Compose UI, explaining Scaffold, Column, Row, Box, and how to build scalable and reusable UI components.",
+    "categories": "Notes",
+    "readTime": 8,
+    "path": "Notes/Android/JetpackComposeUI.md"
+  },
+  {
+    "title": "Paging 3: Complete Android Pagination Guide",
+    "date": "2026-06-25",
+    "slug": "android-paging-3-pagination-guide",
+    "summary": "A comprehensive guide to Paging 3 in Android, covering Pager, PagingSource, RemoteMediator, and best practices for offline-first pagination with real-world examples.",
+    "categories": "Notes",
+    "readTime": 15,
+    "path": "Notes/Android/DAY 5 Paging 3 — Complete Android Pagination Guide.md"
+  },
+  {
+    "title": "Firebase Cloud Messaging (FCM) for Android Developers",
+    "date": "2026-06-23",
+    "slug": "android-fcm-complete-guide",
+    "summary": "A deep dive into Firebase Cloud Messaging, explaining the difference between notification and data messages, token management, and production-ready implementation strategies.",
+    "categories": "Notes",
+    "readTime": 12,
+    "path": "Notes/Android/FirebaseCloudMessaging.md"
+  },
+  {
+    "title": "Networking in Android with Retrofit",
+    "date": "2026-06-22",
+    "slug": "android-retrofit-networking-guide",
+    "summary": "A comprehensive introduction to Retrofit, explaining why it's the standard for Android networking, covering annotations, converters, error handling, and request interceptors.",
+    "categories": "Notes",
+    "readTime": 6,
+    "path": "Notes/Android/DAY 5 Retrofit.md"
+  },
+  {
+    "title": "Room Persistence Library: Complete Advanced Guide",
+    "date": "2026-06-21",
+    "slug": "android-room-persistence-guide",
+    "summary": "An in-depth guide to Room Persistence Library in Android, comparing Flow vs PagingSource, and explaining offline-first architecture with best practices.",
+    "categories": "Notes",
+    "readTime": 18,
+    "path": "Notes/Android/DAY 5 Room Persistence Library Complete Guide.md"
+  },
+  {
+    "title": "Hilt Dependency Injection: Complete Senior-Level Guide for Android",
+    "date": "2026-06-20",
+    "slug": "hilt-dependency-injection-android-guide",
+    "summary": "An exhaustive guide to Hilt DI in Android, covering everything from basic setup to advanced concepts like qualifiers, assisted injection, and testing.",
+    "categories": "Notes",
+    "readTime": 12,
+    "path": "Notes/Android/DAY 3 Hilt Complete Guide.md"
+  },
+  {
+    "title": "Modern Background Tasks in Android: Deprecated vs Recommended",
+    "date": "2026-06-19",
+    "slug": "android-background-tasks-guide",
+    "summary": "A complete overview of background task mechanisms in Android, highlighting modern APIs like WorkManager and Coroutines while explaining why legacy methods like AsyncTask are deprecated.",
+    "categories": "Notes",
+    "readTime": 6,
+    "path": "Notes/Android/DAY 4 Android Background Tasks.md"
+  },
+  {
+    "title": "Android API Key Management & Secrets Handling",
+    "date": "2026-06-18",
+    "slug": "android-api-key-management-secrets-handling",
+    "summary": "A comprehensive guide on managing API keys and secrets in Android applications, covering restricted keys, local.properties, and production-ready security strategies.",
+    "categories": "Notes",
+    "readTime": 8,
+    "path": "Notes/Android/DAY 7 Secret Key management_subtopic.md"
+  },
+  {
+    "title": "Array & Two-Pointer Brain Teaser Quiz",
+    "date": "2026-06-17",
+    "slug": "array-two-pointer-brain-teaser-quiz",
+    "summary": "A 30-question brain teaser quiz designed to sharpen your instincts for array and two-pointer problems, covering loop conditions, stability, and common patterns.",
+    "categories": "Notes",
+    "readTime": 8,
+    "path": "Notes/arrays/day1/array_two_pointer_quiz DAY1.md"
+  },
+  {
+    "title": "Array Pattern Code Snippet Quiz",
+    "date": "2026-06-16",
+    "slug": "array-pattern-code-snippet-quiz",
+    "summary": "A quick self-assessment quiz on common array patterns, pointer roles, and boundary conditions based on real-world coding mistakes.",
+    "categories": "Notes",
+    "readTime": 5,
+    "path": "Notes/arrays/day1/array_pattern_code_quiz DAY 1.md"
+  },
+  {
+    "title": "Java Array Practice Day 3",
+    "date": "2026-06-14",
+    "slug": "java-array-practice-day-3",
+    "summary": "Advanced Java array practice covering array rotation, cyclic sort for missing positive numbers, searching in rotated sorted arrays, and complex sliding window problems.",
+    "categories": "Notes",
+    "readTime": 18,
+    "path": "Notes/arrays/A_Java_Practice_EasyTOHardArrays_Day3.md"
+  },
+  {
+    "title": "Java Array Practice Day 2",
+    "date": "2026-06-13",
+    "slug": "java-array-practice-day-2",
+    "summary": "Intermediate Java array practice covering Kadane's algorithm, sliding window patterns, prefix sums, and product except self without division.",
+    "categories": "Notes",
+    "readTime": 15,
+    "path": "Notes/arrays/A_Java_Practice_EasyTOHardArrays_Day2.md"
+  },
+  {
+    "title": "Android Architecture, State and Dependency Management Guide",
+    "date": "2026-06-12",
+    "slug": "android-architecture-state-dependency-management-guide",
+    "summary": "Personal senior Android architecture notes covering MVC, MVP, MVVM, Clean Architecture, Repository Pattern, Single Source of Truth, MVI, unidirectional data flow, modular architecture, state management, dependency injection, navigation, and testing.",
+    "categories": "Notes",
+    "readTime": 30,
+    "path": "Notes/Android/DAY 3 - Architecture, State & Dependency Management.md"
+  },
+  {
+    "title": "Android Architecture, ViewModel and Dependency Injection Interview Q&A",
+    "date": "2026-06-12",
+    "slug": "android-architecture-viewmodel-dependency-injection-interview-qa",
+    "summary": "Personal Android interview Q&A notes covering Dependency Injection, Hilt and Dagger, Data Binding, ViewModel, LiveData, MVVM, ViewModelFactory, Navigation Component, deprecated ViewModelProviders, and ViewModelStoreOwner.",
+    "categories": "Notes",
+    "readTime": 16,
+    "path": "Notes/Android/DAY 3 - Architecture, State & Dependency Management Q & A.md"
+  },
+  {
+    "title": "Android Concurrency Concepts: Coroutines, Flow and Background Execution",
+    "date": "2026-06-12",
+    "slug": "android-concurrency-concepts-coroutines-flow-background-execution",
+    "summary": "Personal Android concurrency notes covering AsyncTask, HandlerThread, Loaders, Kotlin Coroutines, Flow, StateFlow, SharedFlow, backpressure, RxJava, ANR causes, and main-thread performance best practices.",
+    "categories": "Notes",
+    "readTime": 24,
+    "path": "Notes/Android/DAY 4 Concurrency Concepts.md"
+  },
+  {
+    "title": "Android Concurrency, Coroutines, Services and Background Execution Q&A",
+    "date": "2026-06-12",
+    "slug": "android-concurrency-coroutines-services-background-execution-qa",
+    "summary": "Personal Android interview Q&A notes covering services, threads, threading models, AsyncTask, JobScheduler, WorkManager, foreground services, bound services, and efficient background task handling.",
+    "categories": "Notes",
+    "readTime": 16,
+    "path": "Notes/Android/DAY 4 Concurrency, Coroutines, Services & Background Execution.md"
+  },
+  {
+    "title": "Android Fundamentals and System Internals Part 1",
+    "date": "2026-06-12",
+    "slug": "android-fundamentals-system-internals-part-1",
+    "summary": "Personal Android interview notes covering Android basics, app components, activity lifecycle, fragments, manifest, permissions, intents, assets, resources, and ContentProvider concepts.",
+    "categories": "Notes",
+    "readTime": 20,
+    "path": "Notes/Android/DAY 1 Android Fundamentals & System Internals Part_1.md"
+  },
+  {
+    "title": "Android Fundamentals and System Internals Part 2",
+    "date": "2026-06-12",
+    "slug": "android-fundamentals-system-internals-part-2",
+    "summary": "Personal Android system internals notes covering Android architecture layers, ART and Dalvik, Zygote, System Server, app startup, process priority, ANR, Handler, Binder IPC, launch modes, APK structure, and AAB delivery.",
+    "categories": "Notes",
+    "readTime": 22,
+    "path": "Notes/Android/DAY 1 Android Fundamentals & System Internals Part_2.md"
+  },
+  {
+    "title": "Android Localization, Security and Release Readiness Q&A",
+    "date": "2026-06-12",
+    "slug": "android-localization-security-release-readiness-qa",
+    "summary": "Personal Android interview Q&A notes covering localization, Android security best practices, Google Play Store publishing steps, encryption with Android Keystore, biometric authentication, and ProGuard rules.",
+    "categories": "Notes",
+    "readTime": 10,
+    "path": "Notes/Android/DAY 7 Localization, Security & Release Readiness.md"
+  },
+  {
+    "title": "Android Manifest File Guide",
+    "date": "2026-06-12",
+    "slug": "android-manifest-file-guide",
+    "summary": "Personal study notes explaining AndroidManifest.xml responsibilities, permissions, intent filters, deep links, exported components, manifest security, and key application-level flags.",
+    "categories": "Notes",
+    "readTime": 10,
+    "path": "Notes/Android/DAY 1 Android_Manifest_File_Guide.md"
+  },
+  {
+    "title": "Android Networking, Data Storage and Background Work Guide",
+    "date": "2026-06-12",
+    "slug": "android-networking-data-storage-background-work-guide",
+    "summary": "Personal Android interview notes covering REST APIs, Retrofit, OkHttp, JSON parsing, connectivity changes, WebSockets, local data storage, Room, DataStore, WorkManager, Paging 3, and background work best practices.",
+    "categories": "Notes",
+    "readTime": 34,
+    "path": "Notes/Android/DAY 5 A Networking, Data Storage & Background Work.md"
+  },
+  {
+    "title": "Android Networking, Data Storage and Background Work Interview Q&A",
+    "date": "2026-06-12",
+    "slug": "android-networking-data-storage-background-work-interview-qa",
+    "summary": "Personal Android interview Q&A notes covering data storage options, push notifications, NDK, networking, location services, SharedPreferences, SQLite, PendingIntent, Room, WorkManager, connectivity changes, deep linking, and DataStore.",
+    "categories": "Notes",
+    "readTime": 18,
+    "path": "Notes/Android/DAY 5 Z Networking, Data Storage & Background Work Q and A.md"
+  },
+  {
+    "title": "Android Offline Storage Notes",
+    "date": "2026-06-12",
+    "slug": "android-offline-storage-notes",
+    "summary": "Personal Android notes covering offline storage options such as SQLite, SharedPreferences, file storage, Room, caching, data syncing, security considerations, and Kotlin examples for saving and retrieving local data.",
+    "categories": "Notes",
+    "readTime": 12,
+    "path": "Notes/Android/DAY 5 Offline Storage.md"
+  },
+  {
+    "title": "Android Testing, Debugging, Performance, Build and Compatibility Q&A",
+    "date": "2026-06-12",
+    "slug": "android-testing-debugging-performance-build-compatibility-qa",
+    "summary": "Personal Android interview Q&A notes covering app performance optimization, ADB, ProGuard, memory leaks, backward compatibility, Android Gradle Plugin, unit testing, Jetpack, build.gradle, and dependency management.",
+    "categories": "Notes",
+    "readTime": 12,
+    "path": "Notes/Android/DAY 6 Testing, Debugging, Performance, Build & Compatibility.md"
+  },
+  {
+    "title": "Android UI Layer Guide: Views, XML, Jetpack Compose, RecyclerView and Material Design",
+    "date": "2026-06-12",
+    "slug": "android-ui-layer-views-xml-compose-recyclerview-material",
+    "summary": "Personal Android UI layer notes covering the View system, XML layouts, RecyclerView, custom views, Material Design, Jetpack Compose state, recomposition, side effects, lifecycle awareness, and Compose vs XML trade-offs.",
+    "categories": "Notes",
+    "readTime": 28,
+    "path": "Notes/Android/DAY 2 — UI Layer (Views, XML, Jetpack Compose, RecyclerView, Material).md"
+  },
+  {
+    "title": "Android UI Layer Interview Questions Part 1",
+    "date": "2026-06-12",
+    "slug": "android-ui-layer-interview-questions-part-1",
+    "summary": "Personal Android interview notes covering RecyclerView, ListView, Material Design, ViewBinding, layouts, custom views, user input, responsive design, pagination, themes, swipe-to-refresh, resources, and animations.",
+    "categories": "Notes",
+    "readTime": 18,
+    "path": "Notes/Android/DAY 2 — UI Layer (Views → XML, Jetpack Compose, RecyclerView, Material Design) Part_1.md"
+  },
+  {
+    "title": "Android Views, ViewGroups, Layouts and Custom Views Interview Notes",
+    "date": "2026-06-12",
+    "slug": "android-views-viewgroups-layouts-custom-views-interview-notes",
+    "summary": "Personal Android interview notes covering Views, ViewGroups, rendering lifecycle, touch dispatch, ConstraintLayout, LinearLayout, RelativeLayout, custom views, Canvas drawing, and UI performance optimization.",
+    "categories": "Notes",
+    "readTime": 22,
+    "path": "Notes/Android/DAY 2 — UI Layer (Views → XML, Jetpack Compose, RecyclerView, Material Design) Part_2.md"
+  },
+  {
+    "title": "DataStore, SharedPreferences and EncryptedSharedPreferences Guide",
+    "date": "2026-06-12",
+    "slug": "datastore-sharedpreferences-encryptedsharedpreferences-guide",
+    "summary": "Personal Android storage notes explaining SharedPreferences, Preferences DataStore, Proto DataStore, EncryptedSharedPreferences, corruption handling, testing, migration from SharedPreferences, and secure key-value storage choices.",
+    "categories": "Notes",
+    "readTime": 18,
+    "path": "Notes/Android/DAY 5 DataStore, SharedPrefs and EncryptedPrefs Guide.md"
+  },
+  {
+    "title": "Implementing SSL Pinning with OkHttp and Retrofit",
+    "date": "2026-06-12",
+    "slug": "implementing-ssl-pinning-okhttp-retrofit",
+    "summary": "Personal Android security notes explaining how to implement SSL pinning with OkHttp and Retrofit using CertificatePinner, certificate hashes, Retrofit client integration, and handling pinning failures.",
+    "categories": "Notes",
+    "readTime": 8,
+    "path": "Notes/Android/DAY 5 Implementing SSL Pinning with OkHttp and Retrofit.md"
+  },
+  {
+    "title": "Java Array Practice Day 1",
+    "date": "2026-06-12",
+    "slug": "java-array-practice-day-1",
+    "summary": "Comprehensive Java array practice notes covering reverse array, moving zeros, checking if sorted, and more with common thinking mistakes and fixes.",
+    "categories": "Notes",
+    "readTime": 12,
+    "path": "Notes/arrays/A_Java_Practice_EasyTOHardArrays_DAY1.md"
+  },
+  {
+    "title": "Kotlin, System Thinking and Android Interview Readiness Q&A",
+    "date": "2026-06-12",
+    "slug": "kotlin-system-thinking-android-interview-readiness-qa",
+    "summary": "Personal Kotlin and Android interview notes covering Kotlin advantages, null safety, coroutines, extension functions, Java interoperability, the open keyword, inheritance, object declarations, and companion objects.",
+    "categories": "Notes",
+    "readTime": 8,
+    "path": "Notes/Android/DAY 8 Kotlin, System Thinking & Interview Readiness.md"
+  },
+  {
+    "title": "Material Design and RecyclerView Interview Notes",
+    "date": "2026-06-12",
+    "slug": "material-design-recyclerview-interview-notes",
+    "summary": "Personal Android interview notes covering Material Design principles, Material Components, color and theming systems, elevation, RecyclerView, adapters, ViewHolder pattern, LayoutManagers, pagination, ItemDecorations, and efficient list updates.",
+    "categories": "Notes",
+    "readTime": 20,
+    "path": "Notes/Android/DAY 2 — UI Layer (Views → XML, Jetpack Compose, RecyclerView, Material Design) Part_3.md"
+  },
+  {
+    "title": "Room Database Migrations and CRUD Complete Guide",
+    "date": "2026-06-12",
+    "slug": "room-database-migrations-crud-complete-guide",
+    "summary": "Personal Android database notes covering Room migrations, schema upgrades, destructive migration, CRUD implementation with Entity, DAO, Database, Repository, ViewModel, and migration testing strategies.",
+    "categories": "Notes",
+    "readTime": 20,
+    "path": "Notes/Android/DAY 5 Room Migrations and CRUD Complete Guide.md"
+  },
+  {
+    "title": "WorkManager in Android: Practical Examples and Best Practices",
+    "date": "2026-06-12",
+    "slug": "workmanager-android-practical-examples-best-practices",
+    "summary": "Personal Android background work notes explaining WorkManager setup, Worker classes, input data, constraints, work status observation, periodic work, chained work, and practical scheduling use cases.",
+    "categories": "Notes",
+    "readTime": 12,
+    "path": "Notes/Android/DAY 5 WorkManager.md"
+  },
+  {
     "title": "Basic Electronics Every ECE & IoT Student Must Understand",
     "date": "2026-06-10",
     "slug": "basic-electronics-ece-iot-students",

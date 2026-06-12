@@ -1,3 +1,13 @@
+---
+title: "Android API Key Management & Secrets Handling"
+date: 2026-06-18
+slug: "android-api-key-management-secrets-handling"
+tags: [ "Notes", "Android", "Security", "API Keys", "Secrets", "Best Practices" ]
+summary: "A comprehensive guide on managing API keys and secrets in Android applications, covering restricted keys, local.properties, and production-ready security strategies."
+categories: Notes
+readTime: 8
+---
+
 # API key management & secrets handling
 
 ### 1. What are the best practices for managing API keys and secrets in an Android app?

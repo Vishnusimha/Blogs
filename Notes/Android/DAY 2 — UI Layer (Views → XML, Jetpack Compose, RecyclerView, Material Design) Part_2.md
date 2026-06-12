@@ -1,3 +1,13 @@
+---
+title: "Android Views, ViewGroups, Layouts and Custom Views Interview Notes"
+date: 2026-06-12
+slug: "android-views-viewgroups-layouts-custom-views-interview-notes"
+tags: [ "Notes", "Android", "Views", "ViewGroups", "ConstraintLayout", "Custom Views", "UI Performance" ]
+summary: "Personal Android interview notes covering Views, ViewGroups, rendering lifecycle, touch dispatch, ConstraintLayout, LinearLayout, RelativeLayout, custom views, Canvas drawing, and UI performance optimization."
+categories: Notes
+readTime: 22
+---
+
 # Technical interview questions
 
 ## DAY 2 — UI Layer (Views → XML, Jetpack Compose, RecyclerView, Material Design)

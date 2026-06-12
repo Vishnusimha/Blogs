@@ -1,3 +1,13 @@
+---
+title: "Android Concurrency Concepts: Coroutines, Flow and Background Execution"
+date: 2026-06-12
+slug: "android-concurrency-concepts-coroutines-flow-background-execution"
+tags: [ "Notes", "Android", "Concurrency", "Coroutines", "Flow", "StateFlow", "ANR" ]
+summary: "Personal Android concurrency notes covering AsyncTask, HandlerThread, Loaders, Kotlin Coroutines, Flow, StateFlow, SharedFlow, backpressure, RxJava, ANR causes, and main-thread performance best practices."
+categories: Notes
+readTime: 24
+---
+
 # DAY 4 — Concurrency, Coroutines, Services & Background Execution
 
 This document is a **complete, single-source guide** for Android concurrency and background

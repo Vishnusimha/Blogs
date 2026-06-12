@@ -1,3 +1,13 @@
+---
+title: "Android Technical Interview Q&A: Orientation, Binding, and i18n"
+date: 2026-06-30
+slug: "android-technical-interview-qa-guide"
+tags: [ "Notes", "Android", "Interview", "Orientation Change", "Data Binding", "View Binding", "i18n" ]
+summary: "A collection of technical interview questions and answers for Android developers, covering screen orientation changes, the difference between Data Binding and View Binding, and internationalization (i18n) best practices."
+categories: Notes
+readTime: 12
+---
+
 https://chatgpt.com/share/67c6ec30-0134-800a-be23-a79379980bdc
 
 

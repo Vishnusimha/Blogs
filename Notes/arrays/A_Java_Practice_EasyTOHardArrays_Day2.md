@@ -1,3 +1,13 @@
+---
+title: "Java Array Practice Day 2"
+date: 2026-06-13
+slug: "java-array-practice-day-2"
+tags: [ "Notes", "Java", "Arrays", "Kadane's Algorithm", "Sliding Window", "Two-Sum", "Prefix Sum" ]
+summary: "Intermediate Java array practice covering Kadane's algorithm, sliding window patterns, prefix sums, and product except self without division."
+categories: Notes
+readTime: 15
+---
+
 # A Java Practice: Easy to Hard Arrays - Day 2
 
 ## Table of Contents

@@ -1,3 +1,13 @@
+---
+title: "Material Design and RecyclerView Interview Notes"
+date: 2026-06-12
+slug: "material-design-recyclerview-interview-notes"
+tags: [ "Notes", "Android", "Material Design", "RecyclerView", "Adapters", "DiffUtil", "Paging 3" ]
+summary: "Personal Android interview notes covering Material Design principles, Material Components, color and theming systems, elevation, RecyclerView, adapters, ViewHolder pattern, LayoutManagers, pagination, ItemDecorations, and efficient list updates."
+categories: Notes
+readTime: 20
+---
+
 # Technical interview questions
 
 ## DAY 2 — UI Layer (Views → XML, Jetpack Compose, RecyclerView, Material Design)

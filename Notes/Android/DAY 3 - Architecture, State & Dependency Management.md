@@ -1,3 +1,13 @@
+---
+title: "Android Architecture, State and Dependency Management Guide"
+date: 2026-06-12
+slug: "android-architecture-state-dependency-management-guide"
+tags: [ "Notes", "Android", "Architecture", "MVVM", "Clean Architecture", "State Management", "Dependency Injection" ]
+summary: "Personal senior Android architecture notes covering MVC, MVP, MVVM, Clean Architecture, Repository Pattern, Single Source of Truth, MVI, unidirectional data flow, modular architecture, state management, dependency injection, navigation, and testing."
+categories: Notes
+readTime: 30
+---
+
 # DAY 3 — Architecture, State & Dependency Management
 
 ## Senior-Level Android Interview Preparation Guide

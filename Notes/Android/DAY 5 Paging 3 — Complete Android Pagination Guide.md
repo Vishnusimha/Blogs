@@ -1,3 +1,13 @@
+---
+title: "Paging 3: Complete Android Pagination Guide"
+date: 2026-06-25
+slug: "android-paging-3-pagination-guide"
+tags: [ "Notes", "Android", "Paging 3", "Pagination", "RemoteMediator", "Room" ]
+summary: "A comprehensive guide to Paging 3 in Android, covering Pager, PagingSource, RemoteMediator, and best practices for offline-first pagination with real-world examples."
+categories: Notes
+readTime: 15
+---
+
 # Paging 3 — Complete Android Pagination Guide (Basic → Advanced)
 
 This document explains **modern Android pagination using Paging 3**, starting from fundamentals and

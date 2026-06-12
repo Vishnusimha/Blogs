@@ -1,3 +1,13 @@
+---
+title: "Modern Background Tasks in Android: Deprecated vs Recommended"
+date: 2026-06-19
+slug: "android-background-tasks-guide"
+tags: [ "Notes", "Android", "Background Tasks", "WorkManager", "Coroutines", "Foreground Service" ]
+summary: "A complete overview of background task mechanisms in Android, highlighting modern APIs like WorkManager and Coroutines while explaining why legacy methods like AsyncTask are deprecated."
+categories: Notes
+readTime: 6
+---
+
 # Background Tasks in Android (Updated with Deprecated vs Modern)
 
 This document explains **all major background task mechanisms in Android**, clearly marking what is

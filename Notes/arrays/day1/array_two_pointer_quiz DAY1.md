@@ -1,3 +1,13 @@
+---
+title: "Array & Two-Pointer Brain Teaser Quiz"
+date: 2026-06-17
+slug: "array-two-pointer-brain-teaser-quiz"
+tags: [ "Notes", "Java", "Arrays", "Quiz", "Two-Pointer", "DSA" ]
+summary: "A 30-question brain teaser quiz designed to sharpen your instincts for array and two-pointer problems, covering loop conditions, stability, and common patterns."
+categories: Notes
+readTime: 8
+---
+
 # 🧠 Array & Two-Pointer Brain Teaser Quiz (30 Questions)
 
 Sharpen your problem-solving instincts. Try to answer before expanding the solution.

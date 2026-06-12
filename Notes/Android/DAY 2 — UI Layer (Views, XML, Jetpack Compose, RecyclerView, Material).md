@@ -1,3 +1,13 @@
+---
+title: "Android UI Layer Guide: Views, XML, Jetpack Compose, RecyclerView and Material Design"
+date: 2026-06-12
+slug: "android-ui-layer-views-xml-compose-recyclerview-material"
+tags: [ "Notes", "Android", "UI Layer", "Jetpack Compose", "RecyclerView", "Material Design", "XML Views" ]
+summary: "Personal Android UI layer notes covering the View system, XML layouts, RecyclerView, custom views, Material Design, Jetpack Compose state, recomposition, side effects, lifecycle awareness, and Compose vs XML trade-offs."
+categories: Notes
+readTime: 28
+---
+
 # DAY 2 — UI Layer (Views, XML, Jetpack Compose, RecyclerView, Material)
 
 ## Table of Contents

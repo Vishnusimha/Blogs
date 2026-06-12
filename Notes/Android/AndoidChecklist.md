@@ -1,3 +1,13 @@
+---
+title: "Mid-Level Android Interview Checklist: 7-Day Execution Flow"
+date: 2026-06-27
+slug: "android-interview-checklist-7-day-plan"
+tags: [ "Notes", "Android", "Interview", "Checklist", "Fundamentals", "Architecture" ]
+summary: "A comprehensive 7-day study plan and checklist for mid-level Android developer interviews, covering everything from core platform knowledge to system design."
+categories: Notes
+readTime: 10
+---
+
 # ✅ MID-LEVEL ANDROID INTERVIEW CHECKLIST`
 
 **Rearranged into 7-Day Execution Flow**

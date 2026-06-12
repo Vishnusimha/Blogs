@@ -1,3 +1,13 @@
+---
+title: "Android Offline Storage Notes"
+date: 2026-06-12
+slug: "android-offline-storage-notes"
+tags: [ "Notes", "Android", "Offline Storage", "SQLite", "Room", "File Storage", "Caching" ]
+summary: "Personal Android notes covering offline storage options such as SQLite, SharedPreferences, file storage, Room, caching, data syncing, security considerations, and Kotlin examples for saving and retrieving local data."
+categories: Notes
+readTime: 12
+---
+
 # Offline Storage
 
 #### I as android developer, what I should know about offline storage?

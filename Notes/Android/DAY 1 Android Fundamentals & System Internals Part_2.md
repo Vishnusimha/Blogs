@@ -1,3 +1,13 @@
+---
+title: "Android Fundamentals and System Internals Part 2"
+date: 2026-06-12
+slug: "android-fundamentals-system-internals-part-2"
+tags: [ "Notes", "Android", "System Internals", "ART", "Zygote", "Binder", "IPC", "APK" ]
+summary: "Personal Android system internals notes covering Android architecture layers, ART and Dalvik, Zygote, System Server, app startup, process priority, ANR, Handler, Binder IPC, launch modes, APK structure, and AAB delivery."
+categories: Notes
+readTime: 22
+---
+
 # Technical interview questions
 
 #### DAY 1 Android Fundamentals & System Internals Part 2

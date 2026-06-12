@@ -1,5 +1,15 @@
 
 ````md
+---
+title: "LeetCode Arrays Practice Notes"
+date: 2026-06-15
+slug: "leetcode-arrays-practice-notes"
+tags: [ "Notes", "Java", "Arrays", "LeetCode", "HashSet", "Intersection" ]
+summary: "Detailed notes on solving the Intersection of Two Arrays problem on LeetCode using HashSet for optimal performance."
+categories: Notes
+readTime: 5
+---
+
 ## Intersection of Two Arrays — Description
 
 ### Question

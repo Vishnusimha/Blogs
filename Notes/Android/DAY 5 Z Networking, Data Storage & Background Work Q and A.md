@@ -1,3 +1,13 @@
+---
+title: "Android Networking, Data Storage and Background Work Interview Q&A"
+date: 2026-06-12
+slug: "android-networking-data-storage-background-work-interview-qa"
+tags: [ "Notes", "Android", "Networking", "Data Storage", "WorkManager", "Room", "DataStore", "Deep Linking" ]
+summary: "Personal Android interview Q&A notes covering data storage options, push notifications, NDK, networking, location services, SharedPreferences, SQLite, PendingIntent, Room, WorkManager, connectivity changes, deep linking, and DataStore."
+categories: Notes
+readTime: 18
+---
+
 # Technical interview questions
 
 #### DAY 5 Data, Networking, Background Work & Platform Capabilities

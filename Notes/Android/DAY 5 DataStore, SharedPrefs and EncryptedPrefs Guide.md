@@ -1,3 +1,13 @@
+---
+title: "DataStore, SharedPreferences and EncryptedSharedPreferences Guide"
+date: 2026-06-12
+slug: "datastore-sharedpreferences-encryptedsharedpreferences-guide"
+tags: [ "Notes", "Android", "DataStore", "SharedPreferences", "EncryptedSharedPreferences", "Secure Storage", "Preferences" ]
+summary: "Personal Android storage notes explaining SharedPreferences, Preferences DataStore, Proto DataStore, EncryptedSharedPreferences, corruption handling, testing, migration from SharedPreferences, and secure key-value storage choices."
+categories: Notes
+readTime: 18
+---
+
 
 # DataStore, SharedPreferences & EncryptedSharedPreferences — Complete Android Guide
 

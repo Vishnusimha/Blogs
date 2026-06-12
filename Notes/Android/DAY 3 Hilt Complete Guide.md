@@ -1,3 +1,13 @@
+---
+title: "Hilt Dependency Injection: Complete Senior-Level Guide for Android"
+date: 2026-06-20
+slug: "hilt-dependency-injection-android-guide"
+tags: [ "Notes", "Android", "Hilt", "Dependency Injection", "Dagger", "Architecture" ]
+summary: "An exhaustive guide to Hilt DI in Android, covering everything from basic setup to advanced concepts like qualifiers, assisted injection, and testing."
+categories: Notes
+readTime: 12
+---
+
 # Hilt Dependency Injection — Complete Senior-Level Guide
 
 This guide covers **everything you need to know about Hilt** for Android interviews and real-world
