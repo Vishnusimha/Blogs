@@ -11,6 +11,7 @@ readTime: 20
 # Technical interview questions
 
 [DAY 1 Android_Manifest_File_Guide.md](DAY%201%20Android_Manifest_File_Guide.md)
+
 [DAY 1 App_Bundles_and_APK_Structure.md](DAY%201%20App_Bundles_and_APK_Structure.md)
 
 #### DAY 1 Android Fundamentals & System Internals

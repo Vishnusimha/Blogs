@@ -371,6 +371,7 @@ docker push myusername/alpine:custom
 
 <img alt="DockerRegistry" src="dockerimages/14.png" />
 <img alt="DockerRegistry" src="dockerimages/15.png" />
+<img alt="DockerRegistry" src="dockerimages/16.png" />
 
 ---
 
