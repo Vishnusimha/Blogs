@@ -428,7 +428,7 @@ Senior insight:
 
 > “Retries without idempotency can cause duplicate backend actions.”
 
-![Understanding-Idempotency-and-Safety-in-API-Design.webp](assets/Understanding-Idempotency-and-Safety-in-API-Design.webp)
+![Understanding-Idempotency-and-Safety-in-API-Design.webp](android_assets/Understanding-Idempotency-and-Safety-in-API-Design.webp)
 
 ---
 

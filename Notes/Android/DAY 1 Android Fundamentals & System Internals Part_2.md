@@ -54,7 +54,7 @@ readTime: 22
 
 # Android Fundamentals & System Internals — Notes 
 
-![Android Platform Architecture](assets/Android_Platform_architecture.png)
+![Android Platform Architecture](android_assets/Android_Platform_architecture.png)
 
 ## 1) Android Architecture Layers (Linux Kernel → Apps)
 
