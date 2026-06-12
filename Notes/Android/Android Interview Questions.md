@@ -1,4 +1,3 @@
-
 ---
 title: "2 Android Developer Interview Questions: Master List"
 date: 2026-06-28
