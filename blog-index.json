@@ -27,7 +27,7 @@
     "path": "Notes/Android/AndroidTechinalInterviewQ&A.md"
   },
   {
-    "title": "Android App Bundle (AAB) & APK Structure: Senior Guide",
+    "title": "DAY 1 Android App Bundle (AAB) & APK Structure: Senior Guide",
     "date": "2026-06-29",
     "slug": "android-app-bundle-apk-structure-guide",
     "summary": "A deep dive into Android application packaging, explaining the internal structure of APKs, the build pipeline, DEX files, and the benefits of using Android App Bundles (AAB) for optimized delivery.",
@@ -189,24 +189,6 @@
     "path": "Notes/Android/DAY 4 Concurrency, Coroutines, Services & Background Execution.md"
   },
   {
-    "title": "Android Fundamentals and System Internals Part 1",
-    "date": "2026-06-12",
-    "slug": "android-fundamentals-system-internals-part-1",
-    "summary": "Personal Android interview notes covering Android basics, app components, activity lifecycle, fragments, manifest, permissions, intents, assets, resources, and ContentProvider concepts.",
-    "categories": "Notes",
-    "readTime": 20,
-    "path": "Notes/Android/DAY 1 Android Fundamentals & System Internals Part_1.md"
-  },
-  {
-    "title": "Android Fundamentals and System Internals Part 2",
-    "date": "2026-06-12",
-    "slug": "android-fundamentals-system-internals-part-2",
-    "summary": "Personal Android system internals notes covering Android architecture layers, ART and Dalvik, Zygote, System Server, app startup, process priority, ANR, Handler, Binder IPC, launch modes, APK structure, and AAB delivery.",
-    "categories": "Notes",
-    "readTime": 22,
-    "path": "Notes/Android/DAY 1 Android Fundamentals & System Internals Part_2.md"
-  },
-  {
     "title": "Android Localization, Security and Release Readiness Q&A",
     "date": "2026-06-12",
     "slug": "android-localization-security-release-readiness-qa",
@@ -214,15 +196,6 @@
     "categories": "Notes",
     "readTime": 10,
     "path": "Notes/Android/DAY 7 Localization, Security & Release Readiness.md"
-  },
-  {
-    "title": "Android Manifest File Guide",
-    "date": "2026-06-12",
-    "slug": "android-manifest-file-guide",
-    "summary": "Personal study notes explaining AndroidManifest.xml responsibilities, permissions, intent filters, deep links, exported components, manifest security, and key application-level flags.",
-    "categories": "Notes",
-    "readTime": 10,
-    "path": "Notes/Android/DAY 1 Android_Manifest_File_Guide.md"
   },
   {
     "title": "Android Networking, Data Storage and Background Work Guide",
@@ -286,6 +259,33 @@
     "categories": "Notes",
     "readTime": 22,
     "path": "Notes/Android/DAY 2 — UI Layer (Views → XML, Jetpack Compose, RecyclerView, Material Design) Part_2.md"
+  },
+  {
+    "title": "DAY 1 Android Fundamentals and System Internals Part 1",
+    "date": "2026-06-12",
+    "slug": "android-fundamentals-system-internals-part-1",
+    "summary": "Personal Android interview notes covering Android basics, app components, activity lifecycle, fragments, manifest, permissions, intents, assets, resources, and ContentProvider concepts.",
+    "categories": "Notes",
+    "readTime": 20,
+    "path": "Notes/Android/DAY 1 Android Fundamentals & System Internals Part_1.md"
+  },
+  {
+    "title": "DAY 1 Android Fundamentals and System Internals Part 2",
+    "date": "2026-06-12",
+    "slug": "android-fundamentals-system-internals-part-2",
+    "summary": "Personal Android system internals notes covering Android architecture layers, ART and Dalvik, Zygote, System Server, app startup, process priority, ANR, Handler, Binder IPC, launch modes, APK structure, and AAB delivery.",
+    "categories": "Notes",
+    "readTime": 22,
+    "path": "Notes/Android/DAY 1 Android Fundamentals & System Internals Part_2.md"
+  },
+  {
+    "title": "DAY 1 Android Manifest File Guide",
+    "date": "2026-06-12",
+    "slug": "android-manifest-file-guide",
+    "summary": "Personal study notes explaining AndroidManifest.xml responsibilities, permissions, intent filters, deep links, exported components, manifest security, and key application-level flags.",
+    "categories": "Notes",
+    "readTime": 10,
+    "path": "Notes/Android/DAY 1 Android_Manifest_File_Guide.md"
   },
   {
     "title": "DataStore, SharedPreferences and EncryptedSharedPreferences Guide",
