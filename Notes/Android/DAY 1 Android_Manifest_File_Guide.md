@@ -1,5 +1,5 @@
 ---
-title: "Android Manifest File Guide"
+title: "DAY 1 Android Manifest File Guide"
 date: 2026-06-12
 slug: "android-manifest-file-guide"
 tags: [ "Notes", "Android", "AndroidManifest", "Permissions", "Intent Filters", "Deep Links", "Security" ]

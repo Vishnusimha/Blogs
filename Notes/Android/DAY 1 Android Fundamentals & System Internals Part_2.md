@@ -1,5 +1,5 @@
 ---
-title: "Android Fundamentals and System Internals Part 2"
+title: "DAY 1 Android Fundamentals and System Internals Part 2"
 date: 2026-06-12
 slug: "android-fundamentals-system-internals-part-2"
 tags: [ "Notes", "Android", "System Internals", "ART", "Zygote", "Binder", "IPC", "APK" ]

@@ -1,5 +1,5 @@
 ---
-title: "Android Fundamentals and System Internals Part 1"
+title: "DAY 1 Android Fundamentals and System Internals Part 1"
 date: 2026-06-12
 slug: "android-fundamentals-system-internals-part-1"
 tags: [ "Notes", "Android", "Interview Preparation", "Android Fundamentals", "Activities", "Permissions", "Content Providers" ]

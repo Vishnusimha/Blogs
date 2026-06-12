@@ -1,5 +1,5 @@
 ---
-title: "Android App Bundle (AAB) & APK Structure: Senior Guide"
+title: "DAY 1 Android App Bundle (AAB) & APK Structure: Senior Guide"
 date: 2026-06-29
 slug: "android-app-bundle-apk-structure-guide"
 tags: [ "Notes", "Android", "APK", "AAB", "Build Pipeline", "Architecture" ]
