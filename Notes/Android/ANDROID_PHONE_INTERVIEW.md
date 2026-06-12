@@ -1,5 +1,12 @@
-Sure! Here’s the complete set of questions and answers, fully updated for **Transact Campus** and refined for fluency
-and clarity.
+---
+title: "5 Android Phone Interview Questions"
+date: 2026-07-02
+slug: "android-phone-interview-detailed-questions"
+tags: [ "Notes", "Android", "Phone Interview", "Interview Questions", "Career" ]
+summary: "A comprehensive list of 12 detailed Android phone interview questions and answers, covering topics like personal background, interest in the role"
+categories: Notes
+readTime: 10
+---
 
 ---
 

@@ -162,7 +162,7 @@
     "path": "InternetOfThings_AI_ML_DataScience/pipulse-ai-raspberry-pi-health-monitor-dashboard.md"
   },
   {
-    "title": "ANDROID PHONE INTERVIEW",
+    "title": "5 Android Phone Interview Questions",
     "slug": "notes-android-android-phone-interview-md",
     "category": "Notes",
     "categories": "Notes",
@@ -171,7 +171,10 @@
     "language": "markdown",
     "path": "Notes/Android/ANDROID_PHONE_INTERVIEW.md",
     "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/Android/ANDROID_PHONE_INTERVIEW.md",
-    "isNote": true
+    "isNote": true,
+    "summary": "A comprehensive list of 12 detailed Android phone interview questions and answers, covering topics like personal background, interest in the role",
+    "date": "2026-07-02",
+    "readTime": 10
   },
   {
     "title": "1 Mid-Level Android Interview Checklist: 7-Day Execution Flow",
