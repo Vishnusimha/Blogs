@@ -1,6 +1,6 @@
 [
   {
-    "title": "Android Core Components: Detailed Lifecycle & Usage Guide",
+    "title": "4 Android Core Components: Detailed Lifecycle & Usage Guide",
     "date": "2026-07-02",
     "slug": "android-core-components-detailed-guide",
     "summary": "An in-depth exploration of Android's core application components, providing detailed lifecycle diagrams, best practices for Services and Intents, and explaining the roles of BroadcastReceivers and ContentProviders in modern app development.",
@@ -9,7 +9,7 @@
     "path": "Notes/Android/Android_Components_in_detail.md"
   },
   {
-    "title": "Android Performance Tooling: Profiler, LeakCanary, and Systrace",
+    "title": "3 Android Performance Tooling: Profiler, LeakCanary, and Systrace",
     "date": "2026-07-01",
     "slug": "android-performance-tools-guide",
     "summary": "A roadmap for learning Android performance optimization tools, comparing the ease of use and ROI of Android Profiler, LeakCanary, and Systrace for developers.",
@@ -18,7 +18,7 @@
     "path": "Notes/Android/Android Profiler.md"
   },
   {
-    "title": "Android Technical Interview Q&A: Orientation, Binding, and i18n",
+    "title": "5 Android Technical Interview Q&A: Orientation, Binding, and i18n",
     "date": "2026-06-30",
     "slug": "android-technical-interview-qa-guide",
     "summary": "A collection of technical interview questions and answers for Android developers, covering screen orientation changes, the difference between Data Binding and View Binding, and internationalization (i18n) best practices.",
@@ -36,7 +36,7 @@
     "path": "Notes/Android/DAY 1 App_Bundles_and_APK_Structure.md"
   },
   {
-    "title": "Mid-Level Android Interview Checklist: 7-Day Execution Flow",
+    "title": "1 Mid-Level Android Interview Checklist: 7-Day Execution Flow",
     "date": "2026-06-27",
     "slug": "android-interview-checklist-7-day-plan",
     "summary": "A comprehensive 7-day study plan and checklist for mid-level Android developer interviews, covering everything from core platform knowledge to system design.",
