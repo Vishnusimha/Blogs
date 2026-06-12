@@ -1,5 +1,5 @@
 ---
-title: "Object-Oriented Programming Concepts: Encapsulation, Abstraction, Inheritance, and Polymorphism"
+title: "Object-Oriented Programming Concepts"
 date: 2026-06-08
 slug: "object-oriented-programming-concepts-java-kotlin"
 tags: [ "OOP", "Java", "Kotlin", "Software Engineering", "Backend Engineering" ]

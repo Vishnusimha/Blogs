@@ -1,5 +1,5 @@
 ---
-title: "SOLID Principles in Object-Oriented Design with Kotlin Examples"
+title: "SOLID Principles"
 date: 2026-06-08
 slug: "solid-principles-object-oriented-design-kotlin"
 tags: [ "SOLID", "OOP", "Kotlin", "Java", "Backend Engineering" ]

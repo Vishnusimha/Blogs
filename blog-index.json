@@ -90,7 +90,7 @@
     "path": "DevConcepts/Design_Patterns.md"
   },
   {
-    "title": "Object-Oriented Programming Concepts: Encapsulation, Abstraction, Inheritance, and Polymorphism",
+    "title": "Object-Oriented Programming Concepts",
     "date": "2026-06-08",
     "slug": "object-oriented-programming-concepts-java-kotlin",
     "summary": "Beginner-friendly guide to core object-oriented programming concepts including encapsulation, abstraction, inheritance, polymorphism, classes, objects, constructors, composition, and aggregation.",
@@ -99,7 +99,7 @@
     "path": "DevConcepts/OOP_Concepts.md"
   },
   {
-    "title": "SOLID Principles in Object-Oriented Design with Kotlin Examples",
+    "title": "SOLID Principles",
     "date": "2026-06-08",
     "slug": "solid-principles-object-oriented-design-kotlin",
     "summary": "Clear guide to the five SOLID principles: Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion with practical Kotlin examples.",
