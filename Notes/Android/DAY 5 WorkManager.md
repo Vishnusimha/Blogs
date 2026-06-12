@@ -1,5 +1,5 @@
 ---
-title: "WorkManager in Android: Practical Examples and Best Practices"
+title: "DAY 5 WorkManager in Android: Practical Examples and Best Practices"
 date: 2026-06-12
 slug: "workmanager-android-practical-examples-best-practices"
 tags: [ "Notes", "Android", "WorkManager", "Background Work", "Periodic Work", "Chained Work", "Constraints" ]

@@ -1,5 +1,5 @@
 ---
-title: "Android Testing, Debugging, Performance, Build and Compatibility Q&A"
+title: "DAY 6 Android Testing, Debugging, Performance, Build and Compatibility Q&A"
 date: 2026-06-12
 slug: "android-testing-debugging-performance-build-compatibility-qa"
 tags: [ "Notes", "Android", "Testing", "Debugging", "Performance", "Gradle", "Compatibility" ]

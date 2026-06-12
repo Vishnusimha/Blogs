@@ -1,5 +1,5 @@
 ---
-title: "Android Concurrency, Coroutines, Services and Background Execution Q&A"
+title: "DAY 4 Android Concurrency, Coroutines, Services and Background Execution Q&A"
 date: 2026-06-12
 slug: "android-concurrency-coroutines-services-background-execution-qa"
 tags: [ "Notes", "Android", "Coroutines", "Services", "Background Work", "JobScheduler", "WorkManager" ]

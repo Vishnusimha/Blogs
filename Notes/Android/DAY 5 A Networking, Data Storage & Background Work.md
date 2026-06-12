@@ -1,5 +1,5 @@
 ---
-title: "Android Networking, Data Storage and Background Work Guide"
+title: "DAY 5 Android Networking, Data Storage and Background Work Guide"
 date: 2026-06-12
 slug: "android-networking-data-storage-background-work-guide"
 tags: [ "Notes", "Android", "Networking", "Retrofit", "OkHttp", "Room", "WorkManager", "Paging 3" ]

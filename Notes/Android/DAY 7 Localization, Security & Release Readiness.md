@@ -1,5 +1,5 @@
 ---
-title: "Android Localization, Security and Release Readiness Q&A"
+title: "DAY 7 Android Localization, Security and Release Readiness Q&A"
 date: 2026-06-12
 slug: "android-localization-security-release-readiness-qa"
 tags: [ "Notes", "Android", "Localization", "Security", "Play Store Release", "Encryption", "Biometric Authentication" ]

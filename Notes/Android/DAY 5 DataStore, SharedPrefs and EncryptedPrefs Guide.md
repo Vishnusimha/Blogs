@@ -1,5 +1,5 @@
 ---
-title: "DataStore, SharedPreferences and EncryptedSharedPreferences Guide"
+title: "DAY 5 DataStore, SharedPreferences and EncryptedSharedPreferences Guide"
 date: 2026-06-12
 slug: "datastore-sharedpreferences-encryptedsharedpreferences-guide"
 tags: [ "Notes", "Android", "DataStore", "SharedPreferences", "EncryptedSharedPreferences", "Secure Storage", "Preferences" ]

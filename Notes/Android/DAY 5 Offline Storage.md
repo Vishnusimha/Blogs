@@ -1,5 +1,5 @@
 ---
-title: "Android Offline Storage Notes"
+title: "DAY 5 Android Offline Storage Notes"
 date: 2026-06-12
 slug: "android-offline-storage-notes"
 tags: [ "Notes", "Android", "Offline Storage", "SQLite", "Room", "File Storage", "Caching" ]

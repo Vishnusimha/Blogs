@@ -1,5 +1,5 @@
 ---
-title: "Room Persistence Library: Complete Advanced Guide"
+title: "DAY 5 Room Persistence Library: Complete Advanced Guide"
 date: 2026-06-21
 slug: "android-room-persistence-guide"
 tags: [ "Notes", "Android", "Room", "Database", "Persistence", "Flow", "Paging" ]

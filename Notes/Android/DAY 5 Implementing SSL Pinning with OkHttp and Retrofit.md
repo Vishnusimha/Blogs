@@ -1,5 +1,5 @@
 ---
-title: "Implementing SSL Pinning with OkHttp and Retrofit"
+title: "DAY 5 Implementing SSL Pinning with OkHttp and Retrofit"
 date: 2026-06-12
 slug: "implementing-ssl-pinning-okhttp-retrofit"
 tags: [ "Notes", "Android", "SSL Pinning", "OkHttp", "Retrofit", "Security", "Networking" ]

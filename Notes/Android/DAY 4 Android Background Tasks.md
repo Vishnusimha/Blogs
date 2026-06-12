@@ -1,5 +1,5 @@
 ---
-title: "Modern Background Tasks in Android: Deprecated vs Recommended"
+title: "DAY 4 Modern Background Tasks in Android: Deprecated vs Recommended"
 date: 2026-06-19
 slug: "android-background-tasks-guide"
 tags: [ "Notes", "Android", "Background Tasks", "WorkManager", "Coroutines", "Foreground Service" ]

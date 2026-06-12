@@ -1,5 +1,5 @@
 ---
-title: "Kotlin, System Thinking and Android Interview Readiness Q&A"
+title: "DAY 8 Kotlin, System Thinking and Android Interview Readiness Q&A"
 date: 2026-06-12
 slug: "kotlin-system-thinking-android-interview-readiness-qa"
 tags: [ "Notes", "Kotlin", "Android", "Interview Preparation", "Coroutines", "Inheritance", "Companion Object" ]

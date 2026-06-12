@@ -1,5 +1,5 @@
 ---
-title: "Android API Key Management & Secrets Handling"
+title: "DAY 7 Android API Key Management & Secrets Handling"
 date: 2026-06-18
 slug: "android-api-key-management-secrets-handling"
 tags: [ "Notes", "Android", "Security", "API Keys", "Secrets", "Best Practices" ]

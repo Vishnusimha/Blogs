@@ -1,5 +1,5 @@
 ---
-title: "Paging 3: Complete Android Pagination Guide"
+title: "DAY 5 Paging 3: Complete Android Pagination Guide"
 date: 2026-06-25
 slug: "android-paging-3-pagination-guide"
 tags: [ "Notes", "Android", "Paging 3", "Pagination", "RemoteMediator", "Room" ]

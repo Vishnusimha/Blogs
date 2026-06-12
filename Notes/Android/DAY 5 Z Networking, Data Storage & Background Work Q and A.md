@@ -1,5 +1,5 @@
 ---
-title: "Android Networking, Data Storage and Background Work Interview Q&A"
+title: "DAY 5 Android Networking, Data Storage and Background Work Interview Q&A"
 date: 2026-06-12
 slug: "android-networking-data-storage-background-work-interview-qa"
 tags: [ "Notes", "Android", "Networking", "Data Storage", "WorkManager", "Room", "DataStore", "Deep Linking" ]

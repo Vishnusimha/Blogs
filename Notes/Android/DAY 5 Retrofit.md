@@ -1,5 +1,5 @@
 ---
-title: "Networking in Android with Retrofit"
+title: "DAY 5 Networking in Android with Retrofit"
 date: 2026-06-22
 slug: "android-retrofit-networking-guide"
 tags: [ "Notes", "Android", "Retrofit", "Networking", "API", "Interceptors" ]

@@ -1,5 +1,5 @@
 ---
-title: "Room Database Migrations and CRUD Complete Guide"
+title: "DAY 5 Room Database Migrations and CRUD Complete Guide"
 date: 2026-06-12
 slug: "room-database-migrations-crud-complete-guide"
 tags: [ "Notes", "Android", "Room", "SQLite", "Migrations", "CRUD", "Database" ]
