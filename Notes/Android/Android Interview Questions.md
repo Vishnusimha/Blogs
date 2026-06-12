@@ -1,6 +1,6 @@
 
 ---
-title: "Android Developer Interview Questions: Master List"
+title: "2 Android Developer Interview Questions: Master List"
 date: 2026-06-28
 slug: "android-interview-questions-master-list"
 tags: [ "Notes", "Android", "Interview", "Questions", "Fundamentals", "UI", "Architecture" ]

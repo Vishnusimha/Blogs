@@ -1,5 +1,5 @@
 ---
-title: "Android Core Components: Detailed Lifecycle & Usage Guide"
+title: "4 Android Core Components: Detailed Lifecycle & Usage Guide"
 date: 2026-07-02
 slug: "android-core-components-detailed-guide"
 tags: [ "Notes", "Android", "Activity", "Fragment", "Service", "BroadcastReceiver", "ContentProvider", "Lifecycle" ]

@@ -1,5 +1,5 @@
 ---
-title: "Android Technical Interview Q&A: Orientation, Binding, and i18n"
+title: "5 Android Technical Interview Q&A: Orientation, Binding, and i18n"
 date: 2026-06-30
 slug: "android-technical-interview-qa-guide"
 tags: [ "Notes", "Android", "Interview", "Orientation Change", "Data Binding", "View Binding", "i18n" ]

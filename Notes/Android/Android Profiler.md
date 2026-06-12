@@ -1,5 +1,5 @@
 ---
-title: "Android Performance Tooling: Profiler, LeakCanary, and Systrace"
+title: "3 Android Performance Tooling: Profiler, LeakCanary, and Systrace"
 date: 2026-07-01
 slug: "android-performance-tools-guide"
 tags: [ "Notes", "Android", "Performance", "Android Profiler", "LeakCanary", "Systrace" ]

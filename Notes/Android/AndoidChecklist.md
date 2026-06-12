@@ -1,5 +1,5 @@
 ---
-title: "Mid-Level Android Interview Checklist: 7-Day Execution Flow"
+title: "1 Mid-Level Android Interview Checklist: 7-Day Execution Flow"
 date: 2026-06-27
 slug: "android-interview-checklist-7-day-plan"
 tags: [ "Notes", "Android", "Interview", "Checklist", "Fundamentals", "Architecture" ]
