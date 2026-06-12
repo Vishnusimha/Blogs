@@ -45,6 +45,15 @@
     "path": "DevOps/Docker.md"
   },
   {
+    "title": "Interfaces in Java and Kotlin: SDK Contracts, Abstraction, and Callbacks",
+    "date": "2026-06-08",
+    "slug": "interfaces-java-kotlin-sdk-contracts-callbacks",
+    "summary": "Practical guide to interfaces in Java and Kotlin: learn how interfaces define contracts, support abstraction and polymorphism, enable SDK design, default/custom implementations, facades, and callback patterns.",
+    "categories": "Backend Engineering",
+    "readTime": 8,
+    "path": "DevConcepts/Interfaces.md"
+  },
+  {
     "title": "Kotlin DSL vs Groovy DSL in Android Gradle: Which One Should You Use?",
     "date": "2026-06-08",
     "slug": "kotlin-dsl-vs-groovy-dsl-android-gradle",
@@ -79,6 +88,24 @@
     "categories": "Backend Engineering",
     "readTime": 8,
     "path": "DevConcepts/Design_Patterns.md"
+  },
+  {
+    "title": "Object-Oriented Programming Concepts: Encapsulation, Abstraction, Inheritance, and Polymorphism",
+    "date": "2026-06-08",
+    "slug": "object-oriented-programming-concepts-java-kotlin",
+    "summary": "Beginner-friendly guide to core object-oriented programming concepts including encapsulation, abstraction, inheritance, polymorphism, classes, objects, constructors, composition, and aggregation.",
+    "categories": "Backend Engineering",
+    "readTime": 7,
+    "path": "DevConcepts/OOP_Concepts.md"
+  },
+  {
+    "title": "SOLID Principles in Object-Oriented Design with Kotlin Examples",
+    "date": "2026-06-08",
+    "slug": "solid-principles-object-oriented-design-kotlin",
+    "summary": "Clear guide to the five SOLID principles: Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion with practical Kotlin examples.",
+    "categories": "Backend Engineering",
+    "readTime": 8,
+    "path": "DevConcepts/SOLID_Principles.md"
   },
   {
     "title": "SQL Interview Questions",
@@ -1590,6 +1617,126 @@
     "language": "pdf",
     "path": "Notes/git/git-cheat-sheet-git-lab.pdf",
     "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/git/git-cheat-sheet-git-lab.pdf",
+    "isNote": true
+  },
+  {
+    "title": "Advancedjava",
+    "slug": "notes-oopjavakotlin-advanced-java-md",
+    "category": "Notes",
+    "categories": "Notes",
+    "type": "markdown",
+    "extension": ".md",
+    "language": "markdown",
+    "path": "Notes/oopjavakotlin/AdvancedJava.md",
+    "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/oopjavakotlin/AdvancedJava.md",
+    "isNote": true
+  },
+  {
+    "title": "Javaquestions",
+    "slug": "notes-oopjavakotlin-java-questions-md",
+    "category": "Notes",
+    "categories": "Notes",
+    "type": "markdown",
+    "extension": ".md",
+    "language": "markdown",
+    "path": "Notes/oopjavakotlin/JavaQuestions.md",
+    "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/oopjavakotlin/JavaQuestions.md",
+    "isNote": true
+  },
+  {
+    "title": "Kotlindatastructures",
+    "slug": "notes-oopjavakotlin-kotlin-data-structures-md",
+    "category": "Notes",
+    "categories": "Notes",
+    "type": "markdown",
+    "extension": ".md",
+    "language": "markdown",
+    "path": "Notes/oopjavakotlin/KotlinDataStructures.md",
+    "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/oopjavakotlin/KotlinDataStructures.md",
+    "isNote": true
+  },
+  {
+    "title": "Kotlinsyntaxcheetsheet",
+    "slug": "notes-oopjavakotlin-kotlin-syntax-cheet-sheet-md",
+    "category": "Notes",
+    "categories": "Notes",
+    "type": "markdown",
+    "extension": ".md",
+    "language": "markdown",
+    "path": "Notes/oopjavakotlin/KotlinSyntaxCheetSheet.md",
+    "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/oopjavakotlin/KotlinSyntaxCheetSheet.md",
+    "isNote": true
+  },
+  {
+    "title": "Programming",
+    "slug": "notes-oopjavakotlin-programming-md",
+    "category": "Notes",
+    "categories": "Notes",
+    "type": "markdown",
+    "extension": ".md",
+    "language": "markdown",
+    "path": "Notes/oopjavakotlin/Programming.md",
+    "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/oopjavakotlin/Programming.md",
+    "isNote": true
+  },
+  {
+    "title": "240 Java Interview questions.pdf",
+    "slug": "notes-oopjavakotlin-pdfs-240-java-interview-questions-pdf",
+    "category": "Notes",
+    "categories": "Notes",
+    "type": "pdf",
+    "extension": ".pdf",
+    "language": "pdf",
+    "path": "Notes/oopjavakotlin/pdfs/240 Java Interview questions.pdf",
+    "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/oopjavakotlin/pdfs/240%20Java%20Interview%20questions.pdf",
+    "isNote": true
+  },
+  {
+    "title": "50 Java Interview questions.pdf",
+    "slug": "notes-oopjavakotlin-pdfs-50-java-interview-questions-pdf",
+    "category": "Notes",
+    "categories": "Notes",
+    "type": "pdf",
+    "extension": ".pdf",
+    "language": "pdf",
+    "path": "Notes/oopjavakotlin/pdfs/50 Java Interview questions.pdf",
+    "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/oopjavakotlin/pdfs/50%20Java%20Interview%20questions.pdf",
+    "isNote": true
+  },
+  {
+    "title": "Design Patterns.pdf",
+    "slug": "notes-oopjavakotlin-pdfs-design-patterns-pdf",
+    "category": "Notes",
+    "categories": "Notes",
+    "type": "pdf",
+    "extension": ".pdf",
+    "language": "pdf",
+    "path": "Notes/oopjavakotlin/pdfs/Design Patterns.pdf",
+    "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/oopjavakotlin/pdfs/Design%20Patterns.pdf",
+    "isNote": true
+  },
+  {
+    "title": "JAVA Explanation.pdf",
+    "slug": "notes-oopjavakotlin-pdfs-java-explanation-pdf",
+    "category": "Notes",
+    "categories": "Notes",
+    "type": "pdf",
+    "extension": ".pdf",
+    "language": "pdf",
+    "path": "Notes/oopjavakotlin/pdfs/JAVA Explanation.pdf",
+    "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/oopjavakotlin/pdfs/JAVA%20Explanation.pdf",
+    "isNote": true
+  },
+  {
+    "title": "kotlinLearningFlow.pdf",
+    "slug": "notes-oopjavakotlin-pdfs-kotlin-learning-flow-pdf",
+    "category": "Notes",
+    "categories": "Notes",
+    "type": "pdf",
+    "extension": ".pdf",
+    "language": "pdf",
+    "path": "Notes/oopjavakotlin/pdfs/kotlinLearningFlow.pdf",
+    "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/oopjavakotlin/pdfs/kotlinLearningFlow.pdf",
     "isNote": true
   }
 ]
