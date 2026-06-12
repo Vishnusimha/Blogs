@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Patterns Practice - 20 Questions</title>
+
+    <!-- Uses your existing CSS (place style.css in same folder) -->
+    <link rel="stylesheet" href="../quiz/style.css">
+</head>
+<body>
+
+<h1>🧠 Array Patterns Master Practice (Based on Your Weak Areas)</h1>
+
+<div class="rule">
+    <b>How to Use:</b>
+    1. Read question
+    2. Think with ONE pattern (single loop / sliding window / prefix sum)
+    3. Open Hint 1 only
+    4. Then Hint 2
+    5. Finally Answer (Pseudo Thinking)
+</div>
+
+<!-- Q1 -->
+<div class="card">
+    <h2>Q1 — Find Maximum Element</h2>
+    <p>Given: [3, 1, 7, 2, 9, 4]</p>
+
+    <details>
+        <summary>Hint 1</summary>
+        Single loop + track best value.
+    </details>
+
+    <details>
+        <summary>Answer (Thinking Steps)</summary>
+        Initialize max = arr[0] → traverse once → update when current > max.
+    </details>
+</div>
+
+<!-- Q2 -->
+<div class="card">
+    <h2>Q2 — Find Minimum Element</h2>
+    <p>Given: [8, 3, 5, 1, 9]</p>
+
+    <details>
+        <summary>Hint 1</summary>
+        Same as max but reverse comparison.
+    </details>
+
+    <details>
+        <summary>Answer</summary>
+        Track min while traversing once.
+    </details>
+</div>
+
+<!-- Q3 -->
+<div class="card">
+    <h2>Q3 — Prefix Sum (In-Place)</h2>
+    <p>Given: [1,2,3,4] → [1,3,6,10]</p>
+
+    <details>
+        <summary>Hint 1</summary>
+        Running sum + overwrite array.
+    </details>
+
+    <details>
+        <summary>Answer</summary>
+        runningSum += arr[i]; arr[i] = runningSum.
+    </details>
+</div>
+
+<!-- Q4 -->
+<div class="card">
+    <h2>Q4 — Pivot Index</h2>
+    <p>Return index where left sum == right sum.</p>
+
+    <details>
+        <summary>Hint 1</summary>
+        Total sum first, then iterate once.
+    </details>
+
+    <details>
+        <summary>Hint 2</summary>
+        Right sum = total - leftSum - current.
+    </details>
+
+    <details>
+        <summary>Answer</summary>
+        Use prefix sum idea with one loop and dynamic left/right sums.
+    </details>
+</div>
+
+<!-- Q5 -->
+<div class="card">
+    <h2>Q5 — Maximum Subarray Sum (Kadane)</h2>
+    <p>Given: [-2,1,-3,4,-1,2,1,-5,4]</p>
+
+    <details>
+        <summary>Hint 1</summary>
+        Running sum + reset if negative.
+    </details>
+
+    <details>
+        <summary>Answer</summary>
+        runningSum += num → max = max(max, runningSum) → if runningSum &lt; 0 reset.
+    </details>
+</div>
+
+<!-- Q6 -->
+<div class="card">
+    <h2>Q6 — All Negative Max Subarray</h2>
+    <p>Given: [-3,-2,-5,-1]</p>
+
+    <details>
+        <summary>Hint 1</summary>
+        Do NOT initialize max = 0.
+    </details>
+
+    <details>
+        <summary>Answer</summary>
+        Initialize max = Integer.MIN_VALUE and use Kadane properly.
+    </details>
+</div>
+
+<!-- Q7 -->
+<div class="card">
+    <h2>Q7 — Count Even Numbers</h2>
+    <p>Given: [1,2,4,7,8]</p>
+
+    <details>
+        <summary>Hint 1</summary>
+        Condition filtering in single loop.
+    </details>
+
+    <details>
+        <summary>Answer</summary>
+        if (num % 2 == 0) count++.
+    </details>
+</div>
+
+<!-- Q8 -->
+<div class="card">
+    <h2>Q8 — Check if Array is Sorted</h2>
+    <p>Return true if ascending.</p>
+
+    <details>
+        <summary>Hint 1</summary>
+        Compare arr[i] and arr[i+1].
+    </details>
+
+    <details>
+        <summary>Answer</summary>
+        If arr[i] &gt; arr[i+1] → not sorted.
+    </details>
+</div>
+
+<!-- Q9 -->
+<div class="card">
+    <h2>Q9 — Move Negatives to Front (Stable)</h2>
+    <p>Keep order same.</p>
+
+    <details>
+        <summary>Hint 1</summary>
+        Insertion-style shifting.
+    </details>
+
+    <details>
+        <summary>Answer</summary>
+        Use writePointer + shift elements right.
+    </details>
+</div>
+
+<!-- Q10 -->
+<div class="card">
+    <h2>Q10 — Fixed Window: Max Sum Subarray of Size K</h2>
+    <p>Given: [2,1,5,1,3,2], k=3</p>
+
+    <details>
+        <summary>Hint 1</summary>
+        Add next, remove arr[i-k].
+    </details>
+
+    <details>
+        <summary>Answer</summary>
+        Sliding window: runningSum += arr[i]; if i ≥ k subtract arr[i-k].
+    </details>
+</div>
+
+<!-- Q11 -->
+<div class="card">
+    <h2>Q11 — Minimum Size Subarray ≥ Target (🧠 Medium Level)</h2>
+    <p>Given target = 7</p>
+
+    <details>
+        <summary>Hint 1</summary>
+        Variable sliding window (expand + shrink).
+    </details>
+
+    <details>
+        <summary>Hint 2</summary>
+        Update answer WHILE shrinking, not after.
+    </details>
+
+    <details>
+        <summary>Hint 3</summary>
+        How to calculate the min Length ? formula?.
+    </details>
+
+    <details>
+        <summary>Answer</summary>
+        <code class="language-java"> int currentLen = i - start + 1;</code>
+        While runningSum ≥ target: update minLen → shrink start.
+    </details>
+
+    <details>
+        <summary>Answer</summary>
+        <ul>
+            <li>Expand window → add <code>arr[right]</code></li>
+            <li>When <code>sum ≥ target</code> → try shrinking from left
+                <ul>
+                    <li>Update <code>minimum</code> length during shrinking</li>
+                    <li>Continue until <code>sum &lt; target</code></li>
+                    <li>Repeat</li>
+                </ul>
+            </li>
+        </ul>
+        <pre>
+
+<code class="language-java">
+    int runningSum = 0;
+    int start = 0;
+    int minSubArrayLen = Integer.MAX_VALUE;
+
+    for (int i = 0; i &lt; arr.length; i++) {
+        // Step 1: Expand window
+        runningSum += arr[i];
+
+        // Step 2: Shrink window while it is valid
+        while (runningSum &gt;= target) {
+            // Step 3: Update minimum length BEFORE shrinking further
+            int currentLen = i - start + 1; // Calculate current window size. why + 1 is because we are calculating the length of the sub array. and the index starts from 0. so we need to add 1 to get the correct length.
+            minSubArrayLen = Math.min(minSubArrayLen, currentLen);
+
+            // Step 4: Shrink from left
+            runningSum -= arr[start];
+            start++;
+        }
+    }
+</code>
+</pre>
+
+    </details>
+</div>
+
+<!-- Q12 -->
+<div class="card">
+    <h2>Q12 — Subarray Sum Equals K (Count) (Medium level Problem)</h2>
+    <p>Use prefix sum + hashmap.</p>
+
+    <details>
+        <summary>Hint 1</summary>
+        Check (prefixSum - k) in map.
+    </details>
+    <details>
+        <summary>Hint 2 Questioning!</summary>
+        How do you store frequency of prefix sums ?
+    </details>
+    <details>
+        <summary>Hint 2 Questioning!</summary>
+        On what condition we write if ?
+    </details>
+    <details>
+        <summary>Hint 2 Ans</summary>
+        <pre>
+<code class="language-java">
+// subarray sum (j+1 → i) = prefixSum(i) - prefixSum(j)
+// prefixSum(i) - prefixSum(j) = k
+// prefixSum(j) = prefixSum(i) - k
+// Have I ever seen a prefix sum equal to (current prefixSum - k)?
+// If YES: Every such occurrence = one valid subarray ending at i
+// So we check: freq.containsKey(prefixSum - k)
+</code>
+</pre>
+    </details>
+    <details>
+        <summary>Hint 3 Questioning!</summary>
+        How do we count ?
+    </details>
+    <details>
+        <summary>Hint 3 Ans!</summary>
+        <code class="language-java"> count = count + freq.get(prefixSum - k); </code>
+    </details>
+    <details>
+        <summary>Answer</summary>
+        Store frequency of prefix sums and accumulate count.
+    </details>
+    <details>
+        <summary>Answer CODE</summary>
+        <pre>
+<code class="language-java">
+public static int subarraySum(int[] arr, int k) {
+    int prefixSum = 0;
+    int count = 0;
+
+    HashMap&lt;Integer, Integer&gt; freq = new HashMap&lt;&gt;();
+    freq.put(0, 1); // Base case: prefix sum 0 appears once
+
+    for (int i = 0; i &lt; arr.length; i++) {
+        prefixSum += arr[i]; // Update prefix sum
+
+        // subarray sum (j+1 → i) = prefixSum(i) - prefixSum(j)
+        // prefixSum(i) - prefixSum(j) = k
+        // prefixSum(j) = prefixSum(i) - k
+        // Have I ever seen a prefix sum equal to (current prefixSum - k)?
+        // If YES: Every such occurrence = one valid subarray ending at i
+        // So we check, freq.containsKey(prefixSum - k).
+
+        if (freq.containsKey(prefixSum - k)) { // Check if there is a prefix sum that when subtracted from current prefix sum gives k
+            count = count + freq.get(prefixSum - k); // If such a prefix sum exists, add its frequency to count
+        }
+        freq.put(prefixSum, freq.getOrDefault(prefixSum, 0) + 1); // Store current prefix sum frequency
+    }
+
+    return count;
+}
+</code>
+</pre>
+
+    </details>
+</div>
+
+<!-- Q13 -->
+<div class="card">
+    <h2>Q13 — Find First Negative Number</h2>
+    <p>Return first negative.</p>
+
+    <details>
+        <summary>Hint 1</summary>
+        Early return pattern.
+    </details>
+
+    <details>
+        <summary>Answer</summary>
+        Traverse once, return when num &lt; 0.
+    </details>
+</div>
+
+<!-- Q14 -->
+<div class="card">
+    <h2>Q14 — Running Sum Array</h2>
+    <p>Output cumulative sums.</p>
+
+    <details>
+        <summary>Hint 1</summary>
+        Same as prefix sum concept.
+    </details>
+
+    <details>
+        <summary>Answer</summary>
+        runningSum += arr[i]; store back.
+    </details>
+</div>
+
+<!-- Q15 -->
+<div class="card">
+    <h2>Q15 — Largest Element Index</h2>
+    <p>Return index of max element.</p>
+
+    <details>
+        <summary>Hint 1</summary>
+        Track both max and index.
+    </details>
+
+    <details>
+        <summary>Answer</summary>
+        Update index when new max found.
+    </details>
+</div>
+
+<!-- Q16 -->
+<div class="card">
+    <h2>Q16 — Count Elements Greater Than K</h2>
+    <p>Given k = 5</p>
+
+    <details>
+        <summary>Hint 1</summary>
+        Simple conditional counting.
+    </details>
+
+    <details>
+        <summary>Answer</summary>
+        if (num &gt; k) increment counter.
+    </details>
+</div>
+
+<!-- Q17 -->
+<div class="card">
+    <h2>Q17 — Maximum Consecutive Ones</h2>
+    <p>Given: [1,1,0,1,1,1]</p>
+
+    <details>
+        <summary>Hint 1</summary>
+        Track current streak + global max.
+    </details>
+
+    <details>
+        <summary>Answer</summary>
+        If 1 → streak++ else reset streak = 0.
+    </details>
+</div>
+
+<!-- Q18 -->
+<div class="card">
+    <h2>Q18 — Sum of Subarray (Brute vs Prefix Thinking)</h2>
+    <p>Find sum of range [l,r].</p>
+
+    <details>
+        <summary>Hint 1</summary>
+        Prefix sum optimization.
+    </details>
+
+    <details>
+        <summary>Answer</summary>
+        rangeSum = prefix[r] - prefix[l-1].
+    </details>
+</div>
+
+<!-- Q19 -->
+<div class="card">
+    <h2>Q19 — Find Duplicate in Array (Basic Thinking)</h2>
+    <p>Given unsorted array.</p>
+    <details>
+        <summary>Hint</summary>
+        Use HashMap? while traversing once.
+    </details>
+    <details>
+        <summary>Hint</summary>
+        <table>
+            <thead>
+            <tr>
+                <th>Structure</th>
+                <th>Stores</th>
+                <th>Needed for this problem?</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>HashSet</td>
+                <td>Seen elements</td>
+                <td>✅ Perfect fit</td>
+            </tr>
+            <tr>
+                <td>HashMap</td>
+                <td>Element → Frequency</td>
+                <td>❌ Extra work</td>
+            </tr>
+            </tbody>
+        </table>
+        ask yourself:
+
+        Do I need the count?
+
+        No.
+        You only need to detect repetition.
+
+        prefer HashSet over HashMap because the problem only requires detecting repetition, not counting occurrences. A
+        Set provides O(1) lookup with less memory and simpler logic.
+    </details>
+    <details>
+        <summary>Hint 1</summary>
+        Use HashSet while traversing once.
+    </details>
+
+    <details>
+        <summary>Answer</summary>
+        If set contains element → duplicate found.
+    </details>
+
+    <details>
+        <summary>Most Used Methods (DSA / LeetCode Focus)</summary>
+        <div class="card">
+            <h2>📦 HashSet — Most Used Methods (DSA / LeetCode Focus)</h2>
+
+            <table style="width:100%; border-collapse: collapse; margin-top:15px;">
+                <thead>
+                <tr style="background:#0f172a; color:#38bdf8;">
+                    <th style="padding:10px; border:1px solid #334155;">Method</th>
+                    <th style="padding:10px; border:1px solid #334155;">What It Does</th>
+                    <th style="padding:10px; border:1px solid #334155;">Why We Use It (DSA Thinking)</th>
+                    <th style="padding:10px; border:1px solid #334155;">Time</th>
+                    <th style="padding:10px; border:1px solid #334155;">Example</th>
+                </tr>
+                </thead>
+
+                <tbody>
+
+                <tr>
+                    <td style="padding:10px; border:1px solid #334155;"><b>add(E e)</b></td>
+                    <td style="padding:10px; border:1px solid #334155;">Adds element if not already present</td>
+                    <td style="padding:10px; border:1px solid #334155;">Mark element as "seen" while traversing</td>
+                    <td style="padding:10px; border:1px solid #334155;">O(1)</td>
+                    <td style="padding:10px; border:1px solid #334155;">set.add(num);</td>
+                </tr>
+
+                <tr>
+                    <td style="padding:10px; border:1px solid #334155;"><b>contains(Object o)</b></td>
+                    <td style="padding:10px; border:1px solid #334155;">Checks if element exists</td>
+                    <td style="padding:10px; border:1px solid #334155;">Detect duplicates / complements (Two Sum type)
+                    </td>
+                    <td style="padding:10px; border:1px solid #334155;">O(1)</td>
+                    <td style="padding:10px; border:1px solid #334155;">if(set.contains(num))</td>
+                </tr>
+
+                <tr>
+                    <td style="padding:10px; border:1px solid #334155;"><b>remove(Object o)</b></td>
+                    <td style="padding:10px; border:1px solid #334155;">Removes element from set</td>
+                    <td style="padding:10px; border:1px solid #334155;">Sliding window problems where elements leave
+                        window
+                    </td>
+                    <td style="padding:10px; border:1px solid #334155;">O(1)</td>
+                    <td style="padding:10px; border:1px solid #334155;">set.remove(arr[start]);</td>
+                </tr>
+
+                <tr>
+                    <td style="padding:10px; border:1px solid #334155;"><b>size()</b></td>
+                    <td style="padding:10px; border:1px solid #334155;">Returns number of elements</td>
+                    <td style="padding:10px; border:1px solid #334155;">Check uniqueness count</td>
+                    <td style="padding:10px; border:1px solid #334155;">O(1)</td>
+                    <td style="padding:10px; border:1px solid #334155;">set.size()</td>
+                </tr>
+
+                <tr>
+                    <td style="padding:10px; border:1px solid #334155;"><b>isEmpty()</b></td>
+                    <td style="padding:10px; border:1px solid #334155;">Checks if set is empty</td>
+                    <td style="padding:10px; border:1px solid #334155;">Validation logic / cleanup</td>
+                    <td style="padding:10px; border:1px solid #334155;">O(1)</td>
+                    <td style="padding:10px; border:1px solid #334155;">set.isEmpty()</td>
+                </tr>
+
+                <tr>
+                    <td style="padding:10px; border:1px solid #334155;"><b>clear()</b></td>
+                    <td style="padding:10px; border:1px solid #334155;">Removes all elements</td>
+                    <td style="padding:10px; border:1px solid #334155;">Reset between test cases</td>
+                    <td style="padding:10px; border:1px solid #334155;">O(n)</td>
+                    <td style="padding:10px; border:1px solid #334155;">set.clear()</td>
+                </tr>
+
+                <tr>
+                    <td style="padding:10px; border:1px solid #334155;"><b>iterator()</b></td>
+                    <td style="padding:10px; border:1px solid #334155;">Iterates through elements</td>
+                    <td style="padding:10px; border:1px solid #334155;">When returning results</td>
+                    <td style="padding:10px; border:1px solid #334155;">O(n)</td>
+                    <td style="padding:10px; border:1px solid #334155;">for(int x : set)</td>
+                </tr>
+
+                <tr>
+                    <td style="padding:10px; border:1px solid #334155;"><b>addAll(Collection c)</b></td>
+                    <td style="padding:10px; border:1px solid #334155;">Adds all elements of another collection</td>
+                    <td style="padding:10px; border:1px solid #334155;">Union operations</td>
+                    <td style="padding:10px; border:1px solid #334155;">O(n)</td>
+                    <td style="padding:10px; border:1px solid #334155;">set.addAll(list)</td>
+                </tr>
+
+                <tr>
+                    <td style="padding:10px; border:1px solid #334155;"><b>retainAll(Collection c)</b></td>
+                    <td style="padding:10px; border:1px solid #334155;">Keeps only common elements</td>
+                    <td style="padding:10px; border:1px solid #334155;">Intersection problems</td>
+                    <td style="padding:10px; border:1px solid #334155;">O(n)</td>
+                    <td style="padding:10px; border:1px solid #334155;">set.retainAll(set2)</td>
+                </tr>
+
+                <tr>
+                    <td style="padding:10px; border:1px solid #334155;"><b>removeAll(Collection c)</b></td>
+                    <td style="padding:10px; border:1px solid #334155;">Removes all matching elements</td>
+                    <td style="padding:10px; border:1px solid #334155;">Difference between sets</td>
+                    <td style="padding:10px; border:1px solid #334155;">O(n)</td>
+                    <td style="padding:10px; border:1px solid #334155;">set.removeAll(set2)</td>
+                </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+    </details>
+</div>
+
+<!-- Q20 Improved — Two Sum (Mistake-Aware Hints) -->
+<div class="card">
+    <h2>Q20 — Two Sum (Array Pattern)</h2>
+    <p>Find two numbers whose sum = target.</p>
+
+    <details>
+        <summary>Hint 1 — Identify the Pattern</summary>
+        This is NOT a sliding window problem.
+        This is a lookup problem:
+        "Have I seen the required pair before?"
+    </details>
+
+    <details>
+        <summary>Hint 2 — What should you calculate first?</summary>
+        For each number, calculate:
+        <br><br>
+        complement = target - current number
+        <br><br>
+        Then ask:
+        "Does this complement already exist in my past seen elements?"
+    </details>
+
+    <details>
+        <summary>Hint 3 — What should the HashMap/HashSet store?</summary>
+        Store the CURRENT number (what you have already seen),
+        NOT the complement.
+        <br><br>
+        Because future elements will search in past values.
+    </details>
+
+    <details>
+        <summary>Step-by-Step Thinking (Interview Brain Flow)</summary>
+        Step 1: Traverse the array once (single loop)<br>
+        Step 2: For each element, compute complement = target - num<br>
+        Step 3: Check if complement exists in map/set (past seen values)<br>
+        Step 4: If found → answer<br>
+        Step 5: Else store current num for future lookup
+    </details>
+
+    <details>
+        <summary>⚠️ Mistakes You Actually Made (From Your Code)</summary>
+        1. Earlier you stored <b>complement</b> instead of <b>num</b> (logic reversed)<br>
+        2. You treated HashMap as frequency map even though problem needs only existence<br>
+        3. Initial confusion: inserting before checking (wrong order)<br>
+        4. Pattern confusion: thinking like counting instead of lookup<br>
+        5. Naming map as "freq" which misleads thinking (this is not a frequency problem)
+        <br><br>
+        Core correction:<br>
+        ✔ Check first → then store current number<br>
+        ✔ Store past elements, not future expectations
+    </details>
+
+    <details>
+        <summary>Answer (Optimal ajavapractice.leetcode.Solution)</summary>
+        <pre><code>
+public static String twoSum(int[] arr, int target) {
+
+    HashSet&lt;Integer, Integer&gt; seen = new HashSet&lt;&gt;();
+
+    for (int num : arr) {
+        int complement = target - num;
+
+        if (seen.contains(complement)) {
+            return "complement: " + complement + " num: " + num;
+        }
+
+        seen.add(num);
+    }
+
+    return "Not found";
+}
+    </code></pre>
+    </details>
+</div>
+
+<div class="card">
+    <h2>📊 Pattern Mapping — Q1 to Q20 (Set 1 File)</h2>
+
+    <table border="1" style="width:100%; border-collapse:collapse; text-align:left;">
+        <thead>
+        <tr>
+            <th>Q No</th>
+            <th>Question</th>
+            <th>Core Pattern</th>
+            <th>LeetCode Difficulty</th>
+            <th>Thinking Trigger</th>
+        </tr>
+        </thead>
+
+        <tbody>
+
+        <tr>
+            <td>Q1</td>
+            <td>Find Maximum Element</td>
+            <td>Single Loop Tracking</td>
+            <td>🟢 Easy</td>
+            <td>Track best value while traversing</td>
+        </tr>
+
+        <tr>
+            <td>Q2</td>
+            <td>Find Minimum Element</td>
+            <td>Single Loop Tracking</td>
+            <td>🟢 Easy</td>
+            <td>Same as max but reverse comparison</td>
+        </tr>
+
+        <tr>
+            <td>Q3</td>
+            <td>Prefix Sum (In-Place)</td>
+            <td>Prefix Sum</td>
+            <td>🟢 Easy</td>
+            <td>runningSum += arr[i]; store back</td>
+        </tr>
+
+        <tr>
+            <td>Q4</td>
+            <td>Pivot Index</td>
+            <td>Prefix Sum Balance</td>
+            <td>🟢 Easy (LC 724)</td>
+            <td>Left sum == total - left - current</td>
+        </tr>
+
+        <tr>
+            <td>Q5</td>
+            <td>Maximum Subarray Sum (Kadane)</td>
+            <td>Greedy + Running Sum</td>
+            <td>🟡 Medium (LC 53)</td>
+            <td>Reset runningSum when negative</td>
+        </tr>
+
+        <tr>
+            <td>Q6</td>
+            <td>All Negative Max Subarray</td>
+            <td>Kadane Variant</td>
+            <td>🟡 Medium</td>
+            <td>Initialize max = Integer.MIN_VALUE</td>
+        </tr>
+
+        <tr>
+            <td>Q7</td>
+            <td>Count Even Numbers</td>
+            <td>Conditional Counting</td>
+            <td>🟢 Easy</td>
+            <td>Simple filtering in one loop</td>
+        </tr>
+
+        <tr>
+            <td>Q8</td>
+            <td>Check if Array is Sorted</td>
+            <td>Adjacent Comparison</td>
+            <td>🟢 Easy</td>
+            <td>Compare arr[i] and arr[i+1]</td>
+        </tr>
+
+        <tr>
+            <td>Q9</td>
+            <td>Move Negatives to Front (Stable)</td>
+            <td>Insertion / Shifting Pattern</td>
+            <td>🟢 Easy</td>
+            <td>Shift elements while maintaining order</td>
+        </tr>
+
+        <tr>
+            <td>Q10</td>
+            <td>Max Sum Subarray of Size K</td>
+            <td>Fixed Sliding Window</td>
+            <td>🟢 Easy</td>
+            <td>Add next, subtract arr[i-k]</td>
+        </tr>
+
+        <tr>
+            <td>Q11</td>
+            <td>Minimum Size Subarray ≥ Target</td>
+            <td>Variable Sliding Window</td>
+            <td>🟡 Medium (LC 209)</td>
+            <td>Expand + shrink while valid</td>
+        </tr>
+
+        <tr>
+            <td>Q12</td>
+            <td>Subarray Sum Equals K (Count)</td>
+            <td>Prefix Sum + HashMap</td>
+            <td>🟡 Medium (LC 560)</td>
+            <td>Check prefixSum - k in map</td>
+        </tr>
+
+        <tr>
+            <td>Q13</td>
+            <td>Find First Negative Number</td>
+            <td>Early Return / Linear Scan</td>
+            <td>🟢 Easy</td>
+            <td>Return immediately when condition met</td>
+        </tr>
+
+        <tr>
+            <td>Q14</td>
+            <td>Running Sum Array</td>
+            <td>Prefix Sum</td>
+            <td>🟢 Easy (LC 1480)</td>
+            <td>Cumulative addition</td>
+        </tr>
+
+        <tr>
+            <td>Q15</td>
+            <td>Largest Element Index</td>
+            <td>Tracking Value + Index</td>
+            <td>🟢 Easy</td>
+            <td>Update index when max updates</td>
+        </tr>
+
+        <tr>
+            <td>Q16</td>
+            <td>Count Elements Greater Than K</td>
+            <td>Conditional Counting</td>
+            <td>🟢 Easy</td>
+            <td>If num > k → count++</td>
+        </tr>
+
+        <tr>
+            <td>Q17</td>
+            <td>Maximum Consecutive Ones</td>
+            <td>Streak Tracking</td>
+            <td>🟢 Easy (LC 485)</td>
+            <td>Increase streak on 1, reset on 0</td>
+        </tr>
+
+        <tr>
+            <td>Q18</td>
+            <td>Sum of Subarray (Range Query)</td>
+            <td>Prefix Sum Optimization</td>
+            <td>🟢 Easy</td>
+            <td>prefix[r] - prefix[l-1]</td>
+        </tr>
+
+        <tr>
+            <td>Q19</td>
+            <td>Find Duplicate in Array</td>
+            <td>HashSet Lookup</td>
+            <td>🟢 Easy</td>
+            <td>If already in set → duplicate</td>
+        </tr>
+
+        <tr>
+            <td>Q20</td>
+            <td>Two Sum</td>
+            <td>HashSet / HashMap Lookup</td>
+            <td>🟢 Easy (LC 1)</td>
+            <td>Check complement before inserting</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+
+</body>
+</html>

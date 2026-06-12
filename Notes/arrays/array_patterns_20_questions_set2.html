@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Array Patterns Practice - Set 2 (20 New Questions)</title>
+
+<!-- Uses your existing CSS in same folder -->
+<link rel="stylesheet" href="../quiz/style.css">
+</head>
+<body>
+
+<h1>🧠 Array Patterns Practice — Set 2 (New 20 Questions)</h1>
+
+<div class="rule">
+<b>Focus:</b> New problems different from previous set.  
+Patterns covered: Prefix Sum, Sliding Window, Two Pointers, Frequency, Basic DSA Thinking.
+</div>
+
+<!-- Q1 -->
+<div class="card">
+    <h2>Q1 — Reverse an Array (In-Place)</h2>
+    <p>Given: [1,2,3,4,5]</p>
+
+    <details>
+        <summary>Hint 1</summary>
+        Use two pointers: start and end.
+    </details>
+
+    <details>
+        <summary>Answer (Thinking Steps)</summary>
+        Swap arr[start] and arr[end] → move start++ and end-- until they meet.
+    </details>
+
+    <details>
+        <summary>Answer (Code)</summary>
+        <pre>
+public static int[] reverse(int[] arr) {
+
+    int start = 0;
+    int end = arr.length - 1;
+
+    while (start < end) {
+
+        int temp = arr[start];
+        arr[start] = arr[end];
+        arr[end] = temp;
+
+        start++;
+        end--;
+    }
+
+    return arr;
+}
+</pre>
+        Time Complexity: O(n)<br>
+        Space Complexity: O(1) (In-place)
+    </details>
+</div>
+
+
+<!-- Q2 -->
+<div class="card">
+    <h2>Q2 — Second Largest Element</h2>
+    <p>Find second largest without sorting.</p>
+
+    <details>
+        <summary>Hint 1</summary>
+        Track both largest and secondLargest in one loop.
+    </details>
+
+    <details>
+        <summary>Answer (Thinking Steps)</summary>
+        If num &gt; largest → update both largest and secondLargest.
+        Else if num &gt; secondLargest and num != largest → update secondLargest.
+    </details>
+
+    <details>
+        <summary>Answer (Code)</summary>
+        <pre>
+public static int secondLargest(int[] arr) {
+
+    int largest = Integer.MIN_VALUE;
+    int secondLargest = Integer.MIN_VALUE;
+
+    for (int num : arr) {
+
+        if (num > largest) {
+            secondLargest = largest;
+            largest = num;
+        }
+       else if (num > secondLargest && num < largest){
+            secondLargest = num;
+        }
+    }
+
+    return secondLargest;
+}
+</pre>
+        Time Complexity: O(n)<br>
+        Space Complexity: O(1)
+    </details>
+</div>
+
+<!-- Q3 -->
+<div class="card">
+    <h2>Q3 — Remove Duplicates (Sorted Array)</h2>
+    <p>Return new length after removing duplicates.</p>
+
+    <details>
+        <summary>Hint 1</summary>
+        Use two pointers: slow (unique position) and fast (traversal).
+    </details>
+
+    <details>
+        <summary>Hint 2 — Key Observation</summary>
+        Array is already sorted.
+        So duplicates will always be adjacent.
+    </details>
+
+    <details>
+        <summary>Step-by-Step Thinking (Brain Flow)</summary>
+        Step 1: Keep slow pointer at index 0 (first unique element)<br>
+        Step 2: Traverse array using fast pointer from index 1<br>
+        Step 3: If arr[fast] != arr[slow], it means a new unique element<br>
+        Step 4: Move slow++ and copy arr[fast] to arr[slow]<br>
+        Step 5: Final new length = slow + 1
+    </details>
+
+    <details>
+        <summary>⚠️ Mistakes You Might Do (Based on Your Past Solving Style)</summary>
+        1. Using extra array unnecessarily (not needed, can be in-place)<br>
+        2. Resetting counters like window/subArrLen (not required here)<br>
+        3. Treating it like HashSet problem (overkill since array is sorted)<br>
+        4. Forgetting that sorted array guarantees adjacent duplicates<br>
+        5. Returning array instead of new length (problem specifically asks length)
+    </details>
+
+    <details>
+        <summary>Answer (Code)</summary>
+        <pre>
+package ajavapractice.arrays.day1;
+
+import java.util.Arrays;
+
+public class RemoveDuplicatesInASortedArray {
+
+    public static void ajavapractice.leetcode.main(String[] args) throws java.lang.Exception {
+
+        int[] arr = {0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
+        System.out.println("Array length is " + arr.length);
+        System.out.println("New length after removing duplicates: " + removeDuplicatesInSortedArray(arr));
+    }
+
+    public static int removeDuplicatesInSortedArray(int[] arr) {
+
+        // Edge case handling
+        if (arr == null || arr.length == 0) return 0;
+
+        // writePointer will always point to the last unique element index
+        int writePointer = 0;
+
+        // We start from index 1 because the first element is always unique in a sorted array
+        for (int i = 1; i < arr.length; i++) {
+
+            // If current element is different from last unique element,
+            // then we found a new unique value
+            if (arr[i] != arr[writePointer]) {
+
+                // Move writePointer to next position
+                writePointer++;
+
+                // Copy the new unique element to the writePointer index
+                arr[writePointer] = arr[i];
+            }
+            // If equal, it's a duplicate → do nothing (skip)
+        }
+
+        // Debug + Learning Prints (Important for understanding in-place logic)
+        System.out.println("Last unique element is: " + arr[writePointer]);
+        System.out.println("Position of last unique element (writePointer): " + writePointer);
+        System.out.println("---------------------- VERY IMPORTANT ------------------------");
+
+        System.out.println("Full array after processing (duplicates still exist after unique zone):");
+        System.out.println(Arrays.toString(arr));
+
+        System.out.println("Only unique portion of array (0 to writePointer):");
+        System.out.println(Arrays.toString(Arrays.copyOf(arr, writePointer + 1)));
+
+        // VERY IMPORTANT:
+        // writePointer is the index of last unique element
+        // So number of unique elements = writePointer + 1
+        return writePointer + 1;
+    }
+}
+</pre>
+        Time Complexity: O(n)<br>
+        Space Complexity: O(1) (In-place)
+    </details>
+</div>
+
+
+<!-- Q4 -->
+<div class="card">
+    <h2>Q4 — Rotate Array by 1 (Right)</h2>
+    <p>Example: [1,2,3,4] → [4,1,2,3]</p>
+
+    <details>
+        <summary>Hint 1</summary>
+        Store last element, then shift elements from right to left.
+    </details>
+
+    <details>
+        <summary>Step-by-Step Thinking (Your Correct Logic)</summary>
+        Step 1: Store last element in temp<br>
+        Step 2: Traverse array in reverse (n-1 to 1)<br>
+        Step 3: Shift arr[i] = arr[i-1]<br>
+        Step 4: Place temp at index 0
+    </details>
+
+    <details>
+        <summary>⚠️ Mistakes to Avoid (Based on Your Pattern)</summary>
+        1. Traversing forward while shifting (causes overwriting)<br>
+        2. Forgetting to store last element before shift<br>
+        3. Using extra array unnecessarily (not needed)<br>
+        4. Mixing this with reverse-array logic (different problem)
+    </details>
+
+    <details>
+        <summary>Answer (Code)</summary>
+        <pre>
+public static void rotateRightByOne(int[] arr) {
+
+    if (arr == null || arr.length <= 1) {
+        return;
+    }
+
+    // Step 1: Store last element
+    int temp = arr[arr.length - 1];
+
+    // Step 2: Shift elements to the right (reverse traversal)
+    for (int i = arr.length - 1; i > 0; i--) {
+        arr[i] = arr[i - 1];
+    }
+
+    // Step 3: Place last element at index 0
+    arr[0] = temp;
+}
+</pre>
+        Time Complexity: O(n)<br>
+        Space Complexity: O(1) (In-place)
+    </details>
+</div>
+
+
+<!-- Q5 -->
+<div class="card">
+    <h2>Q5 — Find Missing Number (0 to n)</h2>
+    <p>Example: [3,0,1]</p>
+
+    <details>
+        <summary>Hint 1</summary>
+        Use sum formula OR XOR.
+    </details>
+
+    <details>
+        <summary>Step-by-Step Thinking (Formula Approach)</summary>
+        Step 1: If array has n elements, numbers range is 0 to n<br>
+        Step 2: Expected sum = n * (n + 1) / 2<br>
+        Step 3: Calculate actual sum of array<br>
+        Step 4: Missing number = expectedSum - actualSum
+    </details>
+
+    <details>
+        <summary>Answer (Code — Using Formula)</summary>
+        <pre>
+public static int missingNumberUsingFormula(int[] arr) {
+
+    int n = arr.length;
+
+    // Expected sum of numbers from 0 to n
+    int expectedSum = n * (n + 1) / 2;
+
+    // Actual sum of array elements
+    int actualSum = 0;
+    for (int num : arr) {
+        actualSum += num;
+    }
+
+    // Missing number
+    return expectedSum - actualSum;
+}
+</pre>
+        Time Complexity: O(n)<br>
+        Space Complexity: O(1)
+    </details>
+
+    <details>
+        <summary>Step-by-Step Thinking (XOR Approach)</summary>
+        Step 1: XOR all numbers from 0 to n<br>
+        Step 2: XOR all elements in the array<br>
+        Step 3: Same numbers cancel out (a ^ a = 0)<br>
+        Step 4: Remaining value is the missing number
+    </details>
+
+    <details>
+        <summary>Answer (Code — Using XOR)</summary>
+        <pre>
+public static int missingNumberUsingXOR(int[] arr) {
+
+    int n = arr.length;
+
+    int xor = 0;
+
+    // XOR all indices (0 to n)
+    for (int i = 0; i <= n; i++) {
+        xor ^= i;
+    }
+
+    // XOR all array elements
+    for (int num : arr) {
+        xor ^= num;
+    }
+
+    return xor;
+}
+</pre>
+        Time Complexity: O(n)<br>
+        Space Complexity: O(1)
+    </details>
+
+    <details>
+        <summary>⚠️ Mistakes to Avoid (Based on Your Solving Pattern)</summary>
+        1. Using sorting first (unnecessary O(n log n))<br>
+        2. Forgetting that range is 0 to n (not 0 to n-1)<br>
+        3. Using extra HashSet (overkill for this problem)<br>
+        4. Integer overflow risk if n is very large (formula method)<br>
+        5. Confusing length vs max value (n = arr.length, not max element)
+    </details>
+</div>
+
+<!-- Q6 -->
+<div class="card">
+    <h2>Q6 — Maximum Difference (j &gt; i)</h2>
+    <p>Find maximum value of arr[j] - arr[i] such that j &gt; i.</p>
+
+    <details>
+        <summary>Hint 1</summary>
+        Track minimum element seen so far while traversing.
+    </details>
+
+    <details>
+        <summary>Step-by-Step Thinking (Brain Flow)</summary>
+        Step 1: Initialize minSoFar = arr[0]<br>
+        Step 2: Initialize maxDiff = Integer.MIN_VALUE<br>
+        Step 3: Traverse from index 1 to end<br>
+        Step 4: At each element, calculate diff = arr[i] - minSoFar<br>
+        Step 5: Update maxDiff if diff is larger<br>
+        Step 6: Update minSoFar = min(minSoFar, arr[i])
+    </details>
+
+    <details>
+        <summary>⚠️ Mistakes to Avoid (Based on Your Past Pattern)</summary>
+        1. Using nested loops (O(n²)) — unnecessary<br>
+        2. Trying sliding window logic (not required here)<br>
+        3. Updating minSoFar after calculating diff incorrectly<br>
+        4. Forgetting that j must be greater than i<br>
+        5. Confusing this with maximum subarray (different problem)
+    </details>
+
+    <details>
+        <summary>Answer (Code)</summary>
+        <pre>
+public static int maximumDifference(int[] arr) {
+
+    if (arr == null || arr.length < 2) {
+        return 0;
+    }
+
+    int minSoFar = arr[0];
+    int maxDiff = Integer.MIN_VALUE;
+
+    for (int i = 1; i < arr.length; i++) {
+
+        // Calculate difference with smallest value seen so far
+        int diff = arr[i] - minSoFar;
+
+        maxDiff = Math.max(maxDiff, diff);
+
+        // Update minimum value for future comparisons
+        minSoFar = Math.min(minSoFar, arr[i]);
+    }
+
+    return maxDiff;
+}
+</pre>
+        Time Complexity: O(n)<br>
+        Space Complexity: O(1)
+    </details>
+</div>
+
+
+<!-- Q7 -->
+<div class="card">
+<h2>Q7 — Move Zeros to End</h2>
+<p>Maintain order of non-zero elements.</p>
+
+<details><summary>Hint 1</summary>
+Use write pointer.
+</details>
+
+<details><summary>Answer</summary>
+Copy non-zero forward, fill remaining with zeros.
+</details>
+</div>
+
+<!-- Q8 -->
+<div class="card">
+    <h2>Q8 — Best Time to Buy and Sell Stock</h2>
+    <p>Max profit with one transaction.</p>
+
+    <details>
+        <summary>Hint 1</summary>
+        Same logic as maximum difference (j &gt; i).
+    </details>
+
+    <details>
+        <summary>Step-by-Step Thinking (Brain Flow — How You Should Think)</summary>
+        Step 1: This is NOT a sliding window problem<br>
+        Step 2: You can only buy first, then sell later (order matters)<br>
+        Step 3: Track the minimum price seen so far (best buying price)<br>
+        Step 4: At each day, calculate profit = currentPrice - minPriceSoFar<br>
+        Step 5: Update maxProfit if this profit is higher<br>
+        Step 6: Update minPriceSoFar for future days
+    </details>
+
+    <details>
+        <summary>⚠️ Mistakes You Are Likely to Make (Based on Your Previous Code)</summary>
+        1. Using wrong condition to update minimum (like if(min &lt; arr[i])) ❌<br>
+        2. Updating min AFTER profit incorrectly<br>
+        3. Starting with Integer.MAX_VALUE and calculating profit at i=0<br>
+        4. Confusing this with Kadane (subarray problem) ❌<br>
+        5. Trying nested loops (O(n²)) instead of single pass
+    </details>
+
+    <details>
+        <summary>Deep Insight (Pattern Recognition)</summary>
+        This problem is mathematically identical to:<br>
+        Maximum Difference (j &gt; i)<br><br>
+        Mapping:<br>
+        minPriceSoFar = buy price<br>
+        current price = sell price<br>
+        maxProfit = best profit
+    </details>
+
+    <details>
+        <summary>Answer (Code)</summary>
+        <pre>
+public static int maxProfit(int[] prices) {
+
+    if (prices == null || prices.length < 2) {
+        return 0;
+    }
+
+    int minPriceSoFar = prices[0];
+    int maxProfit = 0;
+
+    for (int i = 1; i < prices.length; i++) {
+
+        // Calculate profit if sold today
+        int profit = prices[i] - minPriceSoFar;
+
+        // Update maximum profit
+        maxProfit = Math.max(maxProfit, profit);
+
+        // Update minimum price for future days (buy cheaper)
+        minPriceSoFar = Math.min(minPriceSoFar, prices[i]);
+    }
+
+    return maxProfit;
+}
+</pre>
+        Time Complexity: O(n)<br>
+        Space Complexity: O(1)
+    </details>
+
+    <details>
+        <summary>Dry Run (So It Sticks Permanently)</summary>
+        Input: [7,1,5,3,6,4]<br><br>
+        Day 0: min = 7<br>
+        Day 1: min = 1<br>
+        Day 2: profit = 5 - 1 = 4 → maxProfit = 4<br>
+        Day 4: profit = 6 - 1 = 5 → maxProfit = 5 (BEST)
+    </details>
+</div>
+
+
+<!-- Q9 -->
+<div class="card">
+    <h2>Q9 — Find Majority Element</h2>
+    <p>Element appears &gt; n/2 times.</p>
+
+    <details>
+        <summary>Hint 1</summary>
+        Do NOT use XOR. Majority is not a pair-cancellation problem like Single Number.
+    </details>
+
+    <details>
+        <summary>Hint 2 (Key Observation)</summary>
+        If an element appears more than n/2 times, it will dominate the array and cannot be fully cancelled by other
+        elements.
+    </details>
+
+    <details>
+        <summary>Step-by-Step Thinking (How Your Brain Should Work)</summary>
+        Step 1: Full frequency storage (HashMap) is not necessary<br>
+        Step 2: We only need to track a potential dominant candidate<br>
+        Step 3: Traverse array once<br>
+        Step 4: If count becomes 0 → choose new candidate<br>
+        Step 5: If element equals candidate → increment count<br>
+        Step 6: Else → decrement count (cancel out different elements)
+    </details>
+
+    <details>
+        <summary>⚠️ Mistakes You Are Likely to Make (Based on Your Previous Attempts)</summary>
+        1. Using XOR to find majority ❌ (works only for pair problems)<br>
+        2. Using HashMap when O(1) space solution exists<br>
+        3. Confusing this with frequency counting problems<br>
+        4. Forgetting that &gt; n/2 guarantees dominance<br>
+        5. Returning candidate without verification when majority is NOT guaranteed
+    </details>
+
+    <details>
+        <summary>Answer (Code — Normal intuitive approach)</summary>
+        <pre>
+    public static int findMajorityElement(int[] arr) {
+
+        if (arr == null || arr.length < 2) {
+            return -1;
+        }
+
+        // int majorityElement = Integer.MIN_VALUE;
+        int threshold = arr.length / 2;
+
+        HashMap<Integer, Integer> map = new HashMap<>();
+
+
+        for (int i = 0; i < arr.length; i++) {
+            map.put(arr[i], map.getOrDefault(arr[i], 0) + 1);
+            if (map.get(arr[i]) > threshold) {
+                return arr[i];
+            }
+        }
+
+        return -1;
+    }</pre>
+        Time Complexity: O(n)<br>
+        Space Complexity: O(n) (due to HashMap)
+    </details>
+
+    <details>
+        <summary>Answer (Code — Boyer-Moore Voting Algorithm)</summary>
+        <pre>
+public static int findMajorityElement(int[] arr) {
+
+    if (arr == null || arr.length == 0) {
+        return -1;
+    }
+
+    int candidate = 0;
+    int count = 0;
+
+    // Phase 1: Find potential candidate
+    for (int num : arr) {
+
+        if (count == 0) {
+            candidate = num;
+        }
+
+        if (num == candidate) {
+            count++;
+        } else {
+            count--;
+        }
+    }
+
+    return candidate;
+}
+</pre>
+        Time Complexity: O(n)<br>
+        Space Complexity: O(1)
+    </details>
+
+    <details>
+        <summary>Answer (Code — With Verification Pass, Safer Version)</summary>
+        <pre>
+public static int findMajorityElement(int[] arr) {
+
+    if (arr == null || arr.length == 0) {
+        return -1;
+    }
+
+    int candidate = 0;
+    int count = 0;
+
+    // Phase 1: Find candidate
+    for (int num : arr) {
+        if (count == 0) {
+            candidate = num;
+        }
+
+        if (num == candidate) {
+            count++;
+        } else {
+            count--;
+        }
+    }
+
+    // Phase 2: Verify candidate (important if majority not guaranteed)
+    int freq = 0;
+    for (int num : arr) {
+        if (num == candidate) {
+            freq++;
+        }
+    }
+
+    if (freq > arr.length / 2) {
+        return candidate;
+    }
+
+    return -1;
+}
+</pre>
+        Time Complexity: O(n) + O(n) = O(n)<br>
+        Space Complexity: O(1)
+    </details>
+
+    <details>
+        <summary>Deep Pattern Insight (Very Important for Interviews)</summary>
+        This problem belongs to the Dominance / Voting Pattern.<br>
+        If one element appears more than n/2 times, all other elements combined cannot cancel it out during pairwise
+        elimination, so it survives as the final candidate.
+    </details>
+</div>
+
+
+<!-- Q10 -->
+<div class="card">
+    <h2>Q10 — Product of Array Except Self 🟡 Medium (30–45 mins each)</h2>
+    <p>No division allowed.</p>
+
+    <details>
+        <summary>Hint 1</summary>
+        Think mathematically: result[i] = product of left side × product of right side.
+    </details>
+
+    <details>
+        <summary>Hint 2</summary>
+        Can you reuse computations instead of recalculating left and right for every index?
+        (Avoid O(n²) nested loops.)
+    </details>
+
+    <details>
+        <summary>Hint 3</summary>
+        First pass: store prefix product in result array.
+        Second pass (reverse): multiply running suffix product into result.
+    </details>
+
+    <details>
+        <summary>Thinking Steps (Pseudo Logic)</summary>
+        1. Understand result[i] = product of all elements except arr[i]<br>
+        2. Break it into:<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;Left product (0 → i-1)<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;Right product (i+1 → n-1)<br>
+        3. Use result[] as prefix storage in first pass<br>
+        4. Traverse from right and maintain suffix product<br>
+        5. Multiply suffix into existing result[i]<br>
+        6. Do NOT include arr[i] in its own product
+    </details>
+
+    <details>
+        <summary>Answer (Optimal Approach)</summary>
+        Use two passes:<br>
+        Pass 1 → store prefix product in result array.<br>
+        Pass 2 → traverse from right and multiply running suffix product.<br>
+        No division, O(n) time, O(1) extra space.
+    </details>
+
+    <details>
+        <summary>Answer (Code — Optimal)</summary>
+        <pre><code>
+public static int[] productExceptSelf(int[] arr) {
+    int n = arr.length;
+    int[] result = new int[n];
+
+    // Step 1: Prefix pass (left → right)
+    result[0] = 1; // no elements on the left
+    for (int i = 1; i < n; i++) {
+        result[i] = result[i - 1] * arr[i - 1];
+    }
+
+    // Step 2: Suffix pass (right → left)
+    int suffix = 1;
+    for (int i = n - 1; i >= 0; i--) {
+        result[i] *= suffix;   // use suffix first (right side product)
+        suffix *= arr[i];      // then update suffix
+    }
+
+    return result;
+}
+        </code></pre>
+    </details>
+
+    <details>
+        <summary>Time & Space Complexity</summary>
+        Time Complexity: O(n) (Two linear passes)<br>
+        Space Complexity: O(1) extra (Output array not counted)
+    </details>
+
+    <details>
+        <summary>Common Mistakes (Very Important — Based on Real Solving Errors)</summary>
+        • Using nested loops to calculate suffix for every index (O(n²))<br>
+        • Initializing product as 0 instead of 1 (kills multiplication)<br>
+        • Including current element in suffix calculation<br>
+        • Updating suffix before using it on result[i]<br>
+        • Using arr[i+1] or arr[i-1] incorrectly (off-by-one errors)<br>
+        • Resetting suffix inside loop instead of maintaining running suffix<br>
+        • Manually fixing index 0 instead of designing correct two-pass logic<br>
+        • Overwriting result instead of multiplying prefix × suffix
+    </details>
+
+    <details>
+        <summary>Pattern Recognition (Interview Note)</summary>
+        Pattern: Two-Pass Accumulation (Prefix + Suffix)<br>
+        Not: Sliding Window ❌<br>
+        Not: HashMap ❌<br>
+        Not: Two Pointer Sync ❌<br>
+        Category: Array + Prefix Products + Space Optimization
+    </details>
+</div>
+
+
+<!-- Q11 -->
+<div class="card">
+    <h2>Q11 — Longest Subarray with Sum = K (Positive Numbers) 🟡 Medium (30–45 mins each)</h2>
+
+<details><summary>Hint 1</summary>
+Use sliding window (expand & shrink).
+</details>
+
+<details><summary>Answer</summary>
+Expand sum, if sum &gt; k shrink start pointer.
+</details>
+</div>
+
+<!-- Q12 -->
+<div class="card">
+    <h2>Q12 — Longest Consecutive Increasing Subarray 🟢 Easy (15–25 mins each)</h2>
+
+<details><summary>Hint 1</summary>
+Track current streak and reset when order breaks.
+</details>
+
+<details><summary>Answer</summary>
+If arr[i] &gt; arr[i-1] → streak++ else reset.
+</details>
+</div>
+
+<!-- Q13 -->
+<div class="card">
+    <h2>Q13 — Find All Leaders in Array 🟢 Easy (15–25 mins each)</h2>
+<p>Element greater than all elements to its right.</p>
+
+<details><summary>Hint 1</summary>
+Traverse from right side.
+</details>
+
+<details><summary>Answer</summary>
+Track maxFromRight and add leaders.
+</details>
+</div>
+
+<!-- Q14 -->
+<div class="card">
+    <h2>Q14 — Check if Two Arrays are Equal 🟢 Easy (15–25 mins each)</h2>
+
+<details><summary>Hint 1</summary>
+Use frequency map or sorting logic.
+</details>
+
+<details><summary>Answer</summary>
+Count frequency of elements and compare maps.
+</details>
+</div>
+
+<!-- Q15 -->
+<div class="card">
+    <h2>Q15 — Maximum Sum of Prefix 🟢 Easy (15–25 mins each)</h2>
+
+<details><summary>Hint 1</summary>
+Use running sum and track max prefix.
+</details>
+
+<details><summary>Answer</summary>
+runningSum += arr[i] → maxPrefix = max(maxPrefix, runningSum).
+</details>
+</div>
+
+<!-- Q16 -->
+<div class="card">
+    <h2>Q16 — Find Equilibrium Index 🟡 Medium (30–45 mins each)</h2>
+<p>Same as pivot index concept.</p>
+
+<details><summary>Hint 1</summary>
+Total sum + left sum technique.
+</details>
+
+<details><summary>Answer</summary>
+If leftSum == total - leftSum - arr[i] → equilibrium index.
+</details>
+</div>
+
+<!-- Q17 -->
+<div class="card">
+    <h2>Q17 — Longest Subarray with All Ones (After Flipping One Zero) 🟡 Medium (30–45 mins each)</h2>
+
+<details><summary>Hint 1</summary>
+Sliding window with zero count.
+</details>
+
+<details><summary>Answer</summary>
+Allow at most one zero in window, shrink when zeros &gt; 1.
+</details>
+</div>
+
+<!-- Q18 -->
+<div class="card">
+    <h2>Q18 — Find Peak Element 🟡 Medium (30–45 mins each)</h2>
+
+<details><summary>Hint 1</summary>
+Compare neighbors.
+</details>
+
+<details><summary>Answer</summary>
+Element greater than both neighbors is peak (linear scan acceptable).
+</details>
+</div>
+
+<!-- Q19 -->
+<div class="card">
+    <h2>Q19 — Subarray with Maximum Average of Size K 🟢 Easy (15–25 mins each)</h2>
+
+<details><summary>Hint 1</summary>
+Fixed sliding window (same as max sum K).
+</details>
+
+<details><summary>Answer</summary>
+Maintain window sum and divide by k.
+</details>
+</div>
+
+<!-- Q20 -->
+<div class="card">
+    <h2>Q20 — Find First Repeating Element 🟢 Easy (15–25 mins each)</h2>
+
+<details><summary>Hint 1</summary>
+Use HashSet while traversing.
+</details>
+
+<details><summary>Answer</summary>
+If element already in set → first repeating found.
+</details>
+</div>
+
+
+<div class="card">
+    <h2>📊 Pattern Mapping — As Per Questions Order (Q1 → Q20)</h2>
+
+    <table border="1" style="width:100%; border-collapse:collapse; text-align:left;">
+        <thead>
+        <tr>
+            <th>Q No</th>
+            <th>Question</th>
+            <th>Core Pattern</th>
+            <th>LeetCode Difficulty</th>
+            <th>Primary Thinking Trigger</th>
+        </tr>
+        </thead>
+
+        <tbody>
+
+        <tr>
+            <td>Q1</td>
+            <td>Reverse an Array (In-Place)</td>
+            <td>Two Pointers (Start & End)</td>
+            <td>🟢 Easy</td>
+            <td>Swap from both ends until pointers meet</td>
+        </tr>
+
+        <tr>
+            <td>Q2</td>
+            <td>Second Largest Element</td>
+            <td>Single Pass Tracking</td>
+            <td>🟢 Easy</td>
+            <td>Track largest & secondLargest in one loop</td>
+        </tr>
+
+        <tr>
+            <td>Q3</td>
+            <td>Remove Duplicates (Sorted Array)</td>
+            <td>Two Pointers (Slow & Fast)</td>
+            <td>🟢 Easy</td>
+            <td>Sorted array → adjacent duplicates → slow pointer write</td>
+        </tr>
+
+        <tr>
+            <td>Q4</td>
+            <td>Rotate Array by 1 (Right)</td>
+            <td>Shift + Temp Storage</td>
+            <td>🟢 Easy</td>
+            <td>Store last → shift right → place at index 0</td>
+        </tr>
+
+        <tr>
+            <td>Q5</td>
+            <td>Find Missing Number (0 to n)</td>
+            <td>Math Formula / XOR</td>
+            <td>🟢 Easy</td>
+            <td>Expected sum - actual sum OR XOR indices + values</td>
+        </tr>
+
+        <tr>
+            <td>Q6</td>
+            <td>Maximum Difference (j &gt; i)</td>
+            <td>Min So Far + Greedy</td>
+            <td>🟢 Easy</td>
+            <td>Track minimum seen so far while traversing</td>
+        </tr>
+
+        <tr>
+            <td>Q7</td>
+            <td>Prefix Sum Array</td>
+            <td>Prefix Sum (Running Sum)</td>
+            <td>🟢 Easy</td>
+            <td>runningSum += arr[i] → store at same index</td>
+        </tr>
+
+        <tr>
+            <td>Q8</td>
+            <td>Best Time to Buy and Sell Stock</td>
+            <td>Min So Far + Greedy</td>
+            <td>🟢 Easy (LC 121)</td>
+            <td>Profit = price - minPriceSoFar</td>
+        </tr>
+
+        <tr>
+            <td>Q9</td>
+            <td>Find Majority Element</td>
+            <td>Boyer-Moore Voting</td>
+            <td>🟢 Easy (LC 169)</td>
+            <td>&gt; n/2 dominance → voting cancellation</td>
+        </tr>
+
+        <tr>
+            <td>Q10</td>
+            <td>Product of Array Except Self</td>
+            <td>Prefix + Suffix Product</td>
+            <td>🟡 Medium (LC 238)</td>
+            <td>No division + product → prefix & suffix arrays</td>
+        </tr>
+
+        <tr>
+            <td>Q11</td>
+            <td>Longest Subarray with Sum = K (Positive)</td>
+            <td>Sliding Window (Variable)</td>
+            <td>🟡 Medium</td>
+            <td>Positive numbers + subarray + sum → expand & shrink</td>
+        </tr>
+
+        <tr>
+            <td>Q12</td>
+            <td>Longest Consecutive Increasing Subarray</td>
+            <td>Streak Tracking / Single Loop</td>
+            <td>🟢 Easy</td>
+            <td>If arr[i] &gt; arr[i-1] → increase streak else reset</td>
+        </tr>
+
+        <tr>
+            <td>Q13</td>
+            <td>Find All Leaders in Array</td>
+            <td>Right Traversal + Greedy</td>
+            <td>🟢 Easy</td>
+            <td>Traverse from right & track maxSoFar</td>
+        </tr>
+
+        <tr>
+            <td>Q14</td>
+            <td>Check if Two Arrays are Equal</td>
+            <td>HashMap / Sorting</td>
+            <td>🟢 Easy</td>
+            <td>Frequency match or sorted comparison</td>
+        </tr>
+
+        <tr>
+            <td>Q15</td>
+            <td>Maximum Sum of Prefix</td>
+            <td>Prefix Sum + Max Tracking</td>
+            <td>🟢 Easy</td>
+            <td>runningSum and track maximum prefix</td>
+        </tr>
+
+        <tr>
+            <td>Q16</td>
+            <td>Find Equilibrium Index (Pivot Index)</td>
+            <td>Prefix Sum Balance</td>
+            <td>🟢 Easy (LC 724)</td>
+            <td>leftSum == total - leftSum - current</td>
+        </tr>
+
+        <tr>
+            <td>Q17</td>
+            <td>Longest Subarray with All Ones (Flip One Zero)</td>
+            <td>Sliding Window + Constraint</td>
+            <td>🟡 Medium (LC 1004)</td>
+            <td>Window with zeroCount ≤ 1</td>
+        </tr>
+
+        <tr>
+            <td>Q18</td>
+            <td>Find Peak Element</td>
+            <td>Binary Search / Linear Scan</td>
+            <td>🟡 Medium (LC 162)</td>
+            <td>Compare neighbors to find peak</td>
+        </tr>
+
+        <tr>
+            <td>Q19</td>
+            <td>Subarray with Maximum Average of Size K</td>
+            <td>Fixed Sliding Window</td>
+            <td>🟢 Easy (LC 643)</td>
+            <td>Window size fixed → add next, remove previous</td>
+        </tr>
+
+        <tr>
+            <td>Q20</td>
+            <td>Find First Repeating Element</td>
+            <td>HashSet / Frequency Tracking</td>
+            <td>🟢 Easy</td>
+            <td>Use set to detect first duplicate while traversing</td>
+        </tr>
+
+        </tbody>
+    </table>
+</div>
+
+
+</body>
+</html>
