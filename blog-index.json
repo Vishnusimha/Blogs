@@ -696,6 +696,42 @@
     "readTime": 8
   },
   {
+    "title": "MVVM Architecture.pdf",
+    "slug": "notes-android-mvvm-architecture-pdf",
+    "category": "Notes",
+    "categories": "Notes",
+    "type": "pdf",
+    "extension": ".pdf",
+    "language": "pdf",
+    "path": "Notes/Android/MVVM Architecture.pdf",
+    "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/Android/MVVM%20Architecture.pdf",
+    "isNote": true
+  },
+  {
+    "title": "Androidinterviewquestionssecuritybestpractices",
+    "slug": "notes-android-special-standalone-android-interview-questions-security-best-practices-md",
+    "category": "Notes",
+    "categories": "Notes",
+    "type": "markdown",
+    "extension": ".md",
+    "language": "markdown",
+    "path": "Notes/Android/Special_Standalone/AndroidInterviewQuestionsSecurityBestPractices.md",
+    "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/Android/Special_Standalone/AndroidInterviewQuestionsSecurityBestPractices.md",
+    "isNote": true
+  },
+  {
+    "title": "Featurescompose",
+    "slug": "notes-android-special-standalone-features-compose-md",
+    "category": "Notes",
+    "categories": "Notes",
+    "type": "markdown",
+    "extension": ".md",
+    "language": "markdown",
+    "path": "Notes/Android/Special_Standalone/FeaturesCompose.md",
+    "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/Android/Special_Standalone/FeaturesCompose.md",
+    "isNote": true
+  },
+  {
     "title": "Firebase Cloud Messaging (FCM) for Android Developers",
     "slug": "notes-android-special-standalone-firebase-cloud-messaging-md",
     "category": "Notes",
@@ -709,6 +745,18 @@
     "summary": "A deep dive into Firebase Cloud Messaging, explaining the difference between notification and data messages, token management, and production-ready implementation strategies.",
     "date": "2026-06-23",
     "readTime": 12
+  },
+  {
+    "title": "Implementing SSL Pinning With Okhttp And Retrofit",
+    "slug": "notes-android-special-standalone-implementing-ssl-pinning-with-ok-http-and-retrofit-md",
+    "category": "Notes",
+    "categories": "Notes",
+    "type": "markdown",
+    "extension": ".md",
+    "language": "markdown",
+    "path": "Notes/Android/Special_Standalone/Implementing SSL Pinning with OkHttp and Retrofit.md",
+    "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/Android/Special_Standalone/Implementing%20SSL%20Pinning%20with%20OkHttp%20and%20Retrofit.md",
+    "isNote": true
   },
   {
     "title": "Jetpack Compose UI Layout Hierarchy & Best Practices",
@@ -951,6 +999,18 @@
     "language": "pdf",
     "path": "Notes/Spring Boot/pdf/PostgreSQL Resources.pdf",
     "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/Spring%20Boot/pdf/PostgreSQL%20Resources.pdf",
+    "isNote": true
+  },
+  {
+    "title": "RestAPI.pdf",
+    "slug": "notes-spring-boot-pdf-rest-api-pdf",
+    "category": "Notes",
+    "categories": "Notes",
+    "type": "pdf",
+    "extension": ".pdf",
+    "language": "pdf",
+    "path": "Notes/Spring Boot/pdf/RestAPI.pdf",
+    "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/Spring%20Boot/pdf/RestAPI.pdf",
     "isNote": true
   },
   {
