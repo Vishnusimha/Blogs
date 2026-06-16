@@ -1101,6 +1101,42 @@
     "isNote": true
   },
   {
+    "title": "System Design Telusko part1 Engineer Explained",
+    "slug": "notes-system-design-system-design-telusko-part1-engineer-explained-md",
+    "category": "Notes",
+    "categories": "Notes",
+    "type": "markdown",
+    "extension": ".md",
+    "language": "markdown",
+    "path": "Notes/System_Design/system_design_telusko_part1_engineer_explained.md",
+    "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/System_Design/system_design_telusko_part1_engineer_explained.md",
+    "isNote": true
+  },
+  {
+    "title": "System Design Telusko part2 Engineer Explained",
+    "slug": "notes-system-design-system-design-telusko-part2-engineer-explained-md",
+    "category": "Notes",
+    "categories": "Notes",
+    "type": "markdown",
+    "extension": ".md",
+    "language": "markdown",
+    "path": "Notes/System_Design/system_design_telusko_part2_engineer_explained.md",
+    "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/System_Design/system_design_telusko_part2_engineer_explained.md",
+    "isNote": true
+  },
+  {
+    "title": "Telusko System Design Enhanced Cleaned Transcript",
+    "slug": "notes-system-design-telusko-system-design-enhanced-cleaned-transcript-md",
+    "category": "Notes",
+    "categories": "Notes",
+    "type": "markdown",
+    "extension": ".md",
+    "language": "markdown",
+    "path": "Notes/System_Design/telusko_system_design_enhanced_cleaned_transcript.md",
+    "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/System_Design/telusko_system_design_enhanced_cleaned_transcript.md",
+    "isNote": true
+  },
+  {
     "title": "Java Array Practice Day 1",
     "slug": "notes-arrays-a-java-practice-easy-to-hard-arrays-day1-md",
     "category": "Notes",
