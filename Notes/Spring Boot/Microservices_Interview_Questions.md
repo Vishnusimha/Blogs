@@ -1848,6 +1848,11 @@ CAP
 ### P = Partition Tolerance
 ### Interview Answer
 > CAP theorem states that in the presence of a network partition, a distributed system can guarantee either consistency or availability, but not both simultaneously.
+> CAP does NOT say "you can only have two out of three."
+> It says:
+> When a network partition (P) happens, you must choose between Consistency (C) and Availability (A).
+
+> In a distributed system, if there is no network partition, we can provide both consistency and availability. However, when a partition occurs—which is inevitable in real distributed systems—we must choose either consistency or availability. We cannot guarantee all three simultaneously. That's the essence of the CAP theorem.
 
 ---
 
