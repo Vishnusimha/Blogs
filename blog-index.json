@@ -1038,7 +1038,10 @@
     "language": "markdown",
     "path": "Notes/Spring Boot/Microservices_Interview_Questions.md",
     "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/Spring%20Boot/Microservices_Interview_Questions.md",
-    "isNote": true
+    "isNote": true,
+    "summary": "A comprehensive guide to common microservices interview questions and answers, covering architecture, design patterns, deployment strategies, and best practices.",
+    "date": "2024-10-10",
+    "readTime": 18
   },
   {
     "title": "PostgreSQL Resources.pdf",

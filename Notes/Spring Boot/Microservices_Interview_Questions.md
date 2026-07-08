@@ -1,4 +1,12 @@
-
+---
+title: "Microservices Interview Questions"
+date: 2024-10-10
+slug: "microservices-interview-questions"
+tags: [ "Microservices", "Spring Boot", "Distributed Systems", "APIs", "Containerization" ]
+summary: "A comprehensive guide to common microservices interview questions and answers, covering architecture, design patterns, deployment strategies, and best practices."
+categories: Microservices
+readTime: 18
+---
 
 # 1. What is a Microservice?
 - A microservice is a **small, independently deployable service** that implements a specific business capability.
