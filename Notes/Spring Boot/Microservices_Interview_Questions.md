@@ -8,6 +8,8 @@ categories: Microservices
 readTime: 18
 ---
 
+# Microservices Interview Questions
+
 # 1. What is a Microservice?
 - A microservice is a **small, independently deployable service** that implements a specific business capability.
 - It owns its own codebase, database, and deployment lifecycle.
