@@ -1029,6 +1029,18 @@
     "isNote": true
   },
   {
+    "title": "Microservices Interview Questions",
+    "slug": "notes-spring-boot-microservices-interview-questions-md",
+    "category": "Notes",
+    "categories": "Notes",
+    "type": "markdown",
+    "extension": ".md",
+    "language": "markdown",
+    "path": "Notes/Spring Boot/Microservices_Interview_Questions.md",
+    "rawUrl": "https://raw.githubusercontent.com/Vishnusimha/Blogs/main/Notes/Spring%20Boot/Microservices_Interview_Questions.md",
+    "isNote": true
+  },
+  {
     "title": "PostgreSQL Resources.pdf",
     "slug": "notes-spring-boot-pdf-postgre-sql-resources-pdf",
     "category": "Notes",
